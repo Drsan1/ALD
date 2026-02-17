@@ -36,12 +36,48 @@ bool vector_init(struct TVector *aVector, size_t aSize)
 
 bool vector_init_random(struct TVector *aVector, size_t aSize)
 	{
-	return false;
+	if (!aVector)
+		return false;
+	if (!aSize) {
+				*aVector = (struct TVector){ .iSize = aSize, .iValues = NULL };
+		assert(vector_invariant(aVector));
+		return true;
+	}
+	TVectorElement* ptr = calloc(aSize, sizeof(TVectorElement));
+	if (!ptr)
+		return false;
+	for (size_t i = 0; i < aSize; i++)
+		{
+		ptr[i] = vector_element_random_value();
+		}
+	*aVector = (struct TVector){ .iSize = aSize, .iValues = ptr };
+	assert(vector_invariant(aVector));
+	return true;
 	}
 
 bool vector_init_file(struct TVector *aVector, FILE *aInputFile)
 	{
-	return false;
+	if (!aVector || !aInputFile)
+		return false;
+	size_t size = 0;
+	if (fscanf(aInputFile, "%zu", &size) != 1)
+		return false;
+	if (size == 0) {
+		*aVector = (struct TVector){ .iSize = 0, .iValues = NULL };
+		return true;
+	}
+	TVectorElement* ptr = calloc(size, sizeof(TVectorElement));
+	if (!ptr)
+		return false;
+	for (size_t i = 0; i < size; i++) {
+		if (fscanf(aInputFile, TVECTOR_ELEMENT_FRMSTR, &ptr[i]) != 1) {
+			free(ptr);
+			return false;
+		}
+	}
+	*aVector = (struct TVector){ .iSize = size, .iValues = ptr };
+	assert(vector_invariant(aVector));
+	return true;
 	}
 
 bool vector_clone(const struct TVector *aVector, struct TVector *aVectorClone)
@@ -78,7 +114,17 @@ bool vector_clone(const struct TVector *aVector, struct TVector *aVectorClone)
 
 bool vector_store_file(const struct TVector *aVector, FILE *aOutputFile)
 	{
-	return false;
+	if (!aVector || !aOutputFile)
+		return false;
+	assert(vector_invariant(aVector));
+	if (fprintf(aOutputFile, "%zu\n", aVector->iSize) < 1)
+		return false;
+	for (size_t i = 0; i < aVector->iSize; i++) {
+		if (fprintf(aOutputFile, TVECTOR_ELEMENT_FRMSTR "\n", aVector->iValues[i]) < 1) {
+			return false;
+		}
+	}
+	return true;
 	}
 
 TVectorElement vector_value(const struct TVector *aVector, size_t aPos)

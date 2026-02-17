@@ -62,7 +62,7 @@ cleanup_resize_testing:
 	vector_destroy(&vector);
 	}
 
-//#define VECTOR_INIT_FROM_FILE	"reversed_data.txt" /edit comment
+//#define VECTOR_INIT_FROM_FILE	"reversed_data.txt" //edit comment
 
 int main(int argc, char *argv[])
 	{
@@ -79,8 +79,8 @@ int main(int argc, char *argv[])
 	bool initialized = vector_init_file(&vector1, fsrc);
 	fclose(fsrc);
 #else
-	//bool initialized = vector_init_random(&vector1, 5); //edit 50000
-	bool initialized = vector_init(&vector1, 5); //edit new
+	bool initialized = vector_init_random(&vector1, 5); //edit 50000
+	//bool initialized = vector_init(&vector1, 5); //edit new
 #endif
 
 	//if(!initialized)

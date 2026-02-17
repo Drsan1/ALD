@@ -1,0 +1,8 @@
+<map id="vector_iterator_to_next" name="vector_iterator_to_next">
+<area shape="rect" id="Node000001" title="Posunutí iterátoru vpřed." alt="" coords="165,43,317,69"/>
+<area shape="rect" id="Node000002" href="$group___iterator_algorithms.html#gad9872ced82843c0e0864a8e2547ca579" title="Zavolání zvolené funkce na každý element vektoru od pozice určené iterátorem až do konce vektoru." alt="" coords="5,5,117,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,42,116,33,117,28,159,36"/>
+<area shape="rect" id="Node000003" href="$group___iterator_algorithms.html#gac5ae89ba507530f7c51c45447efbe4ac" title="Zavolání zvolené funkce na prvních N elementů vektoru od pozice určené iterátorem." alt="" coords="16,80,106,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,76,107,87,106,81,158,70"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="91,67,81,61,61,59,42,61,32,65,30,71,35,78,30,81,25,71,28,62,41,55,61,53,83,56,94,62"/>
+</map>

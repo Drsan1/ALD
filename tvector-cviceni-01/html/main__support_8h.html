@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BPC-ALD: ADT TVector: Dokumentace souboru main_support.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">BPC-ALD: ADT TVector<span id="projectnumber">&#160;(2026)</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Vygenerováno programem Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Hledat',false);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Načítám...</div>
+<div class="SRStatus" id="Searching">Vyhledávám...</div>
+<div class="SRStatus" id="NoMatches">Nebylo nic nalezeno</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a href="dir_db044e6be8132b15df93310cef4e98ac.html">TVector</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definice maker</a> &#124;
+<a href="#func-members">Funkce</a>  </div>
+  <div class="headertitle"><div class="title">Dokumentace souboru main_support.h</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Soubor pro multiplatformní podporu programu v různých OS.  
+<a href="#details">...</a></p>
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graf závislostí na vkládaných souborech pro main_support.h:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="main__support_8h__incl.svg" width="251" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Následující graf ukazuje, které soubory přímo nebo nepřímo vkládají tento soubor:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="main__support_8h__dep__incl.svg" width="122" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<p><a href="main__support_8h_source.html">Zobrazit zdrojový text tohoto souboru.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
+Definice maker</h2></td></tr>
+<tr class="memitem:abd542f9343eb78fd5fd265b73cfe099a" id="r_abd542f9343eb78fd5fd265b73cfe099a"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#abd542f9343eb78fd5fd265b73cfe099a">ITEMS_OF</a>(aArray)</td></tr>
+<tr class="memdesc:abd542f9343eb78fd5fd265b73cfe099a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makro vracející počet prvků pole předaného jako parametr <code class="param">aArray</code>.  <br /></td></tr>
+<tr class="memitem:ac7fd6f03400d52c25f7bf284389d92da" id="r_ac7fd6f03400d52c25f7bf284389d92da"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ac7fd6f03400d52c25f7bf284389d92da">UNLESS</a>(aPredicate, ...)</td></tr>
+<tr class="memdesc:ac7fd6f03400d52c25f7bf284389d92da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makro kontrolující hodnotu výrazu <code class="param">aPredicate</code>, při neúspěchu vytiskne chybového hlášení a následně provede zadaný příkaz předaný jako druhý parametr (pokud je uveden).  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Funkce</h2></td></tr>
+<tr class="memitem:a2d31e17cb6a745a38f21a15a8b9f6142" id="r_a2d31e17cb6a745a38f21a15a8b9f6142"><td class="memItemLeft">static const char *&#160;</td><td class="memItemRight"><a class="el" href="#a2d31e17cb6a745a38f21a15a8b9f6142">bool_to_cstring</a> (const bool aValue)</td></tr>
+<tr class="memdesc:a2d31e17cb6a745a38f21a15a8b9f6142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konverzní funkce z hodnoty typu <code>bool</code> na C-řetězec.  <br /></td></tr>
+<tr class="memitem:aa291195ad453d2b1e29004cc2e043c01" id="r_aa291195ad453d2b1e29004cc2e043c01"><td class="memItemLeft">static double&#160;</td><td class="memItemRight"><a class="el" href="#aa291195ad453d2b1e29004cc2e043c01">difftimespec</a> (struct timespec aEnd, struct timespec aBegin)</td></tr>
+<tr class="memdesc:aa291195ad453d2b1e29004cc2e043c01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Výpočet doby trvání časového intervalu.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailní popis</h2>
+<div class="textblock"><p>Soubor pro multiplatformní podporu programu v různých OS. </p>
+<dl class="section author"><dt>Autor</dt><dd>Petyovský </dd></dl>
+<dl class="section version"><dt>Verze</dt><dd>2026 </dd></dl>
+<dl class="section rcs"><dt>Id</dt><dd><a class="el" href="main__support_8h.html" title="Soubor pro multiplatformní podporu programu v různých OS.">main_support.h</a> 3191 2026-02-08 18:42:28Z petyovsky </dd></dl>
+</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Dokumentace definic maker</h2>
+<a id="abd542f9343eb78fd5fd265b73cfe099a" name="abd542f9343eb78fd5fd265b73cfe099a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd542f9343eb78fd5fd265b73cfe099a">&#9670;&#160;</a></span>ITEMS_OF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ITEMS_OF</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>aArray</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Hodnota:</b><div class="fragment"><div class="line">(<span class="keyword">sizeof</span>(aArray) / <span class="keyword">sizeof</span>((aArray)[0]))</div>
+</div><!-- fragment -->
+<p>Makro vracející počet prvků pole předaného jako parametr <code class="param">aArray</code>. </p>
+
+</div>
+</div>
+<a id="ac7fd6f03400d52c25f7bf284389d92da" name="ac7fd6f03400d52c25f7bf284389d92da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7fd6f03400d52c25f7bf284389d92da">&#9670;&#160;</a></span>UNLESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UNLESS</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>aPredicate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Hodnota:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span>                                 \</div>
+<div class="line">   {                               \</div>
+<div class="line">   if(!(aPredicate))               \</div>
+<div class="line">       {                           \</div>
+<div class="line">       fprintf(stderr, <span class="stringliteral">&quot;Expression &#39;%s&#39; failed in the function: &#39;%s()&#39; at line &#39;%u&#39; of the source file:\n\t&#39;%s&#39;\n%s\n&quot;</span>, #aPredicate, __func__, __LINE__, __FILE__, #__VA_ARGS__ ); \</div>
+<div class="line">       __VA_ARGS__;                \</div>
+<div class="line">       }                           \</div>
+<div class="line">   }                               \</div>
+<div class="line">while(0)</div>
+</div><!-- fragment -->
+<p>Makro kontrolující hodnotu výrazu <code class="param">aPredicate</code>, při neúspěchu vytiskne chybového hlášení a následně provede zadaný příkaz předaný jako druhý parametr (pokud je uveden). </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Dokumentace funkcí</h2>
+<a id="a2d31e17cb6a745a38f21a15a8b9f6142" name="a2d31e17cb6a745a38f21a15a8b9f6142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d31e17cb6a745a38f21a15a8b9f6142">&#9670;&#160;</a></span>bool_to_cstring()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * bool_to_cstring </td>
+          <td>(</td>
+          <td class="paramtype">const bool</td>          <td class="paramname"><span class="paramname"><em>aValue</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Konverzní funkce z hodnoty typu <code>bool</code> na C-řetězec. </p>
+<p>Konverzní funkce vracející konstatní řetězec <code>"true"</code> nebo <code>"false"</code> dle hodnoty vstupního parametru <code class="param">aValue</code> typu <code>bool</code>. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aValue</td><td>Boolean hodnota </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Vrací ukazatel na konstatní řetězec <code>"true"</code> nebo <code>"false"</code> </dd></dl>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="main__support_8h_a2d31e17cb6a745a38f21a15a8b9f6142_icgraph.svg" width="218" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa291195ad453d2b1e29004cc2e043c01" name="aa291195ad453d2b1e29004cc2e043c01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa291195ad453d2b1e29004cc2e043c01">&#9670;&#160;</a></span>difftimespec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double difftimespec </td>
+          <td>(</td>
+          <td class="paramtype">struct timespec</td>          <td class="paramname"><span class="paramname"><em>aEnd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct timespec</td>          <td class="paramname"><span class="paramname"><em>aBegin</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Výpočet doby trvání časového intervalu. </p>
+<p>Výpočte délku trvání časového intervalu předaného jako parametry <code class="param">aEnd</code> a <code class="param">aBegin</code>. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aEnd</td><td>Konec časového intervalu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aBegin</td><td>Začátek časového intervalu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Doba trvání časového intervalu (desetinné číslo v sekundách typu <code>double</code>) </dd></dl>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="main__support_8h_aa291195ad453d2b1e29004cc2e043c01_icgraph.svg" width="350" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Vygenerováno dne: <span class="timestamp"></span>, pro projekt: BPC-ALD: ADT TVector, programem&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

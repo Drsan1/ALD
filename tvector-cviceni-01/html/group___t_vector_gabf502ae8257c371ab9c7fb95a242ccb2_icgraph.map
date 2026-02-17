@@ -1,0 +1,7 @@
+<map id="vector_resize" name="vector_resize">
+<area shape="rect" id="Node000001" title="Změna velikosti existujícího vektoru." alt="" coords="253,5,350,32"/>
+<area shape="rect" id="Node000002" href="$group___main_program.html#ga389209d8bde0a8922177efb8ed7a22a6" title="Testování funkce vector_resize()." alt="" coords="103,5,205,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,21,206,21,206,16,237,16"/>
+<area shape="rect" id="Node000003" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

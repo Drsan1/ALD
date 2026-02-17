@@ -1,0 +1,15 @@
+<map id="resize_testing" name="resize_testing">
+<area shape="rect" id="Node000001" title="Testování funkce vector_resize()." alt="" coords="5,81,108,108"/>
+<area shape="rect" id="Node000002" href="$main__support_8h.html#aa291195ad453d2b1e29004cc2e043c01" title="Výpočet doby trvání časového intervalu." alt="" coords="163,5,254,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,78,154,42,164,37,166,42,157,46,86,83"/>
+<area shape="rect" id="Node000003" href="$group___t_vector.html#ga6b0b8780d60dad02b8569be119769548" title="Vytvoření úplné kopie vektoru." alt="" coords="162,56,255,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,84,146,77,147,82,108,89"/>
+<area shape="rect" id="Node000005" href="$group___t_vector.html#ga41fcff5418fe213f2caaa586f521bcd6" title="Dealokace vektoru." alt="" coords="156,107,261,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="108,101,141,106,140,111,107,106"/>
+<area shape="rect" id="Node000006" href="$group___t_vector.html#gabf502ae8257c371ab9c7fb95a242ccb2" title="Změna velikosti existujícího vektoru." alt="" coords="160,157,257,184"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="86,106,157,143,166,148,164,152,154,148,83,111"/>
+<area shape="rect" id="Node000004" href="$_t_vector_8c.html#abdc337025358dbee53543c33ffc7383b" title=" " alt="" coords="309,107,418,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="253,81,307,99,305,104,251,86"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="261,117,294,117,294,123,261,123"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="251,154,305,136,307,141,253,159"/>
+</map>

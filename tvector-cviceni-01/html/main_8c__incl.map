@@ -1,0 +1,32 @@
+<map id="main.c" name="main.c">
+<area shape="rect" id="Node000001" title="Hlavní program testující Basic Vector API." alt="" coords="249,5,309,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="176,229,236,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,31,205,47,153,72,104,108,83,131,67,156,63,170,65,183,74,194,87,204,122,220,161,231,160,236,121,225,84,208,70,197,61,185,57,170,62,154,79,127,100,104,150,68,203,42,248,26"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="538,229,601,256"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="310,19,374,28,454,50,494,67,532,90,566,118,592,153,597,169,597,186,588,216,582,214,592,185,592,170,587,156,562,122,529,94,492,72,452,55,373,34,309,25"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="520,155,577,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="310,28,365,49,426,78,478,111,523,143,520,147,475,115,423,82,363,54,308,33"/>
+<area shape="rect" id="Node000005" href="$_t_vector_8h.html" title="Definice typu Basic Vector." alt="" coords="182,80,259,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="271,34,242,69,238,66,267,31"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="5,229,73,256"/>
+<area shape="poly" id="edge19_Node000001_Node000010" title=" " alt="" coords="249,26,176,43,136,59,99,82,74,111,58,147,48,183,43,214,38,213,43,181,53,145,70,108,96,78,133,54,174,38,248,21"/>
+<area shape="rect" id="Node000011" href="$main__support_8h.html" title="Soubor pro multiplatformní podporu programu v různých OS." alt="" coords="303,80,413,107"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="295,31,335,67,331,71,291,35"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="221,107,215,155,210,214,205,214,210,154,216,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="394,229,468,256"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="260,100,344,122,382,137,408,153,425,182,432,213,427,215,420,184,404,157,380,142,342,127,259,105"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="76,155,143,181"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="203,109,143,148,140,144,200,105"/>
+<area shape="rect" id="Node000008" href="$_t_vector_element_8h.html" title="Definice typu Basic VectorElement a implementace API." alt="" coords="268,155,394,181"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="241,105,301,144,298,148,238,109"/>
+<area shape="poly" id="edge14_Node000005_Node000010" title=" " alt="" coords="182,102,122,120,92,135,66,156,50,184,43,215,38,214,45,183,62,153,89,131,120,115,180,97"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="310,184,242,224,239,219,308,180"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="373,179,524,225,522,230,372,184"/>
+<area shape="poly" id="edge11_Node000008_Node000006" title=" " alt="" coords="350,180,403,218,400,222,347,184"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="297,229,365,256"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="334,182,334,214,328,214,328,182"/>
+<area shape="poly" id="edge13_Node000008_Node000010" title=" " alt="" coords="280,185,89,232,87,227,279,179"/>
+<area shape="poly" id="edge16_Node000011_Node000002" title=" " alt="" coords="329,110,293,129,258,157,236,186,219,216,214,214,231,183,254,153,290,125,327,105"/>
+<area shape="poly" id="edge17_Node000011_Node000004" title=" " alt="" coords="392,105,506,148,504,153,390,110"/>
+<area shape="poly" id="edge18_Node000011_Node000006" title=" " alt="" coords="393,105,426,124,440,137,452,153,457,169,457,186,448,216,443,215,452,185,452,170,447,156,436,141,423,128,391,110"/>
+</map>

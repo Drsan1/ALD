@@ -1,0 +1,7 @@
+<map id="vector_init_random" name="vector_init_random">
+<area shape="rect" id="Node000001" title="Alokace vektoru a inicializace jeho elementů na náhodné hodnoty." alt="" coords="5,43,135,69"/>
+<area shape="rect" id="Node000002" href="$group___t_vector_element.html#gac2485005f9b85ee450e159a793583c9b" title="Vrací nový element s náhodnou hodnotou." alt="" coords="183,5,341,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,44,167,39,168,44,135,49"/>
+<area shape="rect" id="Node000003" href="$_t_vector_8c.html#abdc337025358dbee53543c33ffc7383b" title=" " alt="" coords="207,72,317,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,63,193,72,192,77,134,68"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="vector_iterator_is_valid" name="vector_iterator_is_valid">
+<area shape="rect" id="Node000001" title="Zjištění platnosti iterátoru." alt="" coords="339,101,458,144"/>
+<area shape="rect" id="Node000002" href="$group___iterator_algorithms.html#gad9872ced82843c0e0864a8e2547ca579" title="Zavolání zvolené funkce na každý element vektoru od pozice určené iterátorem až do konce vektoru." alt="" coords="166,5,278,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="359,94,326,69,290,46,265,35,267,30,292,42,329,65,362,89"/>
+<area shape="rect" id="Node000003" href="$group___iterator_algorithms.html#gac5ae89ba507530f7c51c45447efbe4ac" title="Zavolání zvolené funkce na prvních N elementů vektoru od pozice určené iterátorem." alt="" coords="177,80,267,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="323,113,267,103,268,98,324,108"/>
+<area shape="rect" id="Node000004" href="$group___t_vector_iterator.html#ga66f6b96e416a7e593b1cf703f58be7ca" title="Zapsání hodnoty elementu do vektoru pomocí iterátoru." alt="" coords="158,131,286,173"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="324,138,286,144,285,139,323,133"/>
+<area shape="rect" id="Node000005" href="$group___t_vector_iterator.html#ga4d8032eb9dbbdccf794611f2b0c9821c" title="Přečtení hodnoty elementu z vektoru pomocí iterátoru." alt="" coords="153,197,291,224"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="352,155,292,188,265,199,263,194,290,183,350,150"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="250,67,240,61,222,59,205,61,195,65,193,71,198,78,193,81,188,71,191,62,203,56,222,53,242,56,253,62"/>
+<area shape="rect" id="Node000006" href="$group___main_program.html#ga25c7ac8991c266d71b75cf20c14b67cf" title="Vytisknutí elementu vektoru pomocí iterátoru." alt="" coords="5,197,105,224"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="137,213,105,213,105,208,137,208"/>
+</map>

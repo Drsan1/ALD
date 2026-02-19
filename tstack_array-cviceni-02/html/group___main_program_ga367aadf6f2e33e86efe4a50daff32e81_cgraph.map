@@ -1,0 +1,24 @@
+<map id="demo_tiskni_slova_pozpatku" name="demo_tiskni_slova_pozpatku">
+<area shape="rect" id="Node000001" title="Testování API Stack." alt="" coords="5,132,193,159"/>
+<area shape="rect" id="Node000002" href="$group___t_stack.html#ga543615a4df26ed863b9e92228b69d04a" title="Deinicializace zásobníku." alt="" coords="241,5,344,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,129,239,48,255,38,258,43,242,53,122,134"/>
+<area shape="rect" id="Node000004" href="$group___t_stack.html#ga22a9f4ad0c450cdbbfb7546493b1f781" title="Inicializace prázdného zásobníku." alt="" coords="410,56,487,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="132,129,182,110,240,92,321,78,394,70,395,75,321,83,241,97,184,115,134,134"/>
+<area shape="rect" id="Node000005" href="$group___t_stack.html#gab2a53c66f9bb439a8749c97f9c9d9f2d" title="Zjištění, zda je zásobník prázdný" alt="" coords="392,157,505,184"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="194,149,377,163,376,168,193,155"/>
+<area shape="rect" id="Node000006" href="$group___t_stack.html#ga480af197cbd84970291358c870ec9b90" title="Odstranění elementu na vrcholu zásobníku." alt="" coords="252,107,333,133"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="193,130,236,125,236,130,193,136"/>
+<area shape="rect" id="Node000007" href="$group___t_stack.html#ga8ee1e96ca9c6c84eb97fea0a3506938c" title="Vložení elementu na vrchol zásobníku." alt="" coords="405,259,493,285"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="116,157,168,201,203,225,242,244,279,256,317,263,389,270,389,275,316,269,277,261,240,249,201,230,165,206,112,161"/>
+<area shape="rect" id="Node000008" href="$group___t_stack.html#gac84fd2f3c38113a7d9d4cf5123b581f3" title="Získání hodnoty elementu na vrcholu zásobníku." alt="" coords="253,208,332,235"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="136,157,243,199,241,204,134,162"/>
+<area shape="rect" id="Node000003" href="$_t_stack_8c.html#a842bb6cb1446d6730f9ceece2849f307" title=" " alt="" coords="553,132,661,159"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="345,13,423,18,466,26,507,42,532,57,555,77,590,118,586,121,551,81,529,62,504,46,464,32,422,23,344,18"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="480,81,565,122,562,127,477,86"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="505,159,538,154,538,159,506,164"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="333,121,538,137,537,142,333,126"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="334,131,392,150,390,155,333,136"/>
+<area shape="poly" id="edge11_Node000007_Node000003" title=" " alt="" coords="475,256,504,238,546,203,581,168,585,172,549,207,507,242,478,260"/>
+<area shape="poly" id="edge13_Node000008_Node000003" title=" " alt="" coords="332,218,412,212,459,205,505,193,538,180,569,164,572,169,541,185,506,199,460,210,413,217,332,223"/>
+<area shape="poly" id="edge14_Node000008_Node000005" title=" " alt="" coords="331,206,390,187,391,192,333,211"/>
+</map>

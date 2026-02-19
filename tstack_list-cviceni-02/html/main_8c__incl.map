@@ -1,0 +1,21 @@
+<map id="main.c" name="main.c">
+<area shape="rect" id="Node000001" title="Hlavní program pro testování ADT TStack." alt="" coords="115,5,175,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,155,66,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,32,78,51,61,65,47,81,37,110,35,140,30,139,32,109,43,79,57,61,75,47,113,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="57,80,121,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,34,110,69,106,66,133,31"/>
+<area shape="rect" id="Node000004" href="$_t_stack_8h.html" title="Definice typu zásobník (realizace pomocí lineárního jednosměrně vázaného seznamu)." alt="" coords="280,80,354,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="176,30,274,71,272,76,174,35"/>
+<area shape="rect" id="Node000008" href="$main__support_8h.html" title="Soubor pro multiplatformní podporu programu v různých OS." alt="" coords="146,80,256,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="157,31,184,66,180,69,152,34"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="186,155,261,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="302,109,253,147,250,143,299,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="285,155,349,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="320,107,320,139,314,139,314,107"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="373,155,440,181"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="334,105,381,143,377,147,331,109"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="173,110,80,150,78,145,171,105"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="207,106,218,139,212,141,202,108"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="106,155,163,181"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="191,109,158,145,154,141,187,105"/>
+</map>

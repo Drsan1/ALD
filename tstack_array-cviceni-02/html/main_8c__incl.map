@@ -1,0 +1,19 @@
+<map id="main.c" name="main.c">
+<area shape="rect" id="Node000001" title="Hlavní program pro testování ADT TStack." alt="" coords="81,5,142,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,155,66,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,31,44,50,27,64,14,81,9,95,10,111,21,140,16,142,5,112,4,95,9,79,23,60,41,46,80,27"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="23,80,88,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,34,76,69,72,66,100,31"/>
+<area shape="rect" id="Node000004" href="$_t_stack_8h.html" title="Definice typu zásobník (realizace pomocí pole)." alt="" coords="247,80,320,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="142,30,241,71,238,76,140,35"/>
+<area shape="rect" id="Node000007" href="$main__support_8h.html" title="Soubor pro multiplatformní podporu programu v různých OS." alt="" coords="112,80,223,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="123,31,151,66,147,69,119,34"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="185,155,259,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="275,109,244,145,240,141,271,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="283,155,351,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="292,106,307,139,302,142,287,108"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="146,110,73,149,70,145,143,105"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="179,106,206,140,201,144,175,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="104,155,162,181"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="164,108,148,142,143,139,159,106"/>
+</map>

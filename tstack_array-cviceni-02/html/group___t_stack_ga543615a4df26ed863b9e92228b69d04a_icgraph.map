@@ -1,0 +1,8 @@
+<map id="stack_destroy" name="stack_destroy">
+<area shape="rect" id="Node000001" title="Deinicializace zásobníku." alt="" coords="338,31,441,57"/>
+<area shape="rect" id="Node000002" href="$group___main_program.html#ga367aadf6f2e33e86efe4a50daff32e81" title="Testování API Stack." alt="" coords="103,5,290,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="322,38,290,34,291,28,323,33"/>
+<area shape="rect" id="Node000003" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="323,47,55,47,55,41,323,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,38,56,43,55,38,90,32"/>
+</map>

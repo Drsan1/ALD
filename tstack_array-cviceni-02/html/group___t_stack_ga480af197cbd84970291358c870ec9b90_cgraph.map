@@ -1,0 +1,8 @@
+<map id="stack_pop" name="stack_pop">
+<area shape="rect" id="Node000001" title="Odstranění elementu na vrcholu zásobníku." alt="" coords="5,5,87,32"/>
+<area shape="rect" id="Node000002" href="$_t_stack_8c.html#a842bb6cb1446d6730f9ceece2849f307" title=" " alt="" coords="296,5,403,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,16,280,16,280,21,87,21"/>
+<area shape="rect" id="Node000003" href="$group___t_stack.html#gab2a53c66f9bb439a8749c97f9c9d9f2d" title="Zjištění, zda je zásobník prázdný" alt="" coords="135,31,248,57"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="88,23,120,29,119,34,87,28"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="248,32,280,27,281,32,249,38"/>
+</map>

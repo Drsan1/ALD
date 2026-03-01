@@ -1,0 +1,7 @@
+<map id="TQueue.h" name="TQueue.h">
+<area shape="rect" id="Node000001" title="Definice typu fronta (realizace pomocí lineárního jednosměrně vázaného seznamu)." alt="" coords="52,5,129,32"/>
+<area shape="rect" id="Node000002" href="$_t_queue_8c.html" title="Implementace API pro typ fronta (realizace pomocí lineárního jednosměrně vázaného seznamu)." alt="" coords="5,80,83,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,47,54,81,50,78,72,44"/>
+<area shape="rect" id="Node000003" href="$main_8c.html" title="Hlavní program pro testování ADT TQueue." alt="" coords="107,80,168,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="109,44,132,78,127,81,105,47"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="queue_front" name="queue_front">
+<area shape="rect" id="Node000001" title="Získání hodnoty elementu z čela fronty." alt="" coords="5,5,94,32"/>
+<area shape="rect" id="Node000002" href="$_t_queue_8c.html#ae5f315571880047e27e4417d5b3cf110" title=" " alt="" coords="306,5,416,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,16,291,16,291,21,94,21"/>
+<area shape="rect" id="Node000003" href="$group___t_queue.html#gaa9812b8f3c1b0707450f91283f97384c" title="Zjištění, zda je fronta prázdná" alt="" coords="142,31,258,57"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,23,127,29,126,34,93,29"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="258,32,290,27,291,32,259,37"/>
+</map>

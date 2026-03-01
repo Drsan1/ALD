@@ -1,0 +1,8 @@
+<map id="queue_find_if" name="queue_find_if">
+<area shape="rect" id="Node000001" title="Vyhledání prvního elementu fronty splňujícího zadaný predikát." alt="" coords="5,31,102,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="24,32,18,22,22,12,34,6,54,4,74,7,85,13,83,18,73,12,53,9,36,11,26,16,24,21,28,29"/>
+<area shape="rect" id="Node000002" href="$group___t_queue_iterator.html#ga6cbf7aa3d466d2bf585fe988b8bc9593" title="Zjištění platnosti iterátoru." alt="" coords="150,5,303,32"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="102,34,135,29,135,35,103,40"/>
+<area shape="rect" id="Node000003" href="$group___t_queue_iterator.html#gae7e6145571ff51446a96862cda3d6e07" title="Posunutí iterátoru vpřed." alt="" coords="150,56,303,83"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="103,48,135,53,134,58,102,54"/>
+</map>

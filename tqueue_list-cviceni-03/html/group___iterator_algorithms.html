@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BPC-ALD: ADT TQueue_list: Univerzální funkce pro práci s iterátory</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">BPC-ALD: ADT TQueue_list<span id="projectnumber">&#160;(2026)</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Vygenerováno programem Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Hledat',false);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Načítám...</div>
+<div class="SRStatus" id="Searching">Vyhledávám...</div>
+<div class="SRStatus" id="NoMatches">Nebylo nic nalezeno</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funkce</a>  </div>
+  <div class="headertitle"><div class="title"><ol type="1">
+<li>Univerzální funkce pro práci s iterátory </li>
+</ol>
+</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Definice funkcí používající iterátory.  
+<a href="#details">...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Funkce</h2></td></tr>
+<tr class="memitem:gade8cfe850fd247bfb33b1aa44e13bcff" id="r_gade8cfe850fd247bfb33b1aa44e13bcff"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#gade8cfe850fd247bfb33b1aa44e13bcff">queue_for_each</a> (struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> aIter, void(*aOperation)(const struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> *aIter))</td></tr>
+<tr class="memdesc:gade8cfe850fd247bfb33b1aa44e13bcff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zavolání zvolené funkce na každý element fronty od pozice určené iterátorem až do konce fronty.  <br /></td></tr>
+<tr class="memitem:ga93c632584a1d9425fee15fb6b10c3e40" id="r_ga93c632584a1d9425fee15fb6b10c3e40"><td class="memItemLeft">static struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga93c632584a1d9425fee15fb6b10c3e40">queue_for_each_n</a> (struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> aIter, size_t aN, void(*aOperation)(const struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> *aIter))</td></tr>
+<tr class="memdesc:ga93c632584a1d9425fee15fb6b10c3e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zavolání zvolené funkce na prvních N elementů fronty od pozice určené iterátorem.  <br /></td></tr>
+<tr class="memitem:gadccc11c611587469295868641ce95925" id="r_gadccc11c611587469295868641ce95925"><td class="memItemLeft">static struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#gadccc11c611587469295868641ce95925">queue_find_if</a> (struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> aIter, bool(*aPredicate)(const struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> *aIter))</td></tr>
+<tr class="memdesc:gadccc11c611587469295868641ce95925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vyhledání prvního elementu fronty splňujícího zadaný predikát.  <br /></td></tr>
+<tr class="memitem:ga299db40016266a1a943c32a3a528ea9b" id="r_ga299db40016266a1a943c32a3a528ea9b"><td class="memItemLeft">static struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga299db40016266a1a943c32a3a528ea9b">queue_find_if_not</a> (struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> aIter, bool(*aPredicate)(const struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> *aIter))</td></tr>
+<tr class="memdesc:ga299db40016266a1a943c32a3a528ea9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vyhledání prvního elementu fronty nesplňujícího zadaný predikát.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailní popis</h2>
+<div class="textblock"><p>Definice funkcí používající iterátory. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Dokumentace funkcí</h2>
+<a id="gade8cfe850fd247bfb33b1aa44e13bcff" name="gade8cfe850fd247bfb33b1aa44e13bcff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gade8cfe850fd247bfb33b1aa44e13bcff">&#9670;&#160;</a></span>queue_for_each()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void queue_for_each </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a></td>          <td class="paramname"><span class="paramname"><em>aIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>aOperation&#160;</em></span>)(const struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> *aIter)&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zavolání zvolené funkce na každý element fronty od pozice určené iterátorem až do konce fronty. </p>
+<p>Zavolá zadanou funkci <code class="param">aOperation</code> na každý element fronty v rozsahu od pozice určené iterátorem až do konce fronty. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aIter</td><td>Ukazatel na existující iterátor, jenž je předem asociovaný se zvolenou frontou a který tak definuje počáteční element pro zvolenou operaci </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aOperation</td><td>Ukazatel na funkci vracející <code>void</code> a mající jeden parametr typu ukazatel na iterátor </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___iterator_algorithms_gade8cfe850fd247bfb33b1aa44e13bcff_cgraph.svg" width="324" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___iterator_algorithms_gade8cfe850fd247bfb33b1aa44e13bcff_icgraph.svg" width="220" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga93c632584a1d9425fee15fb6b10c3e40" name="ga93c632584a1d9425fee15fb6b10c3e40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga93c632584a1d9425fee15fb6b10c3e40">&#9670;&#160;</a></span>queue_for_each_n()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> queue_for_each_n </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a></td>          <td class="paramname"><span class="paramname"><em>aIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aN</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*</td>          <td class="paramname"><span class="paramname"><em>aOperation&#160;</em></span>)(const struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> *aIter)&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zavolání zvolené funkce na prvních N elementů fronty od pozice určené iterátorem. </p>
+<p>Zavolá zadanou funkci <code class="param">aOperation</code> na prvních <code class="param">aN</code> elementů fronty v rozsahu od pozice určené iterátorem. Pokud má fronta méně než <code class="param">aN</code> elementů, funkce se ukončí dříve a vrátí neplatný iterátor. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aIter</td><td>Ukazatel na existující iterátor, jenž je předem asociovaný se zvolenou frontou a který tak definuje počáteční element pro zvolenou operaci </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aN</td><td>Hodnota udávající počet prvních N elementů fronty, na které se má zavolat funkce <code class="param">aOperation</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aOperation</td><td>Ukazatel na funkci vracející <code>void</code> a mající jeden parametr typu ukazatel na iterátor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Hodnota iterátoru ukazujícího za <span class="tt">aN</span>-tý element fronty, nebo neplatný iterátor pokud fronta nemá další elementy. </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___iterator_algorithms_ga93c632584a1d9425fee15fb6b10c3e40_cgraph.svg" width="339" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___iterator_algorithms_ga93c632584a1d9425fee15fb6b10c3e40_icgraph.svg" width="138" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gadccc11c611587469295868641ce95925" name="gadccc11c611587469295868641ce95925"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadccc11c611587469295868641ce95925">&#9670;&#160;</a></span>queue_find_if()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> queue_find_if </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a></td>          <td class="paramname"><span class="paramname"><em>aIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool(*</td>          <td class="paramname"><span class="paramname"><em>aPredicate&#160;</em></span>)(const struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> *aIter)&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vyhledání prvního elementu fronty splňujícího zadaný predikát. </p>
+<p>Vyhledá první element fronty splňující zadaný predikát <code class="param">aPredicate</code>. Vyhledávání probíhá od elementu určeného iterátorem <code class="param">aIter</code>, až do konce fronty. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aIter</td><td>Ukazatel na existující iterátor, jenž je předem asociovaný se zvolenou frontou a který tak definuje počáteční element pro zvolenou operaci </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aPredicate</td><td>Ukazatel na predikátovou funkci (funkci vracející <code>bool</code> a mající jeden parametr typu ukazatel na iterátor) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Hodnota iterátoru ukazujícího na první nalezený element fronty splňující zadaný predikát <code class="param">aPredicate</code>, nebo neplatný iterátor, pokud nebyl nalezen žádný vhodný element. </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___iterator_algorithms_gadccc11c611587469295868641ce95925_cgraph.svg" width="308" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___iterator_algorithms_gadccc11c611587469295868641ce95925_icgraph.svg" width="204" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga299db40016266a1a943c32a3a528ea9b" name="ga299db40016266a1a943c32a3a528ea9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga299db40016266a1a943c32a3a528ea9b">&#9670;&#160;</a></span>queue_find_if_not()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> queue_find_if_not </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a></td>          <td class="paramname"><span class="paramname"><em>aIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool(*</td>          <td class="paramname"><span class="paramname"><em>aPredicate&#160;</em></span>)(const struct <a class="el" href="group___t_queue_iterator.html#struct_t_queue_iterator">TQueueIterator</a> *aIter)&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vyhledání prvního elementu fronty nesplňujícího zadaný predikát. </p>
+<p>Vyhledá první element fronty nesplňující zadaný predikát <code class="param">aPredicate</code>. Vyhledávání probíhá od elementu určeného iterátorem <code class="param">aIter</code>, až do konce fronty. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aIter</td><td>Ukazatel na existující iterátor, jenž je předem asociovaný se zvolenou frontou a který tak definuje počáteční element pro zvolenou operaci </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aPredicate</td><td>Ukazatel na predikátovou funkci (funkci vracející <code>bool</code> a mající jeden parametr typu ukazatel na iterátor) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Hodnota iterátoru ukazujícího na první nalezený element fronty nesplňující zadaný predikát <code class="param">aPredicate</code>, nebo neplatný iterátor, pokud nebyl nalezen žádný vhodný element. </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___iterator_algorithms_ga299db40016266a1a943c32a3a528ea9b_cgraph.svg" width="334" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___iterator_algorithms_ga299db40016266a1a943c32a3a528ea9b_icgraph.svg" width="230" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Vygenerováno dne: <span class="timestamp"></span>, pro projekt: BPC-ALD: ADT TQueue_list, programem&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

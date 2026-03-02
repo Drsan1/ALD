@@ -189,40 +189,61 @@ void vector_destroy(struct TVector *aVector)
 
 struct TVectorIterator vector_iterator_begin(const struct TVector *aVector)
 	{
-	return (struct TVectorIterator) { .iVector = NULL, .iPos = 0 };
+	if(!aVector)
+		return (struct TVectorIterator) { .iVector = NULL, .iPos = 0 };
+	return (struct TVectorIterator) { .iVector = (struct TVector*)aVector, .iPos = 0 };
 	}
 
 struct TVectorIterator vector_iterator_pos(const struct TVector *aVector, size_t aPos)
 	{
-	return (struct TVectorIterator) { .iVector = NULL, .iPos = 0 };
+	if (!aVector)
+		return (struct TVectorIterator) { .iVector = NULL, .iPos = 0 };
+	return (struct TVectorIterator) { .iVector = (struct TVector*)aVector, .iPos = aPos };
 	}
 
 struct TVectorIterator vector_iterator_last(const struct TVector *aVector)
 	{
-	return (struct TVectorIterator) { .iVector = NULL, .iPos = 0 };
+	if (!aVector || aVector->iSize == 0)
+		return (struct TVectorIterator) { .iVector = NULL, .iPos = 0 };
+	return (struct TVectorIterator) { .iVector = (struct TVector*)aVector, .iPos = aVector->iSize - 1 };
 	}
 
 bool vector_iterator_is_valid(const struct TVectorIterator *aIter)
 	{
-	return false;
+	if (!aIter || !aIter->iVector)
+		return false;
+	return aIter->iPos < aIter->iVector->iSize;
 	}
 
 bool vector_iterator_to_next(struct TVectorIterator *aIter)
 	{
-	return false;
+	if (!vector_iterator_is_valid(aIter))
+		return false;
+	++aIter->iPos;
+	return vector_iterator_is_valid(aIter);
 	}
 
 bool vector_iterator_to_prev(struct TVectorIterator *aIter)
 	{
-	return false;
+	if (!vector_iterator_is_valid(aIter))
+		return false;
+	if (aIter->iPos == 0)
+		return false;
+	--aIter->iPos;
+	return true;
 	}
 
 TVectorElement vector_iterator_value(const struct TVectorIterator *aIter)
 	{
-	return (TVectorElement) { 0 };
+	if (!vector_iterator_is_valid(aIter))
+		return (TVectorElement) { 0 };
+	return aIter->iVector->iValues[aIter->iPos];
 	}
 
 bool vector_iterator_set_value(const struct TVectorIterator *aIter, TVectorElement aValue)
 	{
-	return false;
+	if (!vector_iterator_is_valid(aIter))
+		return false;
+	aIter->iVector->iValues[aIter->iPos] = aValue;
+	return true;
 	}

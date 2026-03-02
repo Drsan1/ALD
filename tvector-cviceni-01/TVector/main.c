@@ -112,21 +112,21 @@ int main(int argc, char *argv[])
 	#endif /* NDEBUG */
 	putchar('\n');
 
-	//vector_for_each(vector_iterator_begin(&vector1), print_element);
-	//putchar('\n');
+	vector_for_each(vector_iterator_begin(&vector1), print_element);
+	putchar('\n');
 
 	resize_testing(&vector1, 10);
 
-	//vector_for_each(vector_iterator_begin(&vector1), print_element);
-	//putchar('\n');
+	vector_for_each(vector_iterator_begin(&vector1), print_element);
+	putchar('\n');
 
 	//resize_testing(&vector1, 1000000);		// 4Mb //edit comment
 	//resize_testing(&vector1, 10000000);		// 40Mb
 	//resize_testing(&vector1, 100000000);	// 400Mb
 	//resize_testing(&vector1, 1000000000);	// 4000Mb
 
-	//vector_for_n(vector_iterator_begin(&vector1), 20, print_element);
-	//putchar('\n');
+	vector_for_n(vector_iterator_begin(&vector1), 20, print_element);
+	putchar('\n');
 
 	vector_destroy(&vector1);
 	return 0;

@@ -137,4 +137,5 @@ bool queue_iterator_set_value(const struct TQueueIterator *aIter, TQueueElement 
 	if (!queue_iterator_is_valid(aIter))
 		return false;
 	aIter->iActual->iValue = aValue;
+	return true;
 	}

@@ -60,29 +60,46 @@ bool stack_pop(struct TStack *aStack)
 
 void stack_destroy(struct TStack *aStack)
 	{
-	if (stack_is_empty(aStack))
+	if (!aStack)
 		return;
-	assert(stack_invariant(aStack));
 	aStack->iCount = 0;
 	assert(stack_invariant(aStack));
 	}
 
 struct TStackIterator stack_iterator_begin(const struct TStack *aStack)
 	{
+	if(!stack_is_empty(aStack))
+		return (struct TStackIterator) { .iStack = aStack, .iPos = aStack->iCount };
 	return (struct TStackIterator) { .iStack = NULL, .iPos = 0 };
 	}
 
 bool stack_iterator_is_valid(const struct TStackIterator *aIter)
 	{
+	if (aIter)
+		if (aIter->iStack)
+			if (aIter->iPos > 0 && aIter->iPos <= aIter->iStack->iCount)
+				return true;
 	return false;
 	}
 
 bool stack_iterator_to_next(struct TStackIterator *aIter)
 	{
+	if (stack_iterator_is_valid(aIter))
+		if (aIter->iStack) {
+			--aIter->iPos;
+			if (aIter->iPos > 0)  // Stále platná pozice?
+				return true;
+			else {
+				aIter->iStack = NULL;  // Zruš propojení
+				return false;
+			}
+		}
 	return false;
 	}
 
 TStackElement stack_iterator_value(const struct TStackIterator *aIter)
 	{
+	if (stack_iterator_is_valid(aIter))
+		return aIter->iStack->iValues[aIter->iPos - 1];
 	return (TStackElement) { 0 };
 	}

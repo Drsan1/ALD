@@ -1,0 +1,19 @@
+<map id="queue_iterator_to_next" name="queue_iterator_to_next">
+<area shape="rect" id="Node000001" title="Posunutí iterátoru vpřed." alt="" coords="277,133,430,160"/>
+<area shape="rect" id="Node000002" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,96,55,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,122,290,69,261,44,228,25,194,13,165,8,137,12,104,25,82,40,64,59,40,97,35,94,60,55,79,35,101,20,136,7,165,3,195,8,230,20,264,40,294,66,338,119"/>
+<area shape="rect" id="Node000003" href="$group___iterator_algorithms.html#gadccc11c611587469295868641ce95925" title="Vyhledání prvního elementu fronty splňujícího zadaný predikát." alt="" coords="118,59,214,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="303,129,200,88,202,83,305,125"/>
+<area shape="rect" id="Node000004" href="$group___iterator_algorithms.html#ga299db40016266a1a943c32a3a528ea9b" title="Vyhledání prvního elementu fronty nesplňujícího zadaný predikát." alt="" coords="105,133,227,160"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="261,149,227,149,227,144,261,144"/>
+<area shape="rect" id="Node000005" href="$group___iterator_algorithms.html#gade8cfe850fd247bfb33b1aa44e13bcff" title="Zavolání zvolené funkce na každý element fronty od pozice určené iterátorem až do konce fronty." alt="" coords="110,184,222,211"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="288,167,219,186,217,181,286,162"/>
+<area shape="rect" id="Node000006" href="$group___iterator_algorithms.html#ga93c632584a1d9425fee15fb6b10c3e40" title="Zavolání zvolené funkce na prvních N elementů fronty od pozice určené iterátorem." alt="" coords="103,259,229,285"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="321,171,189,260,186,256,318,167"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="103,92,56,105,54,100,102,87"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="188,45,180,39,166,37,152,39,145,44,143,49,147,57,142,59,138,50,141,40,150,34,166,32,183,35,191,41"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="100,131,55,118,56,113,101,126"/>
+<area shape="poly" id="edge7_Node000004_Node000004" title=" " alt="" coords="188,120,180,114,166,112,152,114,145,118,143,124,147,132,142,134,138,124,141,115,150,109,166,107,183,109,191,116"/>
+<area shape="poly" id="edge9_Node000005_Node000002" title=" " alt="" coords="110,179,101,174,69,150,43,125,46,121,72,145,104,170,113,175"/>
+<area shape="poly" id="edge11_Node000006_Node000006" title=" " alt="" coords="188,245,180,239,166,237,152,239,145,244,143,249,147,257,142,259,138,250,141,240,150,234,166,232,183,235,191,241"/>
+</map>

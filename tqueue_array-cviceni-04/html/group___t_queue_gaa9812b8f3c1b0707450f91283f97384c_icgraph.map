@@ -1,0 +1,14 @@
+<map id="queue_is_empty" name="queue_is_empty">
+<area shape="rect" id="Node000001" title="Zjištění, zda je fronta prázdná" alt="" coords="242,51,358,78"/>
+<area shape="rect" id="Node000002" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,51,55,78"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,45,230,29,193,16,148,8,128,10,104,16,72,32,47,52,43,48,69,28,102,11,127,4,148,3,195,11,232,24,265,40"/>
+<area shape="rect" id="Node000003" href="$group___t_queue.html#gabdf5c3e56234ff344f49c206632f7fbb" title="Získání hodnoty elementu z konce fronty." alt="" coords="103,26,194,52"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,55,194,49,195,44,227,49"/>
+<area shape="rect" id="Node000004" href="$group___t_queue.html#gadf7ec766208c056364fba19f6d6b5d3f" title="Získání hodnoty elementu z čela fronty." alt="" coords="104,76,193,103"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="227,79,194,85,193,80,226,74"/>
+<area shape="rect" id="Node000005" href="$group___t_queue.html#ga100499d1e5ff881cd97b03484f6e744b" title="Odstranění elementu z čela fronty." alt="" coords="106,127,191,154"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="259,87,178,129,176,124,257,83"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="88,54,55,62,54,56,87,49"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="88,79,55,72,56,67,90,74"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="108,121,101,117,48,80,51,76,104,113,111,117"/>
+</map>

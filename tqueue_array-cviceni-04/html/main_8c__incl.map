@@ -1,0 +1,17 @@
+<map id="main.c" name="main.c">
+<area shape="rect" id="Node000001" title="Hlavní program pro testování ADT TQueue." alt="" coords="93,5,154,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,155,66,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,35,81,55,59,81,47,110,41,139,35,138,42,109,55,79,77,51,103,30"/>
+<area shape="rect" id="Node000003" href="$_t_queue_8h.html" title="Definice typu fronta (realizace pomocí kruhového pole)." alt="" coords="202,80,280,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,30,209,69,206,74,143,35"/>
+<area shape="rect" id="Node000006" href="$main__support_8h.html" title="Soubor pro multiplatformní podporu programu v různých OS." alt="" coords="68,80,179,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="126,33,126,64,121,64,121,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="173,155,247,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="238,108,224,141,219,139,233,106"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="271,155,339,181"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="254,105,286,141,282,145,250,109"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="110,109,64,147,61,143,106,105"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="140,105,185,143,182,147,137,109"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="92,155,150,181"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="126,107,125,139,119,139,120,107"/>
+</map>

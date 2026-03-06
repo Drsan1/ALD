@@ -93,7 +93,7 @@ bool vector_clone(const struct TVector *aVector, struct TVector *aVectorClone)
 	
 	if (aVector->iSize == 0) {
 		// dealokuju klon
-		free(aVector->iValues);
+		free(aVectorClone->iValues);
 		*aVectorClone = (struct TVector){ .iSize = 0, .iValues = NULL };
 		assert(vector_invariant(aVectorClone));
 		return true;
@@ -101,6 +101,8 @@ bool vector_clone(const struct TVector *aVector, struct TVector *aVectorClone)
 	if (aVector->iSize != aVectorClone->iSize) {
 		free(aVectorClone->iValues);
 		TVectorElement *ptr = malloc(aVector->iSize * sizeof(TVectorElement));
+		if (!ptr)
+			return false;
 		aVectorClone->iValues = ptr;
 		aVectorClone->iSize = aVector->iSize;
 	}
@@ -146,7 +148,7 @@ void vector_set_value(struct TVector *aVector, size_t aPos, TVectorElement aValu
 size_t vector_size(const struct TVector *aVector)
 	{
 	if (!aVector)
-		return false;
+		return 0;
 	assert(vector_invariant(aVector));
 	return aVector->iSize;
 	}
@@ -189,14 +191,14 @@ void vector_destroy(struct TVector *aVector)
 
 struct TVectorIterator vector_iterator_begin(const struct TVector *aVector)
 	{
-	if(!aVector)
+	if (!aVector)
 		return (struct TVectorIterator) { .iVector = NULL, .iPos = 0 };
 	return (struct TVectorIterator) { .iVector = (struct TVector*)aVector, .iPos = 0 };
 	}
 
 struct TVectorIterator vector_iterator_pos(const struct TVector *aVector, size_t aPos)
 	{
-	if (!aVector)
+	if (!aVector || aPos >= aVector->iSize)
 		return (struct TVectorIterator) { .iVector = NULL, .iPos = 0 };
 	return (struct TVectorIterator) { .iVector = (struct TVector*)aVector, .iPos = aPos };
 	}

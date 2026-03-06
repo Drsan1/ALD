@@ -88,19 +88,18 @@ void queue_destroy(struct TQueue *aQueue)
 
 struct TQueueIterator queue_iterator_begin(const struct TQueue *aQueue)
 	{
-		if(!queue_is_empty(aQueue))
-			return (struct TQueueIterator) { .iQueue = aQueue, .iPos = aQueue->iFrontPos };
+	if(!queue_is_empty(aQueue))
+		return (struct TQueueIterator) { .iQueue = aQueue, .iPos = aQueue->iFrontPos };
 	return (struct TQueueIterator) { .iQueue = NULL, .iPos = 0 };
 	}
 
 bool queue_iterator_is_valid(const struct TQueueIterator *aIter)
 	{
-	if(aIter)
-		if(aIter->iQueue)
-			if(!queue_is_empty(aIter->iQueue)) //aIter->iQueue->iBackPos != aIter->iQueue->iFrontPos
-				if(aIter->iPos != aIter->iQueue->iBackPos)
-					return true;
-	return false;
+	if (!aIter || !aIter->iQueue)
+		return false;
+	if (queue_is_empty(aIter->iQueue))
+		return false;
+	return aIter->iPos != aIter->iQueue->iBackPos;
 	}
 
 bool queue_iterator_to_next(struct TQueueIterator *aIter)

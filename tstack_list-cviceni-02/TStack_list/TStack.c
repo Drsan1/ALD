@@ -85,12 +85,10 @@ bool stack_iterator_is_valid(const struct TStackIterator *aIter)
 
 bool stack_iterator_to_next(struct TStackIterator *aIter)
 	{
-	if (stack_iterator_is_valid(aIter)) 
-		if(aIter->iActual){
-			aIter->iActual = aIter->iActual->iNext;
-			return true;
-		}
-	return false;
+	if (!stack_iterator_is_valid(aIter))
+		return false;
+	aIter->iActual = aIter->iActual->iNext;
+	return aIter->iActual != NULL;
 	}
 
 TStackElement stack_iterator_value(const struct TStackIterator *aIter)

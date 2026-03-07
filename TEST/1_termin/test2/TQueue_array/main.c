@@ -26,15 +26,15 @@ int main(int argc, char* argv[])
 	char slovo[MAX];
 
 	for (size_t i = 0; i < count + 1; i++) {
-		if (buffer[i] == ' '){
+		if (buffer[i] == ' ') {
 			if (len > 0) {
 				slovo[len] = '\0';
-				for (size_t j = 0; j < len; j++){
+				for (size_t j = 0; j < len; j++) {
 					TStackElement stackChar;
 					TQueueElement queueChar;
 					UNLESS(stack_top(&stack1, &stackChar), goto clean_up);
 					UNLESS(queue_front(&queue1, &queueChar), goto clean_up);
-					if (stackChar != queueChar){
+					if (stackChar != queueChar) {
 						palindrom = false;
 					}
 					UNLESS(stack_pop(&stack1), goto clean_up);

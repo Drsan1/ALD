@@ -16,7 +16,7 @@
  */
 
 typedef char TQueueElement;					///< Definice typu QueueElement (datový typ elementů fronty)
-#define TQUEUE_ELEMENT_FRMSTR "%s"			///< Definice formátovacího řetězce pro souborové operace s typem QueueElement
+#define TQUEUE_ELEMENT_FRMSTR "%c"			///< Definice formátovacího řetězce pro souborové operace s typem QueueElement
 
 #define QUEUE_MAXCOUNT 1024				///< Maximální počet elementů fronty
 

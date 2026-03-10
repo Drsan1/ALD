@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="TQueue_list/TQueue_list.vcxproj" Id="c4cd2532-9220-4a15-a0fb-5d755ac4b336" />
+</Solution>

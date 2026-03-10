@@ -79,10 +79,14 @@ bool stack_init_file(struct TStack* aStack, FILE* aInputfile) {
 		TStackElement tmp;
 		if (fscanf(aInputfile, TSTACK_ELEMENT_FRMSTR, &tmp) != 1)
 			return false;
-		if (!stack_push(aStack, tmp)) {
-			stack_destroy(&aStack);
+
+		struct TStackNode* ptr = malloc(sizeof(struct TStackNode));
+		if (!ptr) {
+			stack_destroy(aStack);
 			return false;
 		}
+		*ptr = (struct TStackNode){ .iNext = aStack->iTop, .iValue = tmp };
+		aStack->iTop = ptr;
 	}
 	return true;
 }

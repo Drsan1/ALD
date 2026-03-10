@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="TStack_array/TStack_array.vcxproj" Id="80f3513a-d143-4893-b86a-ef35d3c0a36e" />
+</Solution>

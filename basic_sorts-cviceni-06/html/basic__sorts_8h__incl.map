@@ -1,0 +1,22 @@
+<map id="basic_sorts.h" name="basic_sorts.h">
+<area shape="rect" id="Node000001" title="Deklarace API přímých metod třídění" alt="" coords="175,5,275,32"/>
+<area shape="rect" id="Node000002" href="$_t_vector_8h.html" title="Definice typu Sortable Vector." alt="" coords="186,80,264,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,33,228,64,222,64,222,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,229,66,256"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="205,110,133,157,60,221,57,217,130,153,202,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="90,229,165,256"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="204,109,177,129,152,156,139,185,133,215,127,214,134,184,148,153,173,125,201,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="362,155,429,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="256,105,352,146,350,151,254,110"/>
+<area shape="rect" id="Node000006" href="$_t_vector_element_8h.html" title="Definice typu Basic VectorElement a implementace API." alt="" coords="162,155,288,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="228,107,228,139,222,139,222,107"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="369,229,436,256"/>
+<area shape="poly" id="edge11_Node000002_Node000009" title=" " alt="" coords="242,105,301,153,378,217,374,221,298,157,239,109"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="193,184,81,227,80,222,191,179"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="209,184,158,222,155,218,206,180"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="281,229,345,256"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="242,180,288,217,284,221,238,184"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="189,229,258,256"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="227,182,227,214,221,214,222,182"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="257,179,358,221,356,226,255,184"/>
+</map>

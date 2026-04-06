@@ -1,0 +1,7 @@
+<map id="TMemoizer" name="TMemoizer">
+<area shape="rect" id="Node000001" title="Definice typu TMemoizer." alt="" coords="61,200,285,371"/>
+<area shape="rect" id="Node000002" href="$group___t_memoizer.html#struct_t_memoizer_item" title="Definice typu TMemoizerItem." alt="" coords="5,5,164,128"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,127,135,184,130,186,106,129"/>
+<area shape="rect" id="Node000003" href="$group___t_memoizer.html#struct_t_memoizer_stats" title="Definice typu MemoizerStats." alt="" coords="189,21,335,112"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,113,216,185,211,183,241,111"/>
+</map>

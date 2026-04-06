@@ -1,0 +1,8 @@
+<map id="fibonacci4_worker" name="fibonacci4_worker">
+<area shape="rect" id="Node000001" title="Vnitřní, lokální pracovní funkce realizující koncovou rekurzi." alt="" coords="230,29,354,56"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="317,16,309,10,292,8,277,10,269,14,267,20,271,28,266,30,261,21,265,11,275,5,292,3,310,5,320,12"/>
+<area shape="rect" id="Node000002" href="$group___fibonacci__recursion__tail__call.html#ga2176ac33f9dd8338fb49db64d3dc0fae" title="Implementace výpočtu Fibonacciho čísla pomocí koncové rekurze." alt="" coords="103,29,182,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,45,183,45,183,40,215,40"/>
+<area shape="rect" id="Node000003" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,29,55,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,45,55,45,55,40,87,40"/>
+</map>

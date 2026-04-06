@@ -1,0 +1,25 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Documentation/">
+    <File Path="doc/cv08_reports_fibonacci_i3-8100_x64_vs2022_debug.lst" />
+    <File Path="doc/cv08_reports_fibonacci_i3-8100_x64_vs2022_release.lst" />
+    <File Path="doc/cv08_reports_fibonacci_i7-13700_x64_vs2022_debug.lst" />
+    <File Path="doc/cv08_reports_fibonacci_i7-13700_x64_vs2022_release.lst" />
+    <File Path="doc/cv08_reports_fibonacci_i7-3770_x64_vs2019_debug.lst" />
+    <File Path="doc/cv08_reports_fibonacci_i7-3770_x64_vs2019_release.lst" />
+    <File Path="doc/cv08_reports_fibonacci_m1-max_xcode14_debug.lst" />
+    <File Path="doc/cv08_reports_fibonacci_m1-max_xcode14_release.lst" />
+    <File Path="doc/cv08_reports_fibonacci_m3-pro_xcode15_debug.lst" />
+    <File Path="doc/cv08_reports_fibonacci_m3-pro_xcode15_release.lst" />
+    <File Path="doc/cv08_reports_fibonacci_m3-pro_xcode17_debug.lst" />
+    <File Path="doc/cv08_reports_fibonacci_m3-pro_xcode17_release.lst" />
+    <File Path="doc/cv08_zadani_rekurze.md" />
+    <File Path="doc/extra_stylesheet.css" />
+    <File Path="doc/project_logo.png" />
+    <File Path="Doxyfile" />
+  </Folder>
+  <Project Path="fibonacci/fibonacci.vcxproj" Id="8c255f67-77b9-4acb-9a6c-426a9ddfcc63" />
+</Solution>

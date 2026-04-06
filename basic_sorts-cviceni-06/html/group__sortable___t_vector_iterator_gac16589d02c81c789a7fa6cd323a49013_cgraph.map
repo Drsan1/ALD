@@ -1,0 +1,7 @@
+<map id="vector_swap_with_iterators" name="vector_swap_with_iterators">
+<area shape="rect" id="Node000001" title="Výměna hodnot elementů vektorů určených dvěma iterátory." alt="" coords="5,43,182,69"/>
+<area shape="rect" id="Node000002" href="$group___t_vector_iterator.html#ga3f8a97a63f887539e270f6845bf22b9a" title="Zjištění platnosti iterátoru." alt="" coords="246,5,365,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,41,230,34,231,40,183,46"/>
+<area shape="rect" id="Node000003" href="$group__sortable___t_vector.html#gac1982d8a0e5f66f933dc6a0413f2d23e" title="Výměna hodnot elementů vektorů" alt="" coords="230,72,381,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,66,215,70,214,75,182,71"/>
+</map>

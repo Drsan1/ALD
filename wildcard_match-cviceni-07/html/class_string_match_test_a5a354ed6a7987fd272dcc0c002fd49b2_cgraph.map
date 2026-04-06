@@ -1,0 +1,7 @@
+<map id="testSameChars" name="testSameChars">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,117,56"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="33,30,29,21,32,11,43,5,61,3,80,5,91,12,88,16,78,10,61,8,45,10,36,15,34,20,38,28"/>
+<area shape="rect" id="Node000002" href="$group___wildcard__matching.html#gad9e22c13e3865398e2e951469482b622" title="Implementace funkce pro ověření shody řetězců z nichž jeden obsahuje žolíkové znaky." alt="" coords="165,29,276,56"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="117,40,149,40,149,45,117,45"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="193,30,188,21,191,11,202,5,220,3,240,5,250,12,247,16,238,10,220,8,204,10,195,15,193,20,197,28"/>
+</map>

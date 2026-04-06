@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Documentation/">
+    <File Path="doc/cv08_zadani_rekurze.md" />
+    <File Path="doc/extra_stylesheet.css" />
+    <File Path="doc/project_logo.png" />
+    <File Path="Doxyfile" />
+  </Folder>
+  <Project Path="unit_tests/unit_tests.vcxproj" Id="9d2e7d45-7391-4552-bb52-6e4070505d26" />
+  <Project DefaultStartup="true" Path="wildcard_match/wildcard_match.vcxproj" Id="4d5abd9b-44f5-4c6f-922b-0878b8485caf" />
+</Solution>

@@ -1,0 +1,7 @@
+<map id="testQuestionAndStarAtEndMatch" name="testQuestionAndStarAtEndMatch">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,184,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="57,29,56,19,62,10,75,5,95,3,115,5,128,11,125,16,114,10,94,8,77,10,66,15,61,21,63,28"/>
+<area shape="rect" id="Node000002" href="$group___wildcard__matching.html#gad9e22c13e3865398e2e951469482b622" title="Implementace funkce pro ověření shody řetězců z nichž jeden obsahuje žolíkové znaky." alt="" coords="232,37,343,64"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="184,48,216,48,216,53,184,53"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="254,38,249,29,253,19,266,13,287,11,310,13,323,20,320,24,309,18,287,16,267,18,256,23,254,28,259,35"/>
+</map>

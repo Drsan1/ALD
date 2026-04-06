@@ -1,0 +1,622 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BPC-ALD: ALG Recursions (Wildcard matching): Dokumentace třídy StarWildcardMatchTest</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">BPC-ALD: ALG Recursions (Wildcard matching)<span id="projectnumber">&#160;(2026)</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Vygenerováno programem Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Hledat',false);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Načítám...</div>
+<div class="SRStatus" id="Searching">Vyhledávám...</div>
+<div class="SRStatus" id="NoMatches">Nebylo nic nalezeno</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Veřejné metody</a>  </div>
+  <div class="headertitle"><div class="title">Dokumentace třídy StarWildcardMatchTest</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Diagram pro StarWildcardMatchTest:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test__coll__graph.svg" width="223" height="358"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Veřejné metody</h2></td></tr>
+<tr class="memitem:af77593932f74c9ced8b18cc12940c665" id="r_af77593932f74c9ced8b18cc12940c665"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#af77593932f74c9ced8b18cc12940c665">testStarMatchEmpty</a> ()</td></tr>
+<tr class="memitem:a8f4f7cdf271d671e4e3fda33c7a2c61c" id="r_a8f4f7cdf271d671e4e3fda33c7a2c61c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a8f4f7cdf271d671e4e3fda33c7a2c61c">testStarMatchOneChar</a> ()</td></tr>
+<tr class="memitem:a882700254eca863f91e0fc51fe160c6e" id="r_a882700254eca863f91e0fc51fe160c6e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a882700254eca863f91e0fc51fe160c6e">testStarMatchOneCharInMiddle</a> ()</td></tr>
+<tr class="memitem:a6b8e01cb29c30134929dc26b3357e627" id="r_a6b8e01cb29c30134929dc26b3357e627"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a6b8e01cb29c30134929dc26b3357e627">testStarMatchAllString</a> ()</td></tr>
+<tr class="memitem:a3901368dca871df82802b9db2656a26e" id="r_a3901368dca871df82802b9db2656a26e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3901368dca871df82802b9db2656a26e">testNotMatchDifferString</a> ()</td></tr>
+<tr class="memitem:ab20a9b97145c7c6881da57d368fa8488" id="r_ab20a9b97145c7c6881da57d368fa8488"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab20a9b97145c7c6881da57d368fa8488">testNotMatchLongerString</a> ()</td></tr>
+<tr class="memitem:a96739c0a96e844df415fc281e6aa0ee1" id="r_a96739c0a96e844df415fc281e6aa0ee1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a96739c0a96e844df415fc281e6aa0ee1">testMatchLongerString</a> ()</td></tr>
+<tr class="memitem:ad7a130b787846ecc25bf0aa680ff5e4b" id="r_ad7a130b787846ecc25bf0aa680ff5e4b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad7a130b787846ecc25bf0aa680ff5e4b">testStarMatchStringInMiddle</a> ()</td></tr>
+<tr class="memitem:a97faccbac8772fcd06724770d82b0768" id="r_a97faccbac8772fcd06724770d82b0768"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a97faccbac8772fcd06724770d82b0768">testTwoStarMatchEmpty</a> ()</td></tr>
+<tr class="memitem:a9f5b82fcf9cb04a95a87db69f87d60ec" id="r_a9f5b82fcf9cb04a95a87db69f87d60ec"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a9f5b82fcf9cb04a95a87db69f87d60ec">testTwoStarMatchChar</a> ()</td></tr>
+<tr class="memitem:a2b44f3332756c23c80b2541148370776" id="r_a2b44f3332756c23c80b2541148370776"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a2b44f3332756c23c80b2541148370776">testTwoStarMatchAny</a> ()</td></tr>
+<tr class="memitem:a90d1e31631e4a0e81c42566aca392d63" id="r_a90d1e31631e4a0e81c42566aca392d63"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a90d1e31631e4a0e81c42566aca392d63">testStarCharStarMatchChar</a> ()</td></tr>
+<tr class="memitem:a4d6c195dcb8c8309af338514a646d55c" id="r_a4d6c195dcb8c8309af338514a646d55c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a4d6c195dcb8c8309af338514a646d55c">testStarCharStarCharMatch</a> ()</td></tr>
+<tr class="memitem:a6b83a759a88e0dffb3836cd7d92169aa" id="r_a6b83a759a88e0dffb3836cd7d92169aa"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a6b83a759a88e0dffb3836cd7d92169aa">testThreeStarMatchEmpty</a> ()</td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailní popis</h2>
+<div class="textblock"><dl class="test"><dt><b><a class="el" href="test.html#_test000003">Test</a></b></dt><dd><p class="startdd"><b>testStarMatchEmpty:</b> <span class="tt">("*", "") -&gt; true</span> </p>
+<p class="interdd"><b>testStarMatchOneChar:</b> <span class="tt">("*", "a") -&gt; true</span> </p>
+<p class="interdd"><b>testStarMatchOneCharInMiddle:</b> <span class="tt">("a*cd", "abcd") -&gt; true</span> </p>
+<p class="interdd"><b>testStarMatchAllString:</b> <span class="tt">("*", "aaaa") -&gt; true</span> </p>
+<p class="interdd"><b>testNotMatchDifferString:</b> <span class="tt">("a*c", "abb") -&gt; false</span>, (because <code>'c'</code> is not in <code class="param">aStr</code>). </p>
+<p class="interdd"><b>testNotMatchLongerString:</b> <span class="tt">("*pqrs", "pqrst") -&gt; false</span>, (because <code>'t'</code> is not in <code class="param">aWildCardStr</code>). </p>
+<p class="interdd"><b>testMatchLongerString:</b> <span class="tt">("abc*bcd", "abcdhghgbcd") -&gt; true</span> </p>
+<p class="interdd"><b>testStarMatchStringInMiddle:</b> <span class="tt">("d*d", "dcabad") -&gt; true</span> </p>
+<p class="interdd"><b>testTwoStarMatchEmpty:</b> <span class="tt">("**", "") -&gt; true</span> </p>
+<p class="interdd"><b>testTwoStarMatchChar:</b> <span class="tt">("**", "a") -&gt; true</span> </p>
+<p class="interdd"><b>testTwoStarMatchAny:</b> <span class="tt">("**", "aaaa") -&gt; true</span> </p>
+<p class="interdd"><b>testStarCharStarMatchChar:</b> <span class="tt">("*a*", "a") -&gt; true</span> </p>
+<p class="interdd"><b>testStarCharStarCharMatch:</b> <span class="tt">("*c*d", "abcd") -&gt; true</span> </p>
+<p class="enddd"><b>testThreeStarMatchEmpty:</b> <span class="tt">("***", "") -&gt; true</span> </p>
+</dd></dl>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Dokumentace členských funkcí</h2>
+<a id="af77593932f74c9ced8b18cc12940c665" name="af77593932f74c9ced8b18cc12940c665"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af77593932f74c9ced8b18cc12940c665">&#9670;&#160;</a></span>testStarMatchEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testStarMatchEmpty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_af77593932f74c9ced8b18cc12940c665_cgraph.svg" width="312" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_af77593932f74c9ced8b18cc12940c665_icgraph.svg" width="152" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8f4f7cdf271d671e4e3fda33c7a2c61c" name="a8f4f7cdf271d671e4e3fda33c7a2c61c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f4f7cdf271d671e4e3fda33c7a2c61c">&#9670;&#160;</a></span>testStarMatchOneChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testStarMatchOneChar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a8f4f7cdf271d671e4e3fda33c7a2c61c_cgraph.svg" width="324" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a8f4f7cdf271d671e4e3fda33c7a2c61c_icgraph.svg" width="166" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a882700254eca863f91e0fc51fe160c6e" name="a882700254eca863f91e0fc51fe160c6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a882700254eca863f91e0fc51fe160c6e">&#9670;&#160;</a></span>testStarMatchOneCharInMiddle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testStarMatchOneCharInMiddle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a882700254eca863f91e0fc51fe160c6e_cgraph.svg" width="372" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a882700254eca863f91e0fc51fe160c6e_icgraph.svg" width="214" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a6b8e01cb29c30134929dc26b3357e627" name="a6b8e01cb29c30134929dc26b3357e627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b8e01cb29c30134929dc26b3357e627">&#9670;&#160;</a></span>testStarMatchAllString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testStarMatchAllString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a6b8e01cb29c30134929dc26b3357e627_cgraph.svg" width="323" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a6b8e01cb29c30134929dc26b3357e627_icgraph.svg" width="163" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a3901368dca871df82802b9db2656a26e" name="a3901368dca871df82802b9db2656a26e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3901368dca871df82802b9db2656a26e">&#9670;&#160;</a></span>testNotMatchDifferString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testNotMatchDifferString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a3901368dca871df82802b9db2656a26e_cgraph.svg" width="332" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a3901368dca871df82802b9db2656a26e_icgraph.svg" width="174" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ab20a9b97145c7c6881da57d368fa8488" name="ab20a9b97145c7c6881da57d368fa8488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab20a9b97145c7c6881da57d368fa8488">&#9670;&#160;</a></span>testNotMatchLongerString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testNotMatchLongerString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_ab20a9b97145c7c6881da57d368fa8488_cgraph.svg" width="343" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_ab20a9b97145c7c6881da57d368fa8488_icgraph.svg" width="183" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a96739c0a96e844df415fc281e6aa0ee1" name="a96739c0a96e844df415fc281e6aa0ee1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96739c0a96e844df415fc281e6aa0ee1">&#9670;&#160;</a></span>testMatchLongerString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testMatchLongerString </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a96739c0a96e844df415fc281e6aa0ee1_cgraph.svg" width="323" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a96739c0a96e844df415fc281e6aa0ee1_icgraph.svg" width="163" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad7a130b787846ecc25bf0aa680ff5e4b" name="ad7a130b787846ecc25bf0aa680ff5e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7a130b787846ecc25bf0aa680ff5e4b">&#9670;&#160;</a></span>testStarMatchStringInMiddle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testStarMatchStringInMiddle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_ad7a130b787846ecc25bf0aa680ff5e4b_cgraph.svg" width="356" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_ad7a130b787846ecc25bf0aa680ff5e4b_icgraph.svg" width="196" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a97faccbac8772fcd06724770d82b0768" name="a97faccbac8772fcd06724770d82b0768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97faccbac8772fcd06724770d82b0768">&#9670;&#160;</a></span>testTwoStarMatchEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testTwoStarMatchEmpty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a97faccbac8772fcd06724770d82b0768_cgraph.svg" width="335" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a97faccbac8772fcd06724770d82b0768_icgraph.svg" width="175" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9f5b82fcf9cb04a95a87db69f87d60ec" name="a9f5b82fcf9cb04a95a87db69f87d60ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f5b82fcf9cb04a95a87db69f87d60ec">&#9670;&#160;</a></span>testTwoStarMatchChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testTwoStarMatchChar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a9f5b82fcf9cb04a95a87db69f87d60ec_cgraph.svg" width="324" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a9f5b82fcf9cb04a95a87db69f87d60ec_icgraph.svg" width="164" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a2b44f3332756c23c80b2541148370776" name="a2b44f3332756c23c80b2541148370776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b44f3332756c23c80b2541148370776">&#9670;&#160;</a></span>testTwoStarMatchAny()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testTwoStarMatchAny </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a2b44f3332756c23c80b2541148370776_cgraph.svg" width="320" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a2b44f3332756c23c80b2541148370776_icgraph.svg" width="160" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a90d1e31631e4a0e81c42566aca392d63" name="a90d1e31631e4a0e81c42566aca392d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90d1e31631e4a0e81c42566aca392d63">&#9670;&#160;</a></span>testStarCharStarMatchChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testStarCharStarMatchChar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a90d1e31631e4a0e81c42566aca392d63_cgraph.svg" width="352" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a90d1e31631e4a0e81c42566aca392d63_icgraph.svg" width="192" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4d6c195dcb8c8309af338514a646d55c" name="a4d6c195dcb8c8309af338514a646d55c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d6c195dcb8c8309af338514a646d55c">&#9670;&#160;</a></span>testStarCharStarCharMatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testStarCharStarCharMatch </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a4d6c195dcb8c8309af338514a646d55c_cgraph.svg" width="352" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a4d6c195dcb8c8309af338514a646d55c_icgraph.svg" width="192" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a6b83a759a88e0dffb3836cd7d92169aa" name="a6b83a759a88e0dffb3836cd7d92169aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b83a759a88e0dffb3836cd7d92169aa">&#9670;&#160;</a></span>testThreeStarMatchEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">testThreeStarMatchEmpty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a6b83a759a88e0dffb3836cd7d92169aa_cgraph.svg" width="344" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_star_wildcard_match_test_a6b83a759a88e0dffb3836cd7d92169aa_icgraph.svg" width="184" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<hr/>Dokumentace pro tuto třídu byla vygenerována z následujícího souboru:<ul>
+<li><a class="el" href="wildcard__match__ut_8cpp.html">wildcard_match_ut.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Vygenerováno dne: <span class="timestamp"></span>, pro projekt: BPC-ALD: ALG Recursions (Wildcard matching), programem&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

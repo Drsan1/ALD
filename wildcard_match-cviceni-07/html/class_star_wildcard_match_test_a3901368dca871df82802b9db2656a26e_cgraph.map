@@ -1,0 +1,7 @@
+<map id="testNotMatchDifferString" name="testNotMatchDifferString">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,168,56"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="55,30,49,21,53,11,66,5,87,3,109,5,120,12,118,16,107,10,86,8,67,10,57,15,55,20,59,27"/>
+<area shape="rect" id="Node000002" href="$group___wildcard__matching.html#gad9e22c13e3865398e2e951469482b622" title="Implementace funkce pro ověření shody řetězců z nichž jeden obsahuje žolíkové znaky." alt="" coords="216,29,327,56"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="168,40,200,40,200,45,168,45"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="240,30,234,21,238,11,251,5,271,3,293,5,305,12,303,16,292,10,271,8,252,10,242,15,239,20,244,27"/>
+</map>

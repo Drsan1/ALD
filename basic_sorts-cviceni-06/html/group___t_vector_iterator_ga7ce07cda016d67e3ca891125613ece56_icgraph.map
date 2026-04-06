@@ -1,0 +1,12 @@
+<map id="vector_iterator_to_next" name="vector_iterator_to_next">
+<area shape="rect" id="Node000001" title="Posunutí iterátoru vpřed." alt="" coords="413,43,566,69"/>
+<area shape="rect" id="Node000002" href="$group___iterator_algorithms.html#gad9872ced82843c0e0864a8e2547ca579" title="Zavolání zvolené funkce na každý element vektoru od pozice určené iterátorem až do konce vektoru." alt="" coords="247,5,358,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="404,42,358,32,359,27,405,36"/>
+<area shape="rect" id="Node000003" href="$group___iterator_algorithms.html#ga914d4c2ad472c0d71a4b5e9265b60e9c" title="Zavolání zvolené funkce na prvních N elementů vektoru od pozice určené iterátorem." alt="" coords="240,80,365,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="405,75,366,83,365,78,404,70"/>
+<area shape="poly" id="edge5_Node000003_Node000003" title=" " alt="" coords="329,67,320,61,303,59,287,61,278,65,276,71,280,78,276,81,271,71,274,62,285,56,303,53,322,56,332,63"/>
+<area shape="rect" id="Node000004" href="$group___main_program.html#ga7343209645c93203da0a86613abfed04" title="Testování třídicí metody." alt="" coords="103,80,192,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="225,96,192,96,192,91,225,91"/>
+<area shape="rect" id="Node000005" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,80,55,107"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="88,96,55,96,55,91,88,91"/>
+</map>

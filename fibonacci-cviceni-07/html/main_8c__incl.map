@@ -1,0 +1,25 @@
+<map id="main.c" name="main.c">
+<area shape="rect" id="Node000001" title="Hlavní program (testbench) testující různé implementace výpočtu hodnot Fibonacciho posloupnosti." alt="" coords="213,5,274,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,229,66,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,24,180,29,141,39,103,56,71,82,52,113,41,148,37,184,36,214,31,214,31,183,36,147,47,111,67,78,100,51,139,34,178,24,213,19"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="302,155,359,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="265,30,290,51,312,79,325,109,331,138,325,139,320,110,308,81,286,55,261,34"/>
+<area shape="rect" id="Node000004" href="$main__support_8h.html" title="Soubor pro multiplatformní podporu programu v různých OS." alt="" coords="188,80,299,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,33,246,64,241,64,241,33"/>
+<area shape="rect" id="Node000006" href="$fibonacci_8h.html" title="Deklarace různých variant implementace výpočtu hodnot Fibonacciho posloupnosti." alt="" coords="81,80,164,107"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="224,35,158,74,155,69,221,30"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="373,80,440,107"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="273,30,365,71,363,76,271,35"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="207,110,161,129,114,157,81,187,55,219,51,215,77,183,111,153,159,125,205,105"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="260,105,305,143,302,147,257,109"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="269,229,343,256"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="251,106,297,214,293,216,246,108"/>
+<area shape="rect" id="Node000007" href="$memoizer_8h.html" title="Definice typu reprezentující memoizační funktor." alt="" coords="124,155,214,181"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="133,106,155,140,150,143,128,109"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="147,184,73,224,71,219,144,180"/>
+<area shape="poly" id="edge11_Node000007_Node000005" title=" " alt="" coords="194,180,270,219,267,224,192,184"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="89,229,153,256"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="163,183,140,218,135,215,158,180"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="176,229,244,256"/>
+<area shape="poly" id="edge12_Node000007_Node000009" title=" " alt="" coords="178,181,198,215,193,217,174,183"/>
+</map>

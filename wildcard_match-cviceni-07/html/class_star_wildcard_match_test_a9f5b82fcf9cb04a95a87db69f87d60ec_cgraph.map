@@ -1,0 +1,7 @@
+<map id="testTwoStarMatchChar" name="testTwoStarMatchChar">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,159,56"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="51,30,46,21,49,11,62,5,82,3,104,5,115,12,113,16,102,10,82,8,63,10,53,15,51,20,56,28"/>
+<area shape="rect" id="Node000002" href="$group___wildcard__matching.html#gad9e22c13e3865398e2e951469482b622" title="Implementace funkce pro ověření shody řetězců z nichž jeden obsahuje žolíkové znaky." alt="" coords="207,29,318,56"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="159,40,191,40,191,45,159,45"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="231,30,226,21,230,11,242,5,262,3,284,5,296,12,293,16,282,10,262,8,244,10,234,15,231,20,236,28"/>
+</map>

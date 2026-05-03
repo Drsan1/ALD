@@ -1,0 +1,1837 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BPC-ALD: ALG Powerful Sorts: 2.2.1. Datový typ Span pro přístup k omezené části vektoru</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">BPC-ALD: ALG Powerful Sorts<span id="projectnumber">&#160;(2026)</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Vygenerováno programem Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Hledat',false);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Načítám...</div>
+<div class="SRStatus" id="Searching">Vyhledávám...</div>
+<div class="SRStatus" id="NoMatches">Nebylo nic nalezeno</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#groups">Topics</a> &#124;
+<a href="#nested-classes">Datové struktury</a> &#124;
+<a href="#typedef-members">Definice typů</a> &#124;
+<a href="#func-members">Funkce</a>  </div>
+  <div class="headertitle"><div class="title">2.2.1. Datový typ Span pro přístup k omezené části vektoru <div class="ingroups"><a class="el" href="group___t_vector.html">2. Vector</a> &raquo; <a class="el" href="group__sortable___t_vector__with__shareable__sortstats.html">2.2. Doplnění pro Sortable Vector o vlastnost sdílení statistik třídění</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Definice typu Span, který umožňuje přístup k omezené části vektoru (vyžaduje Sortable Vector s vlastností sdílení statistik třídění).  
+<a href="#details">...</a></p>
+<div class="dynheader">
+Diagram pro 2.2.1. Datový typ Span pro přístup k omezené části vektoru:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span.svg" width="590" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-groups" class="groupheader"><a id="groups" name="groups"></a>
+Topics</h2></td></tr>
+<tr class="memitem:SpanIteratorAlgorithms" id="r_SpanIteratorAlgorithms"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="group___span_iterator_algorithms.html">2.2.1.1. Univerzální funkce pro práci se Span iterátory</a></td></tr>
+<tr class="memdesc:group___span_iterator_algorithms"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definice funkcí používající Span iterátory. <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Datové struktury</h2></td></tr>
+<tr class="memitem:TSpan_5Fstruct_5Ft_5Fspan" id="r_TSpan_5Fstruct_5Ft_5Fspan"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="#struct_t_span">TSpan</a></td></tr>
+<tr class="memdesc:struct_t_span"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definice typu Span.  <a href="#struct_t_span">...</a><br /></td></tr>
+<tr class="memitem:TSpanIterator_5Fstruct_5Ft_5Fspan_5Fiterator" id="r_TSpanIterator_5Fstruct_5Ft_5Fspan_5Fiterator"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="#struct_t_span_iterator">TSpanIterator</a></td></tr>
+<tr class="memdesc:struct_t_span_iterator"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definice typu SpanIterator.  <a href="#struct_t_span_iterator">...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Definice typů</h2></td></tr>
+<tr class="memitem:ga4419771cd8f5a7ba95d8178b6d7e1455" id="r_ga4419771cd8f5a7ba95d8178b6d7e1455"><td class="memItemLeft">typedef <a class="el" href="group___t_vector_element.html#ga3c679c2b2440555118a3d54c6149994e">TVectorElement</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a></td></tr>
+<tr class="memdesc:ga4419771cd8f5a7ba95d8178b6d7e1455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definice typu SpanElement jako alias na typ VectorElement.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Funkce</h2></td></tr>
+<tr class="memitem:gac78c14bd69fa6a23ef2db50c75a51488" id="r_gac78c14bd69fa6a23ef2db50c75a51488"><td class="memItemLeft">static struct <a class="el" href="#struct_t_span">TSpan</a>&#160;</td><td class="memItemRight"><a class="el" href="#gac78c14bd69fa6a23ef2db50c75a51488">span_create</a> (struct <a class="el" href="group___t_vector.html#struct_t_vector">TVector</a> aVector)</td></tr>
+<tr class="memdesc:gac78c14bd69fa6a23ef2db50c75a51488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vytvoření Spanu pro celý vektor.  <br /></td></tr>
+<tr class="memitem:ga836d5a79cb441e1e728a1ce06c3ea2e8" id="r_ga836d5a79cb441e1e728a1ce06c3ea2e8"><td class="memItemLeft">static struct <a class="el" href="#struct_t_span">TSpan</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga836d5a79cb441e1e728a1ce06c3ea2e8">span_create_left</a> (struct <a class="el" href="group___t_vector.html#struct_t_vector">TVector</a> aVector, size_t aSize)</td></tr>
+<tr class="memdesc:ga836d5a79cb441e1e728a1ce06c3ea2e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vytvoření Spanu pro část vektoru od počátku a definované délce.  <br /></td></tr>
+<tr class="memitem:ga1db431e82dd3ba8a1269b24927826ede" id="r_ga1db431e82dd3ba8a1269b24927826ede"><td class="memItemLeft">static struct <a class="el" href="#struct_t_span">TSpan</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga1db431e82dd3ba8a1269b24927826ede">span_create_right</a> (struct <a class="el" href="group___t_vector.html#struct_t_vector">TVector</a> aVector, size_t aFromPos)</td></tr>
+<tr class="memdesc:ga1db431e82dd3ba8a1269b24927826ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vytvoření Spanu pro část vektoru od definované pozice až do konce vektoru.  <br /></td></tr>
+<tr class="memitem:ga153c4e0a14561b98968c75b38e7a5648" id="r_ga153c4e0a14561b98968c75b38e7a5648"><td class="memItemLeft">static struct <a class="el" href="#struct_t_span">TSpan</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga153c4e0a14561b98968c75b38e7a5648">span_create_range</a> (struct <a class="el" href="group___t_vector.html#struct_t_vector">TVector</a> aVector, size_t aFromPos, size_t aLastPos)</td></tr>
+<tr class="memdesc:ga153c4e0a14561b98968c75b38e7a5648"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vytvoření Spanu pro část vektoru definovanou pomocí pozičního intervalu &lt;od - do&gt;.  <br /></td></tr>
+<tr class="memitem:ga95663322132016bbaf40e6281480e122" id="r_ga95663322132016bbaf40e6281480e122"><td class="memItemLeft">static struct <a class="el" href="#struct_t_span">TSpan</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga95663322132016bbaf40e6281480e122">span_create_left_subspan</a> (struct <a class="el" href="#struct_t_span">TSpan</a> aSpan, size_t aSize)</td></tr>
+<tr class="memdesc:ga95663322132016bbaf40e6281480e122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vytvoření SubSpanu jako části od počátku a definované délce původního Spanu.  <br /></td></tr>
+<tr class="memitem:ga6270a02d3bfd6fa1fdbf37ca62276687" id="r_ga6270a02d3bfd6fa1fdbf37ca62276687"><td class="memItemLeft">static struct <a class="el" href="#struct_t_span">TSpan</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga6270a02d3bfd6fa1fdbf37ca62276687">span_create_right_subspan</a> (struct <a class="el" href="#struct_t_span">TSpan</a> aSpan, size_t aFromPos)</td></tr>
+<tr class="memdesc:ga6270a02d3bfd6fa1fdbf37ca62276687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vytvoření SubSpanu jako části od definované pozice až do konce původního Spanu.  <br /></td></tr>
+<tr class="memitem:ga74e56a96bc8ba4b1306a8db9a8d8fbff" id="r_ga74e56a96bc8ba4b1306a8db9a8d8fbff"><td class="memItemLeft">static struct <a class="el" href="#struct_t_span">TSpan</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga74e56a96bc8ba4b1306a8db9a8d8fbff">span_create_range_subspan</a> (struct <a class="el" href="#struct_t_span">TSpan</a> aSpan, size_t aFromPos, size_t aLastPos)</td></tr>
+<tr class="memdesc:ga74e56a96bc8ba4b1306a8db9a8d8fbff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vytvoření SubSpanu pro část původního Spanu definovanou pomocí pozičního intervalu &lt;od - do&gt;.  <br /></td></tr>
+<tr class="memitem:gacd943b451a7b63ce72dc30566d7191a0" id="r_gacd943b451a7b63ce72dc30566d7191a0"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#gacd943b451a7b63ce72dc30566d7191a0">span_is_empty</a> (const struct <a class="el" href="#struct_t_span">TSpan</a> *aSpan)</td></tr>
+<tr class="memdesc:gacd943b451a7b63ce72dc30566d7191a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zjištění, zda je Span prázdný  <br /></td></tr>
+<tr class="memitem:ga873f8813d9a78c9b43e8a6b2b2a4c9d1" id="r_ga873f8813d9a78c9b43e8a6b2b2a4c9d1"><td class="memItemLeft">static size_t&#160;</td><td class="memItemRight"><a class="el" href="#ga873f8813d9a78c9b43e8a6b2b2a4c9d1">span_size</a> (const struct <a class="el" href="#struct_t_span">TSpan</a> *aSpan)</td></tr>
+<tr class="memdesc:ga873f8813d9a78c9b43e8a6b2b2a4c9d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Přečtení počtu elementů Spanu.  <br /></td></tr>
+<tr class="memitem:ga82d285e77c3a5a2136d16314275659b4" id="r_ga82d285e77c3a5a2136d16314275659b4"><td class="memItemLeft">static <a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga82d285e77c3a5a2136d16314275659b4">span_value</a> (const struct <a class="el" href="#struct_t_span">TSpan</a> *aSpan, size_t aPos)</td></tr>
+<tr class="memdesc:ga82d285e77c3a5a2136d16314275659b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Přečtení hodnoty elementu Spanu na požadované pozici.  <br /></td></tr>
+<tr class="memitem:ga09ab8b9c46b151f2d0dd004572f7b864" id="r_ga09ab8b9c46b151f2d0dd004572f7b864"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ga09ab8b9c46b151f2d0dd004572f7b864">span_set_value</a> (struct <a class="el" href="#struct_t_span">TSpan</a> *aSpan, size_t aPos, <a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a> aValue)</td></tr>
+<tr class="memdesc:ga09ab8b9c46b151f2d0dd004572f7b864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zapsání hodnoty elementu do Spanu na požadovanou pozici.  <br /></td></tr>
+<tr class="memitem:ga8efc8ea3e4f239b6c154cdae03258740" id="r_ga8efc8ea3e4f239b6c154cdae03258740"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ga8efc8ea3e4f239b6c154cdae03258740">span_move_positions</a> (struct <a class="el" href="#struct_t_span">TSpan</a> *aToSpan, size_t aToPos, const struct <a class="el" href="#struct_t_span">TSpan</a> *aFromSpan, size_t aFromPos)</td></tr>
+<tr class="memdesc:ga8efc8ea3e4f239b6c154cdae03258740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Přesun hodnoty elementu Spanu.  <br /></td></tr>
+<tr class="memitem:gaffd3a758138012dac875ceda42a975db" id="r_gaffd3a758138012dac875ceda42a975db"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#gaffd3a758138012dac875ceda42a975db">span_compare_positions</a> (const struct <a class="el" href="#struct_t_span">TSpan</a> *aLeftSpan, size_t aLeftPos, const struct <a class="el" href="#struct_t_span">TSpan</a> *aRightSpan, size_t aRightPos)</td></tr>
+<tr class="memdesc:gaffd3a758138012dac875ceda42a975db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Porovnání hodnot elementů Spanů  <br /></td></tr>
+<tr class="memitem:ga3308f7ff69e56d5ab56f6614984fc5dd" id="r_ga3308f7ff69e56d5ab56f6614984fc5dd"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#ga3308f7ff69e56d5ab56f6614984fc5dd">span_compare_position_value</a> (const struct <a class="el" href="#struct_t_span">TSpan</a> *aSpan, size_t aPos, <a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a> aValue)</td></tr>
+<tr class="memdesc:ga3308f7ff69e56d5ab56f6614984fc5dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Porovnání mezi hodnotou elementu Span a hodnotou typu VectorElement.  <br /></td></tr>
+<tr class="memitem:gae81c37610069e0d3c8d3182ca4964c1a" id="r_gae81c37610069e0d3c8d3182ca4964c1a"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#gae81c37610069e0d3c8d3182ca4964c1a">span_swap_positions</a> (struct <a class="el" href="#struct_t_span">TSpan</a> *aLeftSpan, size_t aLeftPos, struct <a class="el" href="#struct_t_span">TSpan</a> *aRightSpan, size_t aRightPos)</td></tr>
+<tr class="memdesc:gae81c37610069e0d3c8d3182ca4964c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Výměna hodnot elementů Spanů  <br /></td></tr>
+<tr class="memitem:ga3203209e50d2fd358d2d683598437433" id="r_ga3203209e50d2fd358d2d683598437433"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ga3203209e50d2fd358d2d683598437433">span_swap_position_value</a> (struct <a class="el" href="#struct_t_span">TSpan</a> *aSpan, size_t aPos, <a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a> *aValue)</td></tr>
+<tr class="memdesc:ga3203209e50d2fd358d2d683598437433"><td class="mdescLeft">&#160;</td><td class="mdescRight">Výměna mezi hodnotou elementu Spanu a proměnnou typu VectorElement.  <br /></td></tr>
+<tr class="memitem:ga3877c7871ce8eb1c42a322fa9fd86a41" id="r_ga3877c7871ce8eb1c42a322fa9fd86a41"><td class="memItemLeft">static struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga3877c7871ce8eb1c42a322fa9fd86a41">span_iterator_begin</a> (const struct <a class="el" href="#struct_t_span">TSpan</a> *aSpan)</td></tr>
+<tr class="memdesc:ga3877c7871ce8eb1c42a322fa9fd86a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vytvoření nového iterátoru ukazujícího na počáteční element.  <br /></td></tr>
+<tr class="memitem:gacd47795cbf6334f7734c46eeaead0b09" id="r_gacd47795cbf6334f7734c46eeaead0b09"><td class="memItemLeft">static struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#gacd47795cbf6334f7734c46eeaead0b09">span_iterator_pos</a> (const struct <a class="el" href="#struct_t_span">TSpan</a> *aSpan, size_t aPos)</td></tr>
+<tr class="memdesc:gacd47795cbf6334f7734c46eeaead0b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vytvoření nového iterátoru ukazujícího na zadanou pozici.  <br /></td></tr>
+<tr class="memitem:ga3222b38985d1fad571989c9be2d66243" id="r_ga3222b38985d1fad571989c9be2d66243"><td class="memItemLeft">static struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga3222b38985d1fad571989c9be2d66243">span_iterator_last</a> (const struct <a class="el" href="#struct_t_span">TSpan</a> *aSpan)</td></tr>
+<tr class="memdesc:ga3222b38985d1fad571989c9be2d66243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vytvoření nového iterátoru ukazujícího na poslední element.  <br /></td></tr>
+<tr class="memitem:ga67166afe9d2ba03b5db6208b2dcd2787" id="r_ga67166afe9d2ba03b5db6208b2dcd2787"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ga67166afe9d2ba03b5db6208b2dcd2787">span_iterator_is_valid</a> (const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aIter)</td></tr>
+<tr class="memdesc:ga67166afe9d2ba03b5db6208b2dcd2787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zjištění platnosti iterátoru.  <br /></td></tr>
+<tr class="memitem:gaee1f79d544008f32cf2030c0d2156c04" id="r_gaee1f79d544008f32cf2030c0d2156c04"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#gaee1f79d544008f32cf2030c0d2156c04">span_iterator_to_next</a> (struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aIter)</td></tr>
+<tr class="memdesc:gaee1f79d544008f32cf2030c0d2156c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Posunutí iterátoru vpřed.  <br /></td></tr>
+<tr class="memitem:gaba2bf18029ccee38147943a1176f1673" id="r_gaba2bf18029ccee38147943a1176f1673"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#gaba2bf18029ccee38147943a1176f1673">span_iterator_to_prev</a> (struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aIter)</td></tr>
+<tr class="memdesc:gaba2bf18029ccee38147943a1176f1673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Posunutí iterátoru vzad.  <br /></td></tr>
+<tr class="memitem:ga8796ef08880befbf07bda987120a58cb" id="r_ga8796ef08880befbf07bda987120a58cb"><td class="memItemLeft">static <a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a>&#160;</td><td class="memItemRight"><a class="el" href="#ga8796ef08880befbf07bda987120a58cb">span_iterator_value</a> (const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aIter)</td></tr>
+<tr class="memdesc:ga8796ef08880befbf07bda987120a58cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Přečtení hodnoty elementu z Spanu pomocí iterátoru.  <br /></td></tr>
+<tr class="memitem:gad7325743f683c214db12e5f7070569a7" id="r_gad7325743f683c214db12e5f7070569a7"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#gad7325743f683c214db12e5f7070569a7">span_iterator_set_value</a> (const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aIter, <a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a> aValue)</td></tr>
+<tr class="memdesc:gad7325743f683c214db12e5f7070569a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zapsání hodnoty elementu do Spanu pomocí iterátoru.  <br /></td></tr>
+<tr class="memitem:ga972048723036512595f461c3ba0a9d21" id="r_ga972048723036512595f461c3ba0a9d21"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ga972048723036512595f461c3ba0a9d21">span_move_with_iterators</a> (const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aToIter, const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aFromIter)</td></tr>
+<tr class="memdesc:ga972048723036512595f461c3ba0a9d21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Přesun hodnoty elementu Spanu určené dvěma iterátory.  <br /></td></tr>
+<tr class="memitem:ga1b60dd9d2211c7cb07b066f19237b0ac" id="r_ga1b60dd9d2211c7cb07b066f19237b0ac"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#ga1b60dd9d2211c7cb07b066f19237b0ac">span_compare_with_iterators</a> (const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aLeftIter, const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aRightIter)</td></tr>
+<tr class="memdesc:ga1b60dd9d2211c7cb07b066f19237b0ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Porovnání hodnot elementů Spanů určených dvěma iterátory.  <br /></td></tr>
+<tr class="memitem:ga0b2e633085569b47c063161298794b98" id="r_ga0b2e633085569b47c063161298794b98"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#ga0b2e633085569b47c063161298794b98">span_compare_with_iterator_value</a> (const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aIter, <a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a> aValue)</td></tr>
+<tr class="memdesc:ga0b2e633085569b47c063161298794b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Porovnání mezi hodnotou elementu Spanu určenou iterátorem a hodnotou typu VectorElement.  <br /></td></tr>
+<tr class="memitem:ga2bc9c4a1a22d533a1a01ddb8cb57cfca" id="r_ga2bc9c4a1a22d533a1a01ddb8cb57cfca"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ga2bc9c4a1a22d533a1a01ddb8cb57cfca">span_swap_with_iterators</a> (const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aLeftIter, const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aRightIter)</td></tr>
+<tr class="memdesc:ga2bc9c4a1a22d533a1a01ddb8cb57cfca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Výměna hodnot elementů Spanů určených dvěma iterátory.  <br /></td></tr>
+<tr class="memitem:ga87439f0c5045aa7f177a37558b60d397" id="r_ga87439f0c5045aa7f177a37558b60d397"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ga87439f0c5045aa7f177a37558b60d397">span_swap_with_iterator_value</a> (const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aIter, <a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a> *aValue)</td></tr>
+<tr class="memdesc:ga87439f0c5045aa7f177a37558b60d397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Výměna mezi hodnotou elementu Spanu určenou iterátorem a proměnnou typu SpanElement.  <br /></td></tr>
+<tr class="memitem:ga798f020061122cbc5fcc57d4aebc8232" id="r_ga798f020061122cbc5fcc57d4aebc8232"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ga798f020061122cbc5fcc57d4aebc8232">span_iterator_is_equal</a> (const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aLeftIter, const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aRightIter)</td></tr>
+<tr class="memdesc:ga798f020061122cbc5fcc57d4aebc8232"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test shodnosti dvou iterátorů  <br /></td></tr>
+<tr class="memitem:gafcef81f504f5d0b85cac4b0d246eaf39" id="r_gafcef81f504f5d0b85cac4b0d246eaf39"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#gafcef81f504f5d0b85cac4b0d246eaf39">span_iterator_comparator</a> (const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aLeftIter, const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *aRightIter)</td></tr>
+<tr class="memdesc:gafcef81f504f5d0b85cac4b0d246eaf39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Porovnání dvou iterátorů  <br /></td></tr>
+<tr class="memitem:ga1279c84c9a296941dd53ab2eec020efb" id="r_ga1279c84c9a296941dd53ab2eec020efb"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ga1279c84c9a296941dd53ab2eec020efb">vector_iterator_is_inside_span</a> (const struct <a class="el" href="#struct_t_span">TSpan</a> *aSpan, const struct <a class="el" href="group___t_vector_iterator.html#struct_t_vector_iterator">TVectorIterator</a> *aIter)</td></tr>
+<tr class="memdesc:ga1279c84c9a296941dd53ab2eec020efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test, zda iterátor vektoru odkazuje do rozsahu určeného Spanem.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailní popis</h2>
+<div class="textblock"><p>Definice typu Span, který umožňuje přístup k omezené části vektoru (vyžaduje Sortable Vector s vlastností sdílení statistik třídění). </p>
+</div><hr/><h2 id="header-inline_5Fclasses" class="groupheader">Dokumentace datových struktur</h2>
+<a name="struct_t_span" id="struct_t_span"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_t_span">&#9670;&#160;</a></span>TSpan</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct TSpan</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"><p>Definice typu Span. </p>
+<p>Typ Span zajišťuje přístup k omezené části již existujícího vektoru a umožňuje pracovat s jeho elementy pomocí definovaného API. </p><dl class="section invariant"><dt>Invariant</dt><dd>Obecně platný a testovatelný předpoklad: shodný jako zapouzdřený ADT Sortable Vector with shareable sortstats. </dd></dl>
+</div><div class="dynheader">
+Diagram pro TSpan:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_t_span__coll__graph.svg" width="183" height="654"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr><td colspan="2"><h3>Datové položky</h3></td></tr>
+<tr class="memitem:ab9c90befa4efdbf39f89ad5053bc89ee" id="r_ab9c90befa4efdbf39f89ad5053bc89ee"><td class="memItemLeft">struct <a class="el" href="group___t_vector.html#struct_t_vector">TVector</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab9c90befa4efdbf39f89ad5053bc89ee">iVector</a></td></tr>
+<tr class="memdesc:ab9c90befa4efdbf39f89ad5053bc89ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reprezentuje určenou část (rozsah) existujícího vektoru.  <br /></td></tr>
+</table>
+<a name="doc-variable-members" id="doc-variable-members"></a><h4 id="header-doc-variable-members" class="groupheader">Dokumentace položek</h4>
+<a id="ab9c90befa4efdbf39f89ad5053bc89ee" name="ab9c90befa4efdbf39f89ad5053bc89ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9c90befa4efdbf39f89ad5053bc89ee">&#9670;&#160;</a></span>iVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="group___t_vector.html#struct_t_vector">TVector</a> iVector</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reprezentuje určenou část (rozsah) existujícího vektoru. </p>
+
+</div>
+</div>
+
+</div>
+</div>
+<a name="struct_t_span_iterator" id="struct_t_span_iterator"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_t_span_iterator">&#9670;&#160;</a></span>TSpanIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct TSpanIterator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"><p>Definice typu SpanIterator. </p>
+<p>SpanIterator se při vzniku naváže na zvolený Span a následně umožňuje přistupovat k jednotlivým prvkům pomocí definovaného API. </p>
+</div><div class="dynheader">
+Diagram pro TSpanIterator:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="struct_t_span_iterator__coll__graph.svg" width="183" height="795"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr><td colspan="2"><h3>Datové položky</h3></td></tr>
+<tr class="memitem:aeb3b6f28a6e71ff825a6fdf6d6cbae15" id="r_aeb3b6f28a6e71ff825a6fdf6d6cbae15"><td class="memItemLeft">struct <a class="el" href="group___t_vector_iterator.html#struct_t_vector_iterator">TVectorIterator</a>&#160;</td><td class="memItemRight"><a class="el" href="#aeb3b6f28a6e71ff825a6fdf6d6cbae15">iVectorIter</a></td></tr>
+<tr class="memdesc:aeb3b6f28a6e71ff825a6fdf6d6cbae15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reprezentuje iterátor na určenou část (rozsah) existujícího vektoru.  <br /></td></tr>
+</table>
+<a name="doc-variable-members" id="doc-variable-members"></a><h4 id="header-doc-variable-members" class="groupheader">Dokumentace položek</h4>
+<a id="aeb3b6f28a6e71ff825a6fdf6d6cbae15" name="aeb3b6f28a6e71ff825a6fdf6d6cbae15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb3b6f28a6e71ff825a6fdf6d6cbae15">&#9670;&#160;</a></span>iVectorIter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="group___t_vector_iterator.html#struct_t_vector_iterator">TVectorIterator</a> iVectorIter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reprezentuje iterátor na určenou část (rozsah) existujícího vektoru. </p>
+
+</div>
+</div>
+
+</div>
+</div>
+<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Dokumentace definic typů</h2>
+<a id="ga4419771cd8f5a7ba95d8178b6d7e1455" name="ga4419771cd8f5a7ba95d8178b6d7e1455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4419771cd8f5a7ba95d8178b6d7e1455">&#9670;&#160;</a></span>TSpanElement</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="group___t_vector_element.html#ga3c679c2b2440555118a3d54c6149994e">TVectorElement</a> <a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definice typu SpanElement jako alias na typ VectorElement. </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Dokumentace funkcí</h2>
+<a id="gac78c14bd69fa6a23ef2db50c75a51488" name="gac78c14bd69fa6a23ef2db50c75a51488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac78c14bd69fa6a23ef2db50c75a51488">&#9670;&#160;</a></span>span_create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="#struct_t_span">TSpan</a> span_create </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="group___t_vector.html#struct_t_vector">TVector</a></td>          <td class="paramname"><span class="paramname"><em>aVector</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vytvoření Spanu pro celý vektor. </p>
+<p>Vytvoří novou hodnotu typu Span s rozsahem pro přístup k elementům celého vektoru. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aVector</td><td>Existující vektor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Nový Span umožňující přístup ke všem elementům vektoru <code class="param">aVector</code> </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gac78c14bd69fa6a23ef2db50c75a51488_cgraph.svg" width="103" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gac78c14bd69fa6a23ef2db50c75a51488_icgraph.svg" width="400" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga836d5a79cb441e1e728a1ce06c3ea2e8" name="ga836d5a79cb441e1e728a1ce06c3ea2e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga836d5a79cb441e1e728a1ce06c3ea2e8">&#9670;&#160;</a></span>span_create_left()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="#struct_t_span">TSpan</a> span_create_left </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="group___t_vector.html#struct_t_vector">TVector</a></td>          <td class="paramname"><span class="paramname"><em>aVector</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vytvoření Spanu pro část vektoru od počátku a definované délce. </p>
+<p>Vytvoří novou hodnotu typu Span s rozsahem pro přístup k elementům vektoru od počátku až do definované délky. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aVector</td><td>Existující vektor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSize</td><td>Délka rozsahu od počátku existujícího vektoru (Délka = poslední pozice + 1) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Nový Span umožňující přístup k elementům vektoru <code class="param">aVector</code> od počátku až do definované délky </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga836d5a79cb441e1e728a1ce06c3ea2e8_cgraph.svg" width="127" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga836d5a79cb441e1e728a1ce06c3ea2e8_icgraph.svg" width="127" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga1db431e82dd3ba8a1269b24927826ede" name="ga1db431e82dd3ba8a1269b24927826ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1db431e82dd3ba8a1269b24927826ede">&#9670;&#160;</a></span>span_create_right()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="#struct_t_span">TSpan</a> span_create_right </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="group___t_vector.html#struct_t_vector">TVector</a></td>          <td class="paramname"><span class="paramname"><em>aVector</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aFromPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vytvoření Spanu pro část vektoru od definované pozice až do konce vektoru. </p>
+<p>Vytvoří novou hodnotu typu Span s rozsahem pro přístup k elementům vektoru od pozice <code class="param">aFromPos</code> až do konce vektoru. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aVector</td><td>Existující vektor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aFromPos</td><td>Pozice elementu v existujícím vektoru, která se stane prvním elementem Spanu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Nový Span umožňující přístup k elementům vektoru <code class="param">aVector</code> od definované pozice až do konce vektoru </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga1db431e82dd3ba8a1269b24927826ede_cgraph.svg" width="135" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga1db431e82dd3ba8a1269b24927826ede_icgraph.svg" width="135" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga153c4e0a14561b98968c75b38e7a5648" name="ga153c4e0a14561b98968c75b38e7a5648"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga153c4e0a14561b98968c75b38e7a5648">&#9670;&#160;</a></span>span_create_range()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="#struct_t_span">TSpan</a> span_create_range </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="group___t_vector.html#struct_t_vector">TVector</a></td>          <td class="paramname"><span class="paramname"><em>aVector</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aFromPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aLastPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vytvoření Spanu pro část vektoru definovanou pomocí pozičního intervalu &lt;od - do&gt;. </p>
+<p>Vytvoří novou hodnotu typu Span s rozsahem pro přístup k elementům původního vektoru od pozice <code class="param">aFromPos</code> do pozice <code class="param">aLastPos</code> vektoru. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aVector</td><td>Existující vektor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aFromPos</td><td>Pozice elementu v existujícím vektoru, která se stane prvním elementem Spanu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aLastPos</td><td>Pozice elementu v existujícím vektoru, která se stane posledním elementem Spanu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Nový Span umožňující přístup k elementům vektoru <code class="param">aVector</code> v definovaném rozsahu pozic vektoru </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga153c4e0a14561b98968c75b38e7a5648_cgraph.svg" width="143" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga153c4e0a14561b98968c75b38e7a5648_icgraph.svg" width="143" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga95663322132016bbaf40e6281480e122" name="ga95663322132016bbaf40e6281480e122"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95663322132016bbaf40e6281480e122">&#9670;&#160;</a></span>span_create_left_subspan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="#struct_t_span">TSpan</a> span_create_left_subspan </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="#struct_t_span">TSpan</a></td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vytvoření SubSpanu jako části od počátku a definované délce původního Spanu. </p>
+<p>Vytvoří novou hodnotu typu Span s rozsahem pro přístup k elementům původního Spanu od počátku až do definované délky. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Existující původní Span </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSize</td><td>Délka rozsahu od počátku existujícího původního Spanu (Délka = poslední pozice + 1) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Nový SubSpan umožňující přístup k elementům Spanu <code class="param">aSpan</code> od počátku až do definované délky </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga95663322132016bbaf40e6281480e122_cgraph.svg" width="183" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga95663322132016bbaf40e6281480e122_icgraph.svg" width="659" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga6270a02d3bfd6fa1fdbf37ca62276687" name="ga6270a02d3bfd6fa1fdbf37ca62276687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6270a02d3bfd6fa1fdbf37ca62276687">&#9670;&#160;</a></span>span_create_right_subspan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="#struct_t_span">TSpan</a> span_create_right_subspan </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="#struct_t_span">TSpan</a></td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aFromPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vytvoření SubSpanu jako části od definované pozice až do konce původního Spanu. </p>
+<p>Vytvoří novou hodnotu typu Span s rozsahem pro přístup k elementům původního Spanu od pozice <code class="param">aFromPos</code> až do konce původního Spanu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Existující původní Span </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aFromPos</td><td>Pozice elementu v existujícím původním Spanu, která se stane prvním elementem SubSpanu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Nový SubSpan umožňující přístup k elementům Spanu <code class="param">aSpan</code> od definované pozice až do konce Spanu <code class="param">aSpan</code> </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga6270a02d3bfd6fa1fdbf37ca62276687_cgraph.svg" width="191" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga6270a02d3bfd6fa1fdbf37ca62276687_icgraph.svg" width="667" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga74e56a96bc8ba4b1306a8db9a8d8fbff" name="ga74e56a96bc8ba4b1306a8db9a8d8fbff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga74e56a96bc8ba4b1306a8db9a8d8fbff">&#9670;&#160;</a></span>span_create_range_subspan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="#struct_t_span">TSpan</a> span_create_range_subspan </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="#struct_t_span">TSpan</a></td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aFromPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aLastPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vytvoření SubSpanu pro část původního Spanu definovanou pomocí pozičního intervalu &lt;od - do&gt;. </p>
+<p>Vytvoří novou hodnotu typu Span s rozsahem pro přístup k elementům původního Spanu od pozice <code class="param">aFromPos</code> do pozice <code class="param">aLastPos</code> původního Spanu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Existující původní Span </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aFromPos</td><td>Pozice elementu v původním Spanu, která se stane prvním elementem SubSpanu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aLastPos</td><td>Pozice elementu v původním Spanu, která se stane posledním elementem SubSpanu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Nový SubSpan umožňující přístup k elementům Spanu <code class="param">aSpan</code> v definovaném rozsahu pozic </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga74e56a96bc8ba4b1306a8db9a8d8fbff_cgraph.svg" width="199" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga74e56a96bc8ba4b1306a8db9a8d8fbff_icgraph.svg" width="199" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gacd943b451a7b63ce72dc30566d7191a0" name="gacd943b451a7b63ce72dc30566d7191a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd943b451a7b63ce72dc30566d7191a0">&#9670;&#160;</a></span>span_is_empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool span_is_empty </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zjištění, zda je Span prázdný </p>
+<p>Funkce (predikát) vracející <code>bool</code> hodnotu reprezentující test, zda má Span nulovou velikost. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Ukazatel na existující Span </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd><code>true</code> pokud je Span prázdný </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gacd943b451a7b63ce72dc30566d7191a0_cgraph.svg" width="418" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga873f8813d9a78c9b43e8a6b2b2a4c9d1" name="ga873f8813d9a78c9b43e8a6b2b2a4c9d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga873f8813d9a78c9b43e8a6b2b2a4c9d1">&#9670;&#160;</a></span>span_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t span_size </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Přečtení počtu elementů Spanu. </p>
+<p>Vrací velikost (počet elementů) Spanu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Ukazatel na existující Span </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Počet elementů Spanu nebo hodnota 0 v případě chyby </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga873f8813d9a78c9b43e8a6b2b2a4c9d1_cgraph.svg" width="226" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga873f8813d9a78c9b43e8a6b2b2a4c9d1_icgraph.svg" width="679" height="87"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga82d285e77c3a5a2136d16314275659b4" name="ga82d285e77c3a5a2136d16314275659b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga82d285e77c3a5a2136d16314275659b4">&#9670;&#160;</a></span>span_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a> span_value </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Přečtení hodnoty elementu Spanu na požadované pozici. </p>
+<p>Vrací hodnotu elementu z požadované pozice (indexu) Spanu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Ukazatel na existující Span </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aPos</td><td>Požadovaná pozice (index) elementu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Hodnota elementu uložená ve Spanu <code class="param">aSpan</code> na pozici <code class="param">aPos</code> </dd></dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost ukazatele a rozsah parametru <code class="param">aPos</code> <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga82d285e77c3a5a2136d16314275659b4_cgraph.svg" width="403" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga09ab8b9c46b151f2d0dd004572f7b864" name="ga09ab8b9c46b151f2d0dd004572f7b864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga09ab8b9c46b151f2d0dd004572f7b864">&#9670;&#160;</a></span>span_set_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void span_set_value </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a></td>          <td class="paramname"><span class="paramname"><em>aValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zapsání hodnoty elementu do Spanu na požadovanou pozici. </p>
+<p>Zápis nové hodnoty elementu do Spanu na požadovanou pozici (index). </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">aSpan</td><td>Ukazatel na existující Span </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aPos</td><td>Požadovaná pozice (index) elementu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aValue</td><td>Nová hodnota elementu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost ukazatele a rozsah parametru <code class="param">aPos</code> <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga09ab8b9c46b151f2d0dd004572f7b864_cgraph.svg" width="478" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga8efc8ea3e4f239b6c154cdae03258740" name="ga8efc8ea3e4f239b6c154cdae03258740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8efc8ea3e4f239b6c154cdae03258740">&#9670;&#160;</a></span>span_move_positions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void span_move_positions </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aToSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aToPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aFromSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aFromPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Přesun hodnoty elementu Spanu. </p>
+<p>Přesun hodnoty elementu Spanu z/do libovolné pozice nebo případně i mezi různými Spany. Parametry <code class="param">aToSpan</code> a <code class="param">aFromSpan</code> mohou být stejné. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">aToSpan</td><td>Ukazatel na cílový Span </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aToPos</td><td>Cílová pozice (index) elementu ve Spanu <code class="param">aToSpan</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aFromSpan</td><td>Ukazatel na zdrojový Span </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aFromPos</td><td>Zdrojová pozice (index) elementu ve Spanu <code class="param">aFromSpan</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost ukazatelů a rozsah indexů <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga8efc8ea3e4f239b6c154cdae03258740_cgraph.svg" width="583" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga8efc8ea3e4f239b6c154cdae03258740_icgraph.svg" width="744" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gaffd3a758138012dac875ceda42a975db" name="gaffd3a758138012dac875ceda42a975db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaffd3a758138012dac875ceda42a975db">&#9670;&#160;</a></span>span_compare_positions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int span_compare_positions </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aLeftSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aLeftPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aRightSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aRightPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Porovnání hodnot elementů Spanů </p>
+<p>Trojcestně porovná hodnoty elementů mezi zvolenými pozicemi nebo případně i mezi různými Spany. Parametry <code class="param">aLeftSpan</code> a <code class="param">aRightSpan</code> mohou být stejné. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aLeftSpan</td><td>Ukazatel na levý Span při porovnání </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aLeftPos</td><td>Pozice (index) (LHS) elementu ve Spanu <code class="param">aLeftSpan</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aRightSpan</td><td>Ukazatel na pravý Span při porovnání </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aRightPos</td><td>Pozice (index) (RHS) elementu ve Spanu <code class="param">aRightSpan</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Vracené hodnoty</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">-1</td><td>Pokud (LHS &lt; RHS) </td></tr>
+    <tr><td class="paramname">0</td><td>Pokud (LHS = RHS) </td></tr>
+    <tr><td class="paramname">+1</td><td>Pokud (LHS &gt; RHS) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost ukazatelů a rozsah indexů <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gaffd3a758138012dac875ceda42a975db_cgraph.svg" width="812" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gaffd3a758138012dac875ceda42a975db_icgraph.svg" width="764" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga3308f7ff69e56d5ab56f6614984fc5dd" name="ga3308f7ff69e56d5ab56f6614984fc5dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3308f7ff69e56d5ab56f6614984fc5dd">&#9670;&#160;</a></span>span_compare_position_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int span_compare_position_value </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a></td>          <td class="paramname"><span class="paramname"><em>aValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Porovnání mezi hodnotou elementu Span a hodnotou typu VectorElement. </p>
+<p>Trojcestně porovná hodnotu elementu Spanu na zvolené pozici se zadanou hodnotou <code class="param">aValue</code>. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Ukazatel na Span při porovnání </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aPos</td><td>Pozice (index) (LHS) elementu ve Spanu <code class="param">aSpan</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aValue</td><td>Hodnota stojící při porovnání na pravé straně (RHS) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Vracené hodnoty</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">-1</td><td>Pokud (LHS &lt; RHS) </td></tr>
+    <tr><td class="paramname">0</td><td>Pokud (LHS = RHS) </td></tr>
+    <tr><td class="paramname">+1</td><td>Pokud (LHS &gt; RHS) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost ukazatele a rozsah indexu vektoru <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga3308f7ff69e56d5ab56f6614984fc5dd_cgraph.svg" width="799" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gae81c37610069e0d3c8d3182ca4964c1a" name="gae81c37610069e0d3c8d3182ca4964c1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae81c37610069e0d3c8d3182ca4964c1a">&#9670;&#160;</a></span>span_swap_positions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void span_swap_positions </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aLeftSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aLeftPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aRightSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aRightPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Výměna hodnot elementů Spanů </p>
+<p>Vzájemně zamění hodnoty elementů mezi zvolenými pozicemi nebo případně i mezi různými Spany. Parametry <code class="param">aLeftSpan</code> a <code class="param">aRightSpan</code> mohou být stejné. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">aLeftSpan</td><td>Ukazatel na levý Span pro záměnu hodnoty elementu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aLeftPos</td><td>Pozice (index) (LHS) elementu ve Spanu <code class="param">aLeftSpan</code> </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">aRightSpan</td><td>Ukazatel na pravý Span při záměně hodnoty elementu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aRightPos</td><td>Pozice (index) (RHS) elementu ve Span <code class="param">aRightSpan</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost ukazatelů a rozsah indexů <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gae81c37610069e0d3c8d3182ca4964c1a_cgraph.svg" width="583" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga3203209e50d2fd358d2d683598437433" name="ga3203209e50d2fd358d2d683598437433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3203209e50d2fd358d2d683598437433">&#9670;&#160;</a></span>span_swap_position_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void span_swap_position_value </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a> *</td>          <td class="paramname"><span class="paramname"><em>aValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Výměna mezi hodnotou elementu Spanu a proměnnou typu VectorElement. </p>
+<p>Vzájemně zamění hodnotu elementu Spanu na zvolené pozici se zadanou hodnotou v proměnné typu VectorElement. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">aSpan</td><td>Ukazatel na Span pro záměnu hodnoty elementu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aPos</td><td>Pozice (index) elementu ve Spanu <code class="param">aSpan</code> </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">aValue</td><td>Ukazatel na hodnotu proměnné typu VectorElement pro záměnu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost obou ukazatelů a rozsah indexu vektoru <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga3203209e50d2fd358d2d683598437433_cgraph.svg" width="562" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga3877c7871ce8eb1c42a322fa9fd86a41" name="ga3877c7871ce8eb1c42a322fa9fd86a41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3877c7871ce8eb1c42a322fa9fd86a41">&#9670;&#160;</a></span>span_iterator_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> span_iterator_begin </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vytvoření nového iterátoru ukazujícího na počáteční element. </p>
+<p>Vytvoří a vrací nový iterátor, který je navázán (asociován) na zadaný Span a ukazuje na jeho počáteční element. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Ukazatel na existující Span </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Nový iterátor asociovaný na <code class="param">aSpan</code> ukazující na jeho počáteční element </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga3877c7871ce8eb1c42a322fa9fd86a41_cgraph.svg" width="334" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga3877c7871ce8eb1c42a322fa9fd86a41_icgraph.svg" width="146" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gacd47795cbf6334f7734c46eeaead0b09" name="gacd47795cbf6334f7734c46eeaead0b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd47795cbf6334f7734c46eeaead0b09">&#9670;&#160;</a></span>span_iterator_pos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> span_iterator_pos </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>aPos</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vytvoření nového iterátoru ukazujícího na zadanou pozici. </p>
+<p>Vytvoří a vrací nový iterátor, který je navázán (asociován) na zadaný Span a ukazuje na element na zadané pozici. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Ukazatel na existující Span </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aPos</td><td>Zadaná pozice </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Nový iterátor asociovaný na <code class="param">aSpan</code> ukazující na element na zadané pozici <code class="param">aPos</code> </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gacd47795cbf6334f7734c46eeaead0b09_cgraph.svg" width="314" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gacd47795cbf6334f7734c46eeaead0b09_icgraph.svg" width="135" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga3222b38985d1fad571989c9be2d66243" name="ga3222b38985d1fad571989c9be2d66243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3222b38985d1fad571989c9be2d66243">&#9670;&#160;</a></span>span_iterator_last()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> span_iterator_last </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vytvoření nového iterátoru ukazujícího na poslední element. </p>
+<p>Vytvoří a vrací nový iterátor, který je navázán (asociován) na zadaný Span a ukazuje na jeho poslední element. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Ukazatel na existující Span </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Nový iterátor asociovaný na <code class="param">aSpan</code> ukazující na jeho poslední element </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga3222b38985d1fad571989c9be2d66243_cgraph.svg" width="314" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga3222b38985d1fad571989c9be2d66243_icgraph.svg" width="135" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga67166afe9d2ba03b5db6208b2dcd2787" name="ga67166afe9d2ba03b5db6208b2dcd2787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67166afe9d2ba03b5db6208b2dcd2787">&#9670;&#160;</a></span>span_iterator_is_valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool span_iterator_is_valid </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aIter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zjištění platnosti iterátoru. </p>
+<p>Funkce (predikát) vracející <code>bool</code> hodnotu definující platnost iterátoru. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aIter</td><td>Ukazatel na existující iterátor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd><code>true</code> pokud je iterátor platný a ukazuje na platné místo v asociovaném Spanu </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga67166afe9d2ba03b5db6208b2dcd2787_cgraph.svg" width="324" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga67166afe9d2ba03b5db6208b2dcd2787_icgraph.svg" width="324" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gaee1f79d544008f32cf2030c0d2156c04" name="gaee1f79d544008f32cf2030c0d2156c04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee1f79d544008f32cf2030c0d2156c04">&#9670;&#160;</a></span>span_iterator_to_next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool span_iterator_to_next </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aIter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Posunutí iterátoru vpřed. </p>
+<p>Funkce ověří platnost iterátoru, a pokud je platný, zajistí jeho posun vpřed (tj. na následující element v asociovaném Spanu). </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">aIter</td><td>Ukazatel na existující iterátor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd><code>true</code> pokud je iterátor platný a ukazuje i po posunutí na platné místo v asociovaném Spanu </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gaee1f79d544008f32cf2030c0d2156c04_cgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gaee1f79d544008f32cf2030c0d2156c04_icgraph.svg" width="324" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gaba2bf18029ccee38147943a1176f1673" name="gaba2bf18029ccee38147943a1176f1673"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba2bf18029ccee38147943a1176f1673">&#9670;&#160;</a></span>span_iterator_to_prev()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool span_iterator_to_prev </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aIter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Posunutí iterátoru vzad. </p>
+<p>Funkce ověří platnost iterátoru, a pokud je platný, zajistí jeho posun vzad (tj. na předchozí element v asociovaném Spanu). </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">aIter</td><td>Ukazatel na existující iterátor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd><code>true</code> pokud je iterátor platný a ukazuje i po posunutí na platné místo v asociovaném Spanu </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gaba2bf18029ccee38147943a1176f1673_cgraph.svg" width="354" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga8796ef08880befbf07bda987120a58cb" name="ga8796ef08880befbf07bda987120a58cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8796ef08880befbf07bda987120a58cb">&#9670;&#160;</a></span>span_iterator_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a> span_iterator_value </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aIter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Přečtení hodnoty elementu z Spanu pomocí iterátoru. </p>
+<p>Vrací hodnotu elementu Span z pozice (indexu) určeného iterátorem. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aIter</td><td>Ukazatel na existující iterátor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Hodnota elementu z pozice, na kterou ukazuje iterátor <code class="param">aIter</code>, nebo nulový element (pokud je iterátor neplatný). </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga8796ef08880befbf07bda987120a58cb_cgraph.svg" width="498" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga8796ef08880befbf07bda987120a58cb_icgraph.svg" width="326" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gad7325743f683c214db12e5f7070569a7" name="gad7325743f683c214db12e5f7070569a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad7325743f683c214db12e5f7070569a7">&#9670;&#160;</a></span>span_iterator_set_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool span_iterator_set_value </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a></td>          <td class="paramname"><span class="paramname"><em>aValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Zapsání hodnoty elementu do Spanu pomocí iterátoru. </p>
+<p>Zápis nové hodnoty elementu do Spanu na pozici určenou iterátorem. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aIter</td><td>Ukazatel na existující iterátor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aValue</td><td>Nová hodnota elementu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd><code>true</code> pokud je iterátor platný a zápis mohl proběhnout na platné místo v asociovaném Spanu </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gad7325743f683c214db12e5f7070569a7_cgraph.svg" width="536" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga972048723036512595f461c3ba0a9d21" name="ga972048723036512595f461c3ba0a9d21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga972048723036512595f461c3ba0a9d21">&#9670;&#160;</a></span>span_move_with_iterators()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void span_move_with_iterators </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aToIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aFromIter</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Přesun hodnoty elementu Spanu určené dvěma iterátory. </p>
+<p>Přesun hodnoty elementu Span z/do pozice určené iterátory. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aToIter</td><td>Iterátor na cílový element Spanu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aFromIter</td><td>Iterátor na zdrojový element Spanu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost obou iterátorů <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga972048723036512595f461c3ba0a9d21_cgraph.svg" width="634" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga1b60dd9d2211c7cb07b066f19237b0ac" name="ga1b60dd9d2211c7cb07b066f19237b0ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1b60dd9d2211c7cb07b066f19237b0ac">&#9670;&#160;</a></span>span_compare_with_iterators()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int span_compare_with_iterators </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aLeftIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aRightIter</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Porovnání hodnot elementů Spanů určených dvěma iterátory. </p>
+<p>Trojcestně porovná hodnoty elementů určených dvěma iterátory. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aLeftIter</td><td>Iterátor určující levý element při porovnání (LHS) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aRightIter</td><td>Iterátor určující pravý element při porovnání (RHS) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Vracené hodnoty</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">-1</td><td>Pokud (LHS &lt; RHS) </td></tr>
+    <tr><td class="paramname">0</td><td>Pokud (LHS = RHS) </td></tr>
+    <tr><td class="paramname">+1</td><td>Pokud (LHS &gt; RHS) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost obou iterátorů <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga1b60dd9d2211c7cb07b066f19237b0ac_cgraph.svg" width="808" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga0b2e633085569b47c063161298794b98" name="ga0b2e633085569b47c063161298794b98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0b2e633085569b47c063161298794b98">&#9670;&#160;</a></span>span_compare_with_iterator_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int span_compare_with_iterator_value </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a></td>          <td class="paramname"><span class="paramname"><em>aValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Porovnání mezi hodnotou elementu Spanu určenou iterátorem a hodnotou typu VectorElement. </p>
+<p>Trojcestně porovná hodnotu elementu Spanu na pozici iterátorem se zadanou hodnotou <code class="param">aValue</code>. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aIter</td><td>Iterátor určující levý element při porovnání (LHS) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aValue</td><td>Hodnota stojící při porovnání na pravé straně (RHS) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Vracené hodnoty</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">-1</td><td>Pokud (LHS &lt; RHS) </td></tr>
+    <tr><td class="paramname">0</td><td>Pokud (LHS = RHS) </td></tr>
+    <tr><td class="paramname">+1</td><td>Pokud (LHS &gt; RHS) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost iterátoru <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga0b2e633085569b47c063161298794b98_cgraph.svg" width="802" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga2bc9c4a1a22d533a1a01ddb8cb57cfca" name="ga2bc9c4a1a22d533a1a01ddb8cb57cfca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2bc9c4a1a22d533a1a01ddb8cb57cfca">&#9670;&#160;</a></span>span_swap_with_iterators()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void span_swap_with_iterators </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aLeftIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aRightIter</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Výměna hodnot elementů Spanů určených dvěma iterátory. </p>
+<p>Vzájemně zamění hodnoty elementů určených dvěma iterátory. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aLeftIter</td><td>Iterátor určující levý element Spanu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aRightIter</td><td>Iterátor určující pravý element Spanu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost obou iterátorů <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga2bc9c4a1a22d533a1a01ddb8cb57cfca_cgraph.svg" width="634" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga87439f0c5045aa7f177a37558b60d397" name="ga87439f0c5045aa7f177a37558b60d397"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga87439f0c5045aa7f177a37558b60d397">&#9670;&#160;</a></span>span_swap_with_iterator_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void span_swap_with_iterator_value </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga4419771cd8f5a7ba95d8178b6d7e1455">TSpanElement</a> *</td>          <td class="paramname"><span class="paramname"><em>aValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Výměna mezi hodnotou elementu Spanu určenou iterátorem a proměnnou typu SpanElement. </p>
+<p>Vzájemně zamění hodnotu elementu Spanu určenou iterátorem se zadanou hodnotou v proměnné typu VectorElement. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aIter</td><td>Iterátor určující element Spanu pro záměnu </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aValue</td><td>Ukazatel na hodnotu proměnné typu SpanElement pro záměnu </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost iterátoru a ukazatele <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga87439f0c5045aa7f177a37558b60d397_cgraph.svg" width="612" height="120"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga798f020061122cbc5fcc57d4aebc8232" name="ga798f020061122cbc5fcc57d4aebc8232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga798f020061122cbc5fcc57d4aebc8232">&#9670;&#160;</a></span>span_iterator_is_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool span_iterator_is_equal </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aLeftIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aRightIter</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Test shodnosti dvou iterátorů </p>
+<p>Vzájemně porovná hodnotu dvou iterátorů. Oba iterátory musí vzniknout ze stejného Spanu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aLeftIter</td><td>Levý iterátor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aRightIter</td><td>Pravý iterátor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd><code>true</code> pokud iterátory odkazují na element na stejné pozici a ve stejném Spanu případně jsou oba neplatné </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_ga798f020061122cbc5fcc57d4aebc8232_cgraph.svg" width="498" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="gafcef81f504f5d0b85cac4b0d246eaf39" name="gafcef81f504f5d0b85cac4b0d246eaf39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafcef81f504f5d0b85cac4b0d246eaf39">&#9670;&#160;</a></span>span_iterator_comparator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int span_iterator_comparator </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aLeftIter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span_iterator">TSpanIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aRightIter</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Porovnání dvou iterátorů </p>
+<p>Provede trojcestné porovnání hodnot dvou iterátorů, předaných pomocí ukazatelů. Oba iterátory musí vzniknout ze stejného Spanu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aLeftIter</td><td>Levý iterátor (tzv. LHS - Left Hand Side) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aRightIter</td><td>Pravý iterátor (tzv. RHS - Right Hand Side) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Vracené hodnoty</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">-1</td><td>Pokud je pozice v <code class="param">aLeftIter</code> <b>&lt;</b> než pozice v <code class="param">aRightIter</code>, nebo je <code class="param">aLeftIter</code> <b>neplatný</b> a <code class="param">aRightIter</code> platný </td></tr>
+    <tr><td class="paramname">0</td><td>Pokud je pozice v <code class="param">aLeftIter</code> <b>=</b> pozici v <code class="param">aRightIter</code>, nebo jsou oba iterátory <b>neplatné</b> </td></tr>
+    <tr><td class="paramname">+1</td><td>Pokud je pozice v <code class="param">aLeftIter</code> <b>&gt;</b> než pozice v <code class="param">aRightIter</code>, nebo je <code class="param">aLeftIter</code> platný a <code class="param">aRightIter</code> <b>neplatný</b> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje, že oba iterátory vznikly ze stejného Spanu <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tato funkce volá...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="group___t_span_gafcef81f504f5d0b85cac4b0d246eaf39_cgraph.svg" width="570" height="54"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ga1279c84c9a296941dd53ab2eec020efb" name="ga1279c84c9a296941dd53ab2eec020efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1279c84c9a296941dd53ab2eec020efb">&#9670;&#160;</a></span>vector_iterator_is_inside_span()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool vector_iterator_is_inside_span </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="#struct_t_span">TSpan</a> *</td>          <td class="paramname"><span class="paramname"><em>aSpan</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="group___t_vector_iterator.html#struct_t_vector_iterator">TVectorIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>aIter</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Test, zda iterátor vektoru odkazuje do rozsahu určeného Spanem. </p>
+<p>Ověří, zda iterátor odkazuje do intervalu pozic definovaných Spanem. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aSpan</td><td>Ukazatel na existující Span </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aIter</td><td>Testovaný iterátor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd><code>true</code> pokud iterátor odkazuje na element ležící v rozsahu paměti, který definuje Span. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Vygenerováno dne: <span class="timestamp"></span>, pro projekt: BPC-ALD: ALG Powerful Sorts, programem&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

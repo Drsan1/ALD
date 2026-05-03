@@ -1,0 +1,26 @@
+<map id="set_iterator_to_next" name="set_iterator_to_next">
+<area shape="rect" id="Node000001" title="Posunutí iterátoru vpřed." alt="" coords="595,180,731,207"/>
+<area shape="rect" id="Node000002" href="$group___iterator_algorithms.html#ga1785c6060679dcab5e6781b66659dbf3" title="Vyhledání prvního elementu množiny splňujícího zadaný predikát." alt="" coords="452,29,532,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="641,169,600,120,545,70,526,59,529,54,548,66,603,116,645,166"/>
+<area shape="rect" id="Node000003" href="$group___iterator_algorithms.html#ga8ca52ed8ac7c0be83a19c7ed10f813cd" title="Vyhledání prvního elementu množiny nesplňujícího zadaný predikát." alt="" coords="440,104,544,131"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="616,176,523,134,525,129,618,171"/>
+<area shape="rect" id="Node000004" href="$group___iterator_algorithms.html#gab8ba369b42eda61d010f35df73be73db" title="Zavolání zvolené funkce na každý element množiny od pozice určené iterátorem až do posledního element..." alt="" coords="444,155,540,181"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="579,184,540,178,541,172,579,178"/>
+<area shape="rect" id="Node000008" href="$group___main_program.html#ga59363e824664d6f3ebb09b0cd5c44a28" title=" " alt="" coords="254,205,389,232"/>
+<area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="579,202,390,216,389,211,579,197"/>
+<area shape="rect" id="Node000009" href="$group___iterator_algorithms.html#ga8ac257b3b58d1df45282efff565eb78f" title="Zavolání zvolené funkce na prvních N elementů množiny od pozice určené iterátorem." alt="" coords="437,280,547,307"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="626,217,518,282,515,277,624,213"/>
+<area shape="rect" id="Node000010" href="$group___iterator_algorithms.html#ga7dd39e89482104c1886a0c46fd5ec018" title="Zavolání zvolené funkce na každý element množiny v zadaném rozsahu pozic určených dvěma iterátory." alt="" coords="442,331,542,357"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="645,221,603,270,548,321,529,332,526,328,545,317,600,267,641,217"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="521,16,511,10,492,8,474,10,465,15,463,20,467,28,463,30,457,21,461,11,473,5,492,3,513,5,523,12"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="521,91,511,85,492,83,474,85,465,89,463,95,467,102,463,105,457,95,461,86,473,80,492,77,513,80,523,86"/>
+<area shape="rect" id="Node000005" href="$testbench_8c.html#a068734a4e1d6209769e0c6b1675ca02b" title="Provedení jednoho test z testovacího plánu na předaném ADT." alt="" coords="288,155,356,181"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="429,171,356,171,356,165,429,165"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="431,189,370,207,368,202,429,184"/>
+<area shape="rect" id="Node000006" href="$testbench_8c.html#a2fa1559684d267665b1c2433208511d3" title="Provedení všech testů zadaného testovacího plánu na předaném ADT." alt="" coords="103,155,206,181"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="272,171,206,171,206,165,272,165"/>
+<area shape="rect" id="Node000007" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,180,55,207"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="88,184,55,191,54,186,87,179"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="238,214,55,198,55,193,239,209"/>
+<area shape="poly" id="edge12_Node000009_Node000009" title=" " alt="" coords="521,267,511,261,492,259,474,261,465,265,463,271,467,278,463,281,457,271,461,262,473,256,492,253,513,256,523,262"/>
+</map>

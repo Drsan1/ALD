@@ -1,0 +1,9 @@
+<map id="TVectorIterator" name="TVectorIterator">
+<area shape="rect" id="Node000001" title="Definice typu VectorIterator." alt="" coords="43,579,140,648"/>
+<area shape="rect" id="Node000002" href="$group___t_vector.html#struct_t_vector" title="Definice typu Vector." alt="" coords="5,395,177,507"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,507,94,562,89,562,89,507"/>
+<area shape="rect" id="Node000003" href="$group__sortable___t_vector.html#struct_t_vector_sort_stats" title="Definice typu VectorSortStats." alt="" coords="35,253,148,323"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,322,94,377,89,377,89,322"/>
+<area shape="rect" id="Node000004" href="$group__sortable___t_vector.html#struct_t_vector_sort_stats_item" title="Definice typu VectorSortStatItem." alt="" coords="21,5,162,160"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,159,94,236,89,236,89,159"/>
+</map>

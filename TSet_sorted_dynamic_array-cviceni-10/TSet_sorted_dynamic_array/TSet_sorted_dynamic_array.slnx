@@ -1,0 +1,19 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Documentation/">
+    <File Path="doc/cv11_reports_TSet_sorted_dynamic_array_set1_binary_search.lst" />
+    <File Path="doc/cv11_reports_TSet_sorted_dynamic_array_set1_linear_search_optimized.lst" />
+    <File Path="doc/cv11_reports_TSet_sorted_dynamic_array_set2_binary_search.lst" />
+    <File Path="doc/cv11_reports_TSet_sorted_dynamic_array_set2_linear_search_optimized.lst" />
+    <File Path="doc/cv11_reports_TSet_sorted_dynamic_array_set3_binary_search.lst" />
+    <File Path="doc/cv11_reports_TSet_sorted_dynamic_array_set3_linear_search_optimized.lst" />
+    <File Path="doc/cv11_zadani_TSet_dynamic_array.md" />
+    <File Path="doc/extra_stylesheet.css" />
+    <File Path="doc/project_logo.png" />
+    <File Path="Doxyfile" />
+  </Folder>
+  <Project Path="TSet_sorted_dynamic_array/TSet_sorted_dynamic_array.vcxproj" Id="aec4b364-7a70-4b76-8e38-666b08ac4511" />
+</Solution>

@@ -1,0 +1,16 @@
+<map id="print_element" name="print_element">
+<area shape="rect" id="Node000001" title="Vytisknutí hodnoty elementu v ADT pomocí iterátoru." alt="" coords="5,31,105,57"/>
+<area shape="rect" id="Node000002" href="$group___t_set_element_hashable.html#ga3473fca967dede884b1c910838f2d8df" title="Uložení elementu do souboru." alt="" coords="153,5,304,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,34,137,29,138,35,106,39"/>
+<area shape="rect" id="Node000003" href="$group___t_set_iterator.html#ga3928a980e2759ba130ce333e77f15fab" title="Přečtení hodnoty elementu z množiny pomocí iterátoru." alt="" coords="167,56,290,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="106,49,152,56,151,61,105,54"/>
+<area shape="rect" id="Node000004" href="$group___t_set_hash_table.html#gaf6b548ed4295b1a4789d073b8a43db58" title="Přečtení hodnoty elementu z platné přihrádky v hašovací tabulce." alt="" coords="556,19,701,61"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="290,62,540,44,540,49,290,68"/>
+<area shape="rect" id="Node000006" href="$group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8" title="Zjištění platnosti iterátoru." alt="" coords="352,81,487,108"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="290,75,337,81,336,86,290,80"/>
+<area shape="rect" id="Node000005" href="$_t_set_hash_table_open_addr_8c.html#aa4a90f23bbdbe5bb71a49d7df2ee5fc1" title="Funkce vracející hodnotu reprezentující smazanou přihrádku." alt="" coords="770,48,907,91"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="702,48,754,55,754,60,701,53"/>
+<area shape="rect" id="Node000007" href="$group___t_set_hash_table.html#ga891b531cc6373331e55101f2dd75ac4a" title="Zjištění platnosti pozice v hašovací tabulce." alt="" coords="535,85,722,112"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="488,93,520,94,519,99,488,99"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="722,83,754,78,755,84,722,88"/>
+</map>

@@ -1,0 +1,28 @@
+<map id="testbench.h" name="testbench.h">
+<area shape="rect" id="Node000001" title="Definice testbench API pro testování operací zvoleného ADT." alt="" coords="5,5,95,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="10,304,85,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,32,50,289,45,289,47,32"/>
+<area shape="rect" id="Node000003" href="$_t_set_8h.html" title="Definice typu Set &#45; (realizace unordered množiny pomocí hašovací tabulky)." alt="" coords="71,80,130,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="61,31,86,66,81,69,57,34"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="100,108,56,289,51,288,95,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="87,229,154,256"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="105,107,120,213,114,214,100,108"/>
+<area shape="rect" id="Node000005" href="$_t_set_hash_table_open_addr_8h.html" title="Implementace typu SetHashTable &#45; (hašovací tabulka využívající otevřené adresování)." alt="" coords="138,155,317,181"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="124,105,193,144,191,149,121,110"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="462,304,529,331"/>
+<area shape="poly" id="edge15_Node000003_Node000011" title=" " alt="" coords="131,95,223,112,278,129,330,152,376,184,418,221,479,290,475,293,414,225,373,188,327,157,276,134,222,117,130,100"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="223,183,201,219,168,258,133,282,98,300,95,295,131,277,164,254,197,216,219,181"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="210,184,153,222,150,218,207,180"/>
+<area shape="rect" id="Node000006" href="$_t_set_element_hashable_8h.html" title="Definice typu Hashable Basic SetElement a implementace API." alt="" coords="229,229,391,256"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="243,180,286,217,283,221,240,184"/>
+<area shape="poly" id="edge11_Node000006_Node000002" title=" " alt="" coords="265,259,100,304,99,299,264,254"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="109,304,170,331"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="281,259,184,300,182,295,279,254"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="193,304,256,331"/>
+<area shape="poly" id="edge10_Node000006_Node000008" title=" " alt="" coords="297,259,252,296,249,292,293,255"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="281,304,345,331"/>
+<area shape="poly" id="edge12_Node000006_Node000009" title=" " alt="" coords="313,256,314,288,309,288,308,257"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="369,304,438,331"/>
+<area shape="poly" id="edge13_Node000006_Node000010" title=" " alt="" coords="328,254,377,292,374,297,325,259"/>
+<area shape="poly" id="edge14_Node000006_Node000011" title=" " alt="" coords="343,254,450,295,448,300,341,259"/>
+</map>

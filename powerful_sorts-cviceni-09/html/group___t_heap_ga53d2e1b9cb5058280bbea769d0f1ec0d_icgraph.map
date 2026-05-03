@@ -1,0 +1,8 @@
+<map id="heap_iterator_begin" name="heap_iterator_begin">
+<area shape="rect" id="Node000001" title="Vytvoření nového iterátoru ukazujícího na kořenový uzel haldy." alt="" coords="313,29,447,56"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="414,16,402,10,380,8,360,10,349,15,346,20,351,27,347,30,341,21,345,11,358,5,380,3,404,5,416,12"/>
+<area shape="rect" id="Node000002" href="$group___powerful_sorts.html#ga84762e575f9465881e13d17072186ddd" title="Třídění pomocí haldy (Heap Sort) využívající iterátorové API pro přístup k elementům vektoru." alt="" coords="103,29,265,56"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="297,45,265,45,265,40,297,40"/>
+<area shape="rect" id="Node000003" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,29,55,56"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="87,45,55,45,55,40,87,40"/>
+</map>

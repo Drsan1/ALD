@@ -1,0 +1,9 @@
+<map id="set_iterator_value" name="set_iterator_value">
+<area shape="rect" id="Node000001" title="Přečtení hodnoty elementu z množiny pomocí iterátoru." alt="" coords="5,43,128,69"/>
+<area shape="rect" id="Node000002" href="$group___t_set_sorted_flex_array.html#gaadebcebb81b900d52284e74a28cb6396" title="Přečtení hodnoty elementu z flexibilního pole." alt="" coords="176,5,314,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,43,160,38,161,43,129,49"/>
+<area shape="rect" id="Node000003" href="$group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8" title="Zjištění platnosti iterátoru." alt="" coords="177,72,313,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,63,163,69,162,74,128,69"/>
+<area shape="rect" id="Node000004" href="$group___t_set_sorted_flex_array.html#gacc6cb5e01b187a635190372a370bca56" title="Zjištění platnosti pozice ve flexibilním poli." alt="" coords="362,72,541,99"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="313,83,346,83,346,88,313,88"/>
+</map>

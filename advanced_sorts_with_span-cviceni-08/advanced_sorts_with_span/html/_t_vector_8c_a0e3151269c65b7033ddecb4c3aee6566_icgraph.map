@@ -1,0 +1,18 @@
+<map id="vector_fast_move_positions" name="vector_fast_move_positions">
+<area shape="rect" id="Node000001" title=" " alt="" coords="545,107,725,133"/>
+<area shape="rect" id="Node000002" href="$group__sortable___t_vector.html#ga16623c06371077674f5d4d31e38e42a4" title="Přesun hodnoty elementu vektoru." alt="" coords="334,69,485,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="535,106,485,98,486,93,536,101"/>
+<area shape="rect" id="Node000007" href="$group__sortable___t_vector_iterator.html#gaa3e549d3e67e2168311acc8f4a494cc5" title="Přesun hodnoty elementu vektoru určené dvěma iterátory." alt="" coords="321,132,497,159"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="530,134,498,138,498,133,530,129"/>
+<area shape="rect" id="Node000003" href="$group___basic_sorts.html#gac3903c3fd846908cd362e293ed40582e" title="Třídění přímým vkládáním (Insert Sort)." alt="" coords="147,5,229,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="345,67,229,33,230,28,347,62"/>
+<area shape="rect" id="Node000005" href="$group___advanced_sorts.html#gaee070b00692f425d83eaea28b37bab2b" title="Shellovo třídění vkládáním s ubývajícím krokem (Shell Sort) dle Hibbardovy posloupnosti." alt="" coords="149,56,227,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="318,80,227,74,227,69,318,75"/>
+<area shape="rect" id="Node000006" href="$group___t_span.html#ga8efc8ea3e4f239b6c154cdae03258740" title="Přesun hodnoty elementu Spanu." alt="" coords="115,107,261,133"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="319,101,261,110,260,105,318,95"/>
+<area shape="rect" id="Node000004" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="132,30,56,43,55,37,131,25"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="133,63,54,50,55,45,134,58"/>
+<area shape="rect" id="Node000008" href="$group___t_span.html#ga972048723036512595f461c3ba0a9d21" title="Přesun hodnoty elementu Spanu určené dvěma iterátory." alt="" coords="103,157,273,184"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="306,160,274,164,273,158,305,155"/>
+</map>

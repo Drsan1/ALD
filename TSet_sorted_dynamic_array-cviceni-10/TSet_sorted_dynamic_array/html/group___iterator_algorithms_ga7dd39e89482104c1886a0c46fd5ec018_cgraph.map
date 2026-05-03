@@ -1,0 +1,16 @@
+<map id="set_for_range" name="set_for_range">
+<area shape="rect" id="Node000001" title="Zavolání zvolené funkce na každý element množiny v zadaném rozsahu pozic určených dvěma iterátory." alt="" coords="5,56,105,83"/>
+<area shape="rect" id="Node000002" href="$group___t_set_iterator.html#ga9897d99975ad2adadb6ed86c9018560e" title="Test shodnosti dvou iterátorů" alt="" coords="153,5,294,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,53,161,35,163,40,103,58"/>
+<area shape="rect" id="Node000003" href="$group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8" title="Zjištění platnosti iterátoru." alt="" coords="356,56,491,83"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="105,67,340,67,340,72,105,72"/>
+<area shape="rect" id="Node000005" href="$group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6" title="Posunutí iterátoru vpřed." alt="" coords="155,107,292,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="103,81,163,99,161,104,101,86"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="280,30,354,49,352,54,278,35"/>
+<area shape="rect" id="Node000004" href="$group___t_set_sorted_flex_array.html#gacc6cb5e01b187a635190372a370bca56" title="Zjištění platnosti pozice ve flexibilním poli." alt="" coords="552,81,732,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="491,74,537,80,537,85,491,80"/>
+<area shape="poly" id="edge8_Node000005_Node000003" title=" " alt="" coords="278,103,352,84,354,90,280,109"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="292,113,537,98,537,104,292,119"/>
+<area shape="rect" id="Node000006" href="$group___t_set_sorted_flex_array.html#gaa441922af31d7ed0f08ddc506dc3ab23" title="Výpočet následující platné pozice ve flexibilním poli." alt="" coords="342,157,504,184"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="280,131,354,150,352,156,278,137"/>
+</map>

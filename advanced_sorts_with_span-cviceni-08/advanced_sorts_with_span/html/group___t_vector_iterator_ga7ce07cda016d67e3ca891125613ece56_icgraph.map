@@ -1,0 +1,21 @@
+<map id="vector_iterator_to_next" name="vector_iterator_to_next">
+<area shape="rect" id="Node000001" title="Posunutí iterátoru vpřed." alt="" coords="464,131,617,157"/>
+<area shape="rect" id="Node000002" href="$group___t_span.html#gaee1f79d544008f32cf2030c0d2156c04" title="Posunutí iterátoru vpřed." alt="" coords="270,43,416,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="500,125,415,84,386,72,388,67,417,79,502,120"/>
+<area shape="rect" id="Node000005" href="$group___iterator_algorithms.html#gad9872ced82843c0e0864a8e2547ca579" title="Zavolání zvolené funkce na každý element vektoru od pozice určené iterátorem až do konce vektoru." alt="" coords="288,93,399,120"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="451,130,399,120,400,115,452,125"/>
+<area shape="rect" id="Node000006" href="$group___iterator_algorithms.html#ga914d4c2ad472c0d71a4b5e9265b60e9c" title="Zavolání zvolené funkce na prvních N elementů vektoru od pozice určené iterátorem." alt="" coords="281,168,406,195"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="453,163,407,172,406,167,452,158"/>
+<area shape="rect" id="Node000009" href="$group___iterator_algorithms.html#ga1d2c7d1789945fe998c218ebb8d76004" title="Zavolání zvolené funkce na každý element vektoru v zadaném rozsahu pozic určených dvěma iterátory." alt="" coords="286,219,401,245"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="502,168,417,209,388,221,386,216,415,204,500,163"/>
+<area shape="rect" id="Node000003" href="$group___span_iterator_algorithms.html#gabf4c1673885077ced589e4ba58a411e2" title="Zavolání zvolené funkce na každý element spanu od pozice určené iterátorem až do konce Spanu." alt="" coords="110,5,215,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="260,42,215,32,216,27,261,36"/>
+<area shape="rect" id="Node000004" href="$group___span_iterator_algorithms.html#ga2725f11bb724a94e69ee2060e496a020" title="Zavolání zvolené funkce na prvních N elementů Spanu od pozice určené iterátorem." alt="" coords="103,80,222,107"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="261,76,223,84,222,78,260,70"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="184,67,177,61,162,59,149,61,142,65,140,71,144,78,139,81,135,71,138,62,147,56,162,53,179,56,187,63"/>
+<area shape="poly" id="edge9_Node000006_Node000006" title=" " alt="" coords="374,155,363,149,343,147,324,149,314,153,312,159,317,166,312,169,307,159,310,150,323,143,343,141,365,144,376,150"/>
+<area shape="rect" id="Node000007" href="$group___main_program.html#ga7343209645c93203da0a86613abfed04" title="Testování třídicí metody." alt="" coords="118,168,207,195"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="265,184,207,184,207,179,265,179"/>
+<area shape="rect" id="Node000008" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,168,55,195"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="102,184,55,184,55,179,102,179"/>
+</map>

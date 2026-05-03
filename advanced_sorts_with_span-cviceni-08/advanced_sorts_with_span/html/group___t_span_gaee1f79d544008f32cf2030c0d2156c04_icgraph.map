@@ -1,0 +1,8 @@
+<map id="span_iterator_to_next" name="span_iterator_to_next">
+<area shape="rect" id="Node000001" title="Posunutí iterátoru vpřed." alt="" coords="173,43,319,69"/>
+<area shape="rect" id="Node000002" href="$group___span_iterator_algorithms.html#gabf4c1673885077ced589e4ba58a411e2" title="Zavolání zvolené funkce na každý element spanu od pozice určené iterátorem až do konce Spanu." alt="" coords="12,5,118,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,42,118,32,119,27,164,36"/>
+<area shape="rect" id="Node000003" href="$group___span_iterator_algorithms.html#ga2725f11bb724a94e69ee2060e496a020" title="Zavolání zvolené funkce na prvních N elementů Spanu od pozice určené iterátorem." alt="" coords="5,80,125,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,76,126,84,125,78,163,70"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="96,67,85,61,65,59,46,61,36,65,34,71,39,78,34,81,28,71,32,62,45,55,65,53,87,56,98,62"/>
+</map>

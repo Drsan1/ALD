@@ -1,0 +1,7 @@
+<map id="TSetIterator" name="TSetIterator">
+<area shape="rect" id="Node000001" title="Definice typu SetIterator." alt="" coords="39,309,127,379"/>
+<area shape="rect" id="Node000002" href="$group___t_set.html#struct_t_set" title="Definice typu Set." alt="" coords="37,168,129,237"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,237,86,293,81,293,81,237"/>
+<area shape="rect" id="Node000003" href="$struct_t_set_hash_table.html" title="Úplná definice typu SetHashTable." alt="" coords="5,5,161,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,96,86,151,81,151,81,96"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="vector_value" name="vector_value">
+<area shape="rect" id="Node000001" title="Přečtení hodnoty elementu z vektoru na požadované pozici." alt="" coords="406,80,498,107"/>
+<area shape="rect" id="Node000002" href="$group___basic_sorts.html#gac3903c3fd846908cd362e293ed40582e" title="Třídění přímým vkládáním (Insert Sort)." alt="" coords="254,5,336,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="412,75,357,46,331,35,333,30,359,42,414,70"/>
+<area shape="rect" id="Node000004" href="$advanced__sorts_8c.html#a0ae77c9640aa821e5507079ec5d2eb1d" title="Vnitřní a lokální funkce realizující rekurzivní pracovní funkci pro metodu (Quick Sort)." alt="" coords="232,80,358,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="391,96,359,96,359,91,391,91"/>
+<area shape="rect" id="Node000006" href="$group___advanced_sorts.html#gaee070b00692f425d83eaea28b37bab2b" title="Shellovo třídění vkládáním s ubývajícím krokem (Shell Sort) dle Hibbardovy posloupnosti." alt="" coords="105,131,182,157"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="392,114,359,121,264,136,183,144,182,139,263,130,358,116,391,108"/>
+<area shape="rect" id="Node000003" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,80,55,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,34,103,71,56,87,54,82,102,65,238,29"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="321,67,312,61,295,59,280,61,271,65,269,71,273,78,269,81,264,71,267,62,278,56,295,53,314,56,323,63"/>
+<area shape="rect" id="Node000005" href="$group___advanced_sorts.html#gaa369b74c9050d30aa2416f9dba8cc8f5" title="Rychlé třídění výměnou (Quick Sort) s volbou prostředního elementu jako pivota." alt="" coords="103,80,184,107"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="216,96,184,96,184,91,216,91"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="87,96,55,96,55,91,87,91"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="97,126,54,107,56,102,99,122"/>
+</map>

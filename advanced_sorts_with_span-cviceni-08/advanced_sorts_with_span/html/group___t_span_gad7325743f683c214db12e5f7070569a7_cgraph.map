@@ -1,0 +1,9 @@
+<map id="span_iterator_set_value" name="span_iterator_set_value">
+<area shape="rect" id="Node000001" title="Zapsání hodnoty elementu do Spanu pomocí iterátoru." alt="" coords="5,35,163,61"/>
+<area shape="rect" id="Node000002" href="$group___t_vector_iterator.html#ga66f6b96e416a7e593b1cf703f58be7ca" title="Zapsání hodnoty elementu do vektoru pomocí iterátoru." alt="" coords="211,27,338,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,45,195,45,195,51,163,51"/>
+<area shape="rect" id="Node000003" href="$_t_vector_8c.html#a689bf71829922c70ca1964e125e94217" title=" " alt="" coords="386,5,530,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,35,370,30,371,35,339,40"/>
+<area shape="rect" id="Node000004" href="$group___t_vector_iterator.html#ga3f8a97a63f887539e270f6845bf22b9a" title="Zjištění platnosti iterátoru." alt="" coords="399,56,518,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="339,56,384,63,383,68,338,61"/>
+</map>

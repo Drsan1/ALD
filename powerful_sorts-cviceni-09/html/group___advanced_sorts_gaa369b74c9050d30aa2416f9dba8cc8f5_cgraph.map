@@ -1,0 +1,22 @@
+<map id="quick_sort" name="quick_sort">
+<area shape="rect" id="Node000001" title="Rychlé třídění výměnou (Quick Sort) s volbou prostředního elementu jako pivota." alt="" coords="5,97,87,124"/>
+<area shape="rect" id="Node000002" href="$advanced__sorts_8c.html#a0ae77c9640aa821e5507079ec5d2eb1d" title="Vnitřní a lokální funkce realizující rekurzivní pracovní funkci pro metodu (Quick Sort)." alt="" coords="135,72,261,99"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,101,119,96,120,101,88,107"/>
+<area shape="rect" id="Node000010" href="$group___t_vector.html#ga2502e6ec116dbac5e49f5b62b07dc898" title="Přečtení počtu elementů vektoru." alt="" coords="155,123,241,149"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="88,115,140,124,139,129,87,120"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="171,73,167,63,170,54,181,48,198,45,216,48,226,55,223,59,214,53,198,51,182,53,174,57,172,63,176,70"/>
+<area shape="rect" id="Node000003" href="$group__sortable___t_vector.html#ga09e150aa4cdd8faabf43474ab1dbe454" title="Porovnání mezi hodnotou elementu vektoru a hodnotou typu VectorElement." alt="" coords="309,5,473,48"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="244,69,304,50,305,56,245,74"/>
+<area shape="rect" id="Node000006" href="$group__sortable___t_vector.html#gac1982d8a0e5f66f933dc6a0413f2d23e" title="Výměna hodnot elementů vektorů" alt="" coords="316,72,467,99"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="262,83,300,83,300,88,262,88"/>
+<area shape="rect" id="Node000008" href="$group___t_vector.html#ga2b08236d9825632cd96bcc89faed929c" title="Přečtení hodnoty elementu z vektoru na požadované pozici." alt="" coords="346,123,437,149"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="252,97,331,118,330,123,251,102"/>
+<area shape="rect" id="Node000004" href="$_t_vector_8c.html#a8254190a2b4fe570173cc77dba0ee7a4" title=" " alt="" coords="541,5,681,48"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="474,24,525,24,525,29,474,29"/>
+<area shape="rect" id="Node000005" href="$group___t_vector_element.html#ga82e527836fce12c93af896f65e9f701d" title="Porovnání dvou elementů" alt="" coords="749,13,929,40"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="682,24,733,24,733,29,682,29"/>
+<area shape="rect" id="Node000007" href="$_t_vector_8c.html#ac70bbb23ab1ec16b867b3e33d40ae1c4" title=" " alt="" coords="521,72,701,99"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="467,83,506,83,506,88,467,88"/>
+<area shape="rect" id="Node000009" href="$_t_vector_8c.html#a0fe5f1145e51f154b5470d640c5d682c" title=" " alt="" coords="551,123,671,149"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="437,133,536,133,536,139,437,139"/>
+</map>

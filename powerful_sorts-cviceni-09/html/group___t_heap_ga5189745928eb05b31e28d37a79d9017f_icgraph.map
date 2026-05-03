@@ -1,0 +1,13 @@
+<map id="heap_move_positions" name="heap_move_positions">
+<area shape="rect" id="Node000001" title="Přesun hodnot mezi uzly haldy." alt="" coords="581,81,726,108"/>
+<area shape="rect" id="Node000002" href="$heap__sort_8c.html#a948b3682a8b10b32c1a1a0f2288fa0f8" title="Vnitřní a lokální funkce zajišťující algoritmus vložení hodnoty do zvoleného uzlu haldy,..." alt="" coords="398,56,533,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="565,85,532,81,533,76,566,80"/>
+<area shape="rect" id="Node000004" href="$group___powerful_sorts.html#gaf564949cc194e5feea63d6c2aaa3125a" title="Třídění pomocí haldy (Heap Sort) využívající poziční API pro přístup k elementům vektoru." alt="" coords="103,56,181,83"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="566,99,398,97,279,88,181,77,182,72,280,83,398,92,566,94"/>
+<area shape="rect" id="Node000003" href="$heap__sort_8c.html#a8f4c495d0a6bdd0fb4bf6e5bb22299dd" title="Vnitřní a lokální funkce realizující algoritmus uspořádání elementů vektoru do haldy." alt="" coords="229,5,350,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="401,54,338,35,339,30,402,48"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="383,72,182,72,182,67,383,67"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="235,40,182,58,181,53,233,35"/>
+<area shape="rect" id="Node000005" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+</map>

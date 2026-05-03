@@ -1,0 +1,7 @@
+<map id="testbench.h" name="testbench.h">
+<area shape="rect" id="Node000001" title="Definice testbench API pro testování operací zvoleného ADT." alt="" coords="40,5,130,32"/>
+<area shape="rect" id="Node000002" href="$main_8c.html" title="Hlavní program pro testování ADT TSet &#45; (realizace množiny pomocí nesetříděného pole)." alt="" coords="5,80,66,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,47,46,81,42,78,65,44"/>
+<area shape="rect" id="Node000003" href="$testbench_8c.html" title="Implementace testbench API pro testování operací zvoleného ADT." alt="" coords="90,80,179,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,44,128,78,123,81,100,47"/>
+</map>

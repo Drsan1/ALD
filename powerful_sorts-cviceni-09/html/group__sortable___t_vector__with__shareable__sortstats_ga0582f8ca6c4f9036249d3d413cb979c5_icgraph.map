@@ -1,0 +1,9 @@
+<map id="vector_iterator_is_equal" name="vector_iterator_is_equal">
+<area shape="rect" id="Node000001" title="Test shodnosti dvou iterátorů" alt="" coords="205,48,324,91"/>
+<area shape="rect" id="Node000002" href="$group___t_heap.html#ga25c0a1a3e3d287c0d8894ebc8b7f29ca" title="Test shodnosti dvou iterátorů" alt="" coords="5,5,157,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,51,131,35,133,30,191,46"/>
+<area shape="rect" id="Node000003" href="$group___t_span.html#ga798f020061122cbc5fcc57d4aebc8232" title="Test shodnosti dvou iterátorů" alt="" coords="5,56,157,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,72,157,72,157,67,189,67"/>
+<area shape="rect" id="Node000004" href="$group___iterator_algorithms.html#ga1d2c7d1789945fe998c218ebb8d76004" title="Zavolání zvolené funkce na každý element vektoru v zadaném rozsahu pozic určených dvěma iterátory." alt="" coords="23,107,139,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="191,92,133,109,131,103,189,87"/>
+</map>

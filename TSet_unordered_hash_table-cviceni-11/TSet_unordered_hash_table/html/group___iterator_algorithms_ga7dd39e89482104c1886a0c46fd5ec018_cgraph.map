@@ -1,0 +1,19 @@
+<map id="set_for_range" name="set_for_range">
+<area shape="rect" id="Node000001" title="Zavolání zvolené funkce na každý element množiny v zadaném rozsahu pozic určených dvěma iterátory." alt="" coords="5,56,105,83"/>
+<area shape="rect" id="Node000002" href="$group___t_set_iterator.html#ga9897d99975ad2adadb6ed86c9018560e" title="Test shodnosti dvou iterátorů" alt="" coords="153,5,294,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,53,161,35,163,40,103,58"/>
+<area shape="rect" id="Node000003" href="$group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8" title="Zjištění platnosti iterátoru." alt="" coords="342,56,477,83"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="105,67,327,67,327,72,105,72"/>
+<area shape="rect" id="Node000006" href="$group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6" title="Posunutí iterátoru vpřed." alt="" coords="155,107,292,133"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="103,81,163,99,161,104,101,86"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="276,30,344,49,343,54,275,35"/>
+<area shape="rect" id="Node000004" href="$group___t_set_hash_table.html#ga891b531cc6373331e55101f2dd75ac4a" title="Zjištění platnosti pozice v hašovací tabulce." alt="" coords="525,107,712,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="469,81,546,100,545,105,467,86"/>
+<area shape="rect" id="Node000005" href="$_t_set_hash_table_open_addr_8c.html#aa4a90f23bbdbe5bb71a49d7df2ee5fc1" title="Funkce vracející hodnotu reprezentující smazanou přihrádku." alt="" coords="760,124,897,167"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="712,129,745,133,744,138,712,134"/>
+<area shape="poly" id="edge10_Node000006_Node000003" title=" " alt="" coords="275,103,343,85,344,90,276,109"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="292,117,510,117,510,123,292,123"/>
+<area shape="rect" id="Node000007" href="$group___t_set_hash_table.html#ga9218e24d2cc5a61596c4a45ef76f4c75" title="Výpočet následující pozice platné přihrádky v hašovací tabulce." alt="" coords="534,157,703,184"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="292,126,518,155,518,161,292,131"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="703,158,744,153,745,158,704,163"/>
+</map>

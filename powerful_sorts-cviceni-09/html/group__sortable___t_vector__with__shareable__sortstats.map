@@ -1,0 +1,6 @@
+<map id="2.2. Doplnění pro Sortable Vector o vlastnost sdílení statistik třídění" name="2.2. Doplnění pro Sortable Vector o vlastnost sdílení statistik třídění">
+<area shape="rect" id="Node000004" href="$group___t_heap.html" title="Definice typu Heap, který umožňuje přístup k elementům vektoru jako k uzlům haldy (vyžaduje Sortable ..." alt="" coords="368,5,513,80"/>
+<area shape="rect" id="Node000003" href="$group___t_span.html" title="Definice typu Span, který umožňuje přístup k omezené části vektoru (vyžaduje Sortable Vector s vlastn..." alt="" coords="357,104,523,163"/>
+<area shape="rect" id="Node000002" href="$group___t_vector.html" title="Definice datového typu Vector a jeho funkcí" alt="" coords="5,75,80,101"/>
+<area shape="rect" id="Node000001" title="Definice typu Vector (sortable_with_shareable_sortstats), popis jeho nově doplněných vlastností a fun..." alt="" coords="128,59,309,117"/>
+</map>

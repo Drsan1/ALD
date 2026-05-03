@@ -1,0 +1,18 @@
+<map id="set_size" name="set_size">
+<area shape="rect" id="Node000001" title="Přečtení počtu elementů množiny." alt="" coords="608,93,678,120"/>
+<area shape="rect" id="Node000002" href="$group___t_set.html#ga2f7fd9486a5c300158d70dc79c6c6c8f" title="Zjištění, zda je množina prázdná" alt="" coords="460,93,560,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="592,109,560,109,560,104,592,104"/>
+<area shape="rect" id="Node000003" href="$group___t_set.html#ga2a711b02282ff309c0d6a4fdcfbac738" title="Odstranění elementu z množiny." alt="" coords="310,5,388,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="471,87,411,53,376,35,379,30,414,48,474,83"/>
+<area shape="rect" id="Node000004" href="$group___main_program.html#ga59363e824664d6f3ebb09b0cd5c44a28" title=" " alt="" coords="103,56,238,83"/>
+<area shape="poly" id="edge9_Node000002_Node000004" title=" " alt="" coords="444,101,412,97,238,79,239,73,413,92,445,96"/>
+<area shape="rect" id="Node000006" href="$group___t_set.html#ga1dab52afdffe1147063314f7cdc5a7c8" title="Získání nového iterátoru ukazujícího na první element se zadanou hodnotou v množině,..." alt="" coords="316,131,382,157"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="446,124,383,139,382,134,445,119"/>
+<area shape="rect" id="Node000007" href="$group___t_set.html#ga768d36614713a921e88985484ac63cc1" title="Zjištění, zda množina obsahuje zadanou hodnotu elementu." alt="" coords="286,181,412,208"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="479,131,414,172,389,183,387,178,411,167,476,127"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="296,36,221,58,219,53,294,31"/>
+<area shape="rect" id="Node000005" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="376,118,367,112,349,109,333,111,324,116,322,121,326,129,321,131,316,122,320,112,331,106,349,104,369,107,379,113"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="293,177,285,172,226,127,183,85,186,81,229,123,287,167,296,172"/>
+</map>

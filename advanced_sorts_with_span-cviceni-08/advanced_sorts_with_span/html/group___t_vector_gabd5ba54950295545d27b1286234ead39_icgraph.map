@@ -1,0 +1,12 @@
+<map id="vector_set_value" name="vector_set_value">
+<area shape="rect" id="Node000001" title="Zapsání hodnoty elementu do vektoru na požadovanou pozici." alt="" coords="261,56,377,83"/>
+<area shape="rect" id="Node000002" href="$group___basic_sorts.html#gac3903c3fd846908cd362e293ed40582e" title="Třídění přímým vkládáním (Insert Sort)." alt="" coords="117,5,199,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,53,199,34,200,29,261,48"/>
+<area shape="rect" id="Node000004" href="$group___advanced_sorts.html#gaee070b00692f425d83eaea28b37bab2b" title="Shellovo třídění vkládáním s ubývajícím krokem (Shell Sort) dle Hibbardovy posloupnosti." alt="" coords="119,56,197,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="245,72,197,72,197,67,245,67"/>
+<area shape="rect" id="Node000005" href="$group___t_span.html#ga56e402bae9f24dffb084212da636a128" title="Zapsání hodnoty elementu do Spanu na požadovanou pozici." alt="" coords="103,107,213,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="260,91,204,109,202,104,259,85"/>
+<area shape="rect" id="Node000003" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,32,56,42,55,37,101,27"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="103,61,55,51,56,46,104,56"/>
+</map>

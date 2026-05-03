@@ -1,0 +1,39 @@
+<map id="vector_element_comparator" name="vector_element_comparator">
+<area shape="rect" id="Node000001" title="Porovnání dvou elementů" alt="" coords="666,363,846,389"/>
+<area shape="rect" id="Node000002" href="$group__sortable___t_vector.html#ga09e150aa4cdd8faabf43474ab1dbe454" title="Porovnání mezi hodnotou elementu vektoru a hodnotou typu VectorElement." alt="" coords="450,111,614,153"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="730,353,551,155,555,152,734,350"/>
+<area shape="rect" id="Node000009" href="$group__sortable___t_vector.html#gaedaf9c79afa345e5e71e5c66ab25fa26" title="Porovnání hodnot elementů vektorů" alt="" coords="446,363,618,389"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="650,379,618,379,618,373,650,373"/>
+<area shape="rect" id="Node000016" href="$group__sortable___t_vector.html#ga1b7a4850be6488c69c293bdd13f729a7" title="Ověření korektního setřídění vektoru." alt="" coords="457,493,607,536"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="721,400,570,495,567,491,718,396"/>
+<area shape="rect" id="Node000003" href="$group___basic_sorts.html#gac3903c3fd846908cd362e293ed40582e" title="Třídění přímým vkládáním (Insert Sort)." alt="" coords="106,5,189,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="498,102,453,65,426,48,397,35,343,20,286,14,233,14,189,16,189,11,233,8,287,9,344,15,399,29,428,43,456,60,501,98"/>
+<area shape="rect" id="Node000005" href="$advanced__sorts_8c.html#a0ae77c9640aa821e5507079ec5d2eb1d" title="Vnitřní a lokální funkce realizující rekurzivní pracovní funkci pro metodu (Quick Sort)." alt="" coords="256,68,382,95"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="434,111,377,98,379,93,435,106"/>
+<area shape="rect" id="Node000007" href="$group___advanced_sorts.html#gaee070b00692f425d83eaea28b37bab2b" title="Shellovo třídění vkládáním s ubývajícím krokem (Shell Sort) dle Hibbardovy posloupnosti." alt="" coords="109,119,186,145"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="434,135,186,135,186,129,434,129"/>
+<area shape="rect" id="Node000008" href="$group__sortable___t_vector_iterator.html#gaa359594c5556fb685473666fad583ddf" title="Porovnání mezi hodnotou elementu vektoru určenou iterátorem a hodnotou typu VectorElement." alt="" coords="248,169,390,212"/>
+<area shape="poly" id="edge10_Node000002_Node000008" title=" " alt="" coords="439,160,392,174,390,168,437,155"/>
+<area shape="rect" id="Node000004" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,93,55,120"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="118,44,51,95,48,91,114,40"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="348,55,338,49,319,47,301,49,292,53,290,59,294,66,290,69,284,59,288,50,300,44,319,41,340,44,351,50"/>
+<area shape="rect" id="Node000006" href="$group___advanced_sorts.html#gaa369b74c9050d30aa2416f9dba8cc8f5" title="Rychlé třídění výměnou (Quick Sort) s volbou prostředního elementu jako pivota." alt="" coords="107,68,188,95"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="241,84,189,84,189,79,241,79"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="92,96,56,104,55,99,91,91"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="93,123,55,115,56,109,94,118"/>
+<area shape="rect" id="Node000010" href="$group___basic_sorts.html#gaa1ef093f5205f293df8303ac228452fc" title="Třídění přímou výměnou (Bubble Sort)." alt="" coords="275,236,363,263"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="503,354,456,315,397,277,363,263,365,258,400,272,459,311,507,350"/>
+<area shape="rect" id="Node000011" href="$group___basic_sorts.html#ga62a36eb31bf0a873f7c027e145843b1a" title="Třídění přímou výměnou včetně optimalizace s pomocným příznakem ukončení třídění (Bubble Sort Optimiz..." alt="" coords="244,287,395,313"/>
+<area shape="poly" id="edge13_Node000009_Node000011" title=" " alt="" coords="481,359,397,328,364,316,366,311,399,323,483,354"/>
+<area shape="rect" id="Node000012" href="$group___basic_sorts.html#gaba41a68f00241f38f7864b4e1dacd086" title="Třídění přímou výměnou včetně optimalizace s výpočtem indexu poslední změny (Bubble Sort Optimized2)." alt="" coords="240,337,398,364"/>
+<area shape="poly" id="edge14_Node000009_Node000012" title=" " alt="" coords="430,367,399,363,399,357,431,361"/>
+<area shape="rect" id="Node000013" href="$group___basic_sorts.html#ga3688a58781905ac2e518285b8bb711ec" title="Třídění přímým výběrem (Select Sort)." alt="" coords="277,388,362,415"/>
+<area shape="poly" id="edge15_Node000009_Node000013" title=" " alt="" coords="431,391,363,399,362,394,431,385"/>
+<area shape="rect" id="Node000014" href="$group___basic_sorts.html#gaacee5d609500566a6ad1724486ab8bb2" title="Třídění přímou výměnou se změnou postupu třídění (Shaker Sort)." alt="" coords="275,439,364,465"/>
+<area shape="poly" id="edge16_Node000009_Node000014" title=" " alt="" coords="483,398,399,429,365,441,363,436,397,424,481,393"/>
+<area shape="rect" id="Node000015" href="$group__sortable___t_vector_iterator.html#gadd8aded92ce2c6402742a57316412d39" title="Porovnání hodnot elementů vektorů určených dvěma iterátory." alt="" coords="248,489,390,532"/>
+<area shape="poly" id="edge17_Node000009_Node000015" title=" " alt="" coords="506,402,458,440,400,480,377,491,375,486,397,475,455,436,502,398"/>
+<area shape="rect" id="Node000017" href="$group___main_program.html#ga7343209645c93203da0a86613abfed04" title="Testování třídicí metody." alt="" coords="103,363,192,389"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="468,544,416,560,356,569,296,567,266,559,239,546,218,531,200,512,174,468,157,424,149,390,154,389,162,422,179,465,205,508,222,527,241,542,268,554,296,562,356,564,415,555,466,539"/>
+<area shape="poly" id="edge20_Node000017_Node000004" title=" " alt="" coords="132,349,35,121,39,119,137,347"/>
+</map>

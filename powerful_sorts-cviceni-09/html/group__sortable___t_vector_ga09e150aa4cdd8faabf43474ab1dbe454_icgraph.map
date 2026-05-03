@@ -1,0 +1,28 @@
+<map id="vector_compare_position_value" name="vector_compare_position_value">
+<area shape="rect" id="Node000001" title="Porovnání mezi hodnotou elementu vektoru a hodnotou typu VectorElement." alt="" coords="791,173,955,216"/>
+<area shape="rect" id="Node000002" href="$group___t_heap.html#ga3651a742b0492e167a3be5db0183f896" title="Porovnání mezi hodnotou v uzlu haldy a hodnotou typu HeapElement." alt="" coords="585,40,743,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="831,166,742,104,709,86,712,81,744,99,834,162"/>
+<area shape="rect" id="Node000007" href="$group___basic_sorts.html#gac3903c3fd846908cd362e293ed40582e" title="Třídění přímým vkládáním (Insert Sort)." alt="" coords="103,109,185,136"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="811,169,742,148,664,135,582,125,423,117,285,118,186,122,185,117,285,113,424,112,583,120,664,129,744,143,812,164"/>
+<area shape="rect" id="Node000008" href="$advanced__sorts_8c.html#a0ae77c9640aa821e5507079ec5d2eb1d" title="Vnitřní a lokální funkce realizující rekurzivní pracovní funkci pro metodu (Quick Sort)." alt="" coords="601,181,727,208"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="776,197,727,197,727,192,776,192"/>
+<area shape="rect" id="Node000010" href="$group___advanced_sorts.html#gaee070b00692f425d83eaea28b37bab2b" title="Shellovo třídění vkládáním s ubývajícím krokem (Shell Sort) dle Hibbardovy posloupnosti." alt="" coords="255,231,332,257"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="776,218,743,223,626,234,510,241,333,246,333,241,510,236,626,229,743,217,775,212"/>
+<area shape="rect" id="Node000011" href="$group___t_span.html#ga3308f7ff69e56d5ab56f6614984fc5dd" title="Porovnání mezi hodnotou elementu Span a hodnotou typu VectorElement." alt="" coords="585,283,743,325"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="820,226,744,266,709,285,707,280,742,262,818,221"/>
+<area shape="rect" id="Node000003" href="$heap__sort_8c.html#a948b3682a8b10b32c1a1a0f2288fa0f8" title="Vnitřní a lokální funkce zajišťující algoritmus vložení hodnoty do zvoleného uzlu haldy,..." alt="" coords="402,48,537,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="569,64,537,64,537,59,569,59"/>
+<area shape="rect" id="Node000004" href="$heap__sort_8c.html#a8f4c495d0a6bdd0fb4bf6e5bb22299dd" title="Vnitřní a lokální funkce realizující algoritmus uspořádání elementů vektoru do haldy." alt="" coords="233,5,354,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="396,46,351,35,352,30,397,41"/>
+<area shape="rect" id="Node000005" href="$group___powerful_sorts.html#gaf564949cc194e5feea63d6c2aaa3125a" title="Třídění pomocí haldy (Heap Sort) využívající poziční API pro přístup k elementům vektoru." alt="" coords="105,56,183,83"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="387,66,183,71,183,66,387,61"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="239,40,184,59,183,54,237,35"/>
+<area shape="rect" id="Node000006" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,140,55,167"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="112,94,104,99,50,142,47,138,101,95,108,90"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="89,140,56,149,54,144,87,135"/>
+<area shape="poly" id="edge12_Node000008_Node000008" title=" " alt="" coords="697,168,685,162,664,160,644,162,633,167,630,172,635,179,631,182,625,173,629,163,642,157,664,155,687,157,699,164"/>
+<area shape="rect" id="Node000009" href="$group___advanced_sorts.html#gaa369b74c9050d30aa2416f9dba8cc8f5" title="Rychlé třídění výměnou (Quick Sort) s volbou prostředního elementu jako pivota." alt="" coords="429,173,510,200"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="585,194,510,191,511,186,585,189"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="413,185,55,158,55,152,413,180"/>
+<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="239,238,173,223,102,200,49,169,51,165,104,195,174,218,240,233"/>
+</map>

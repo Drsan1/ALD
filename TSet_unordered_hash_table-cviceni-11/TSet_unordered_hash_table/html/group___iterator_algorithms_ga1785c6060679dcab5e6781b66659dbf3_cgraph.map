@@ -1,0 +1,17 @@
+<map id="set_find_if" name="set_find_if">
+<area shape="rect" id="Node000001" title="Vyhledání prvního elementu množiny splňujícího zadaný predikát." alt="" coords="5,31,85,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="18,31,13,22,16,12,27,6,45,4,64,7,74,13,71,18,62,12,45,9,29,11,21,16,18,21,23,29"/>
+<area shape="rect" id="Node000002" href="$group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8" title="Zjištění platnosti iterátoru." alt="" coords="317,5,452,32"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="85,38,301,22,302,27,85,44"/>
+<area shape="rect" id="Node000005" href="$group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6" title="Posunutí iterátoru vpřed." alt="" coords="133,56,269,83"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="85,48,118,53,117,58,85,53"/>
+<area shape="rect" id="Node000003" href="$group___t_set_hash_table.html#ga891b531cc6373331e55101f2dd75ac4a" title="Zjištění platnosti pozice v hašovací tabulce." alt="" coords="500,56,687,83"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="444,30,521,49,520,54,442,35"/>
+<area shape="rect" id="Node000004" href="$_t_set_hash_table_open_addr_8c.html#aa4a90f23bbdbe5bb71a49d7df2ee5fc1" title="Funkce vracející hodnotu reprezentující smazanou přihrádku." alt="" coords="735,73,872,116"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="687,78,720,82,719,87,687,83"/>
+<area shape="poly" id="edge9_Node000005_Node000002" title=" " alt="" coords="251,53,318,34,319,39,253,58"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="270,67,485,67,485,72,270,72"/>
+<area shape="rect" id="Node000006" href="$group___t_set_hash_table.html#ga9218e24d2cc5a61596c4a45ef76f4c75" title="Výpočet následující pozice platné přihrádky v hašovací tabulce." alt="" coords="509,107,678,133"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="270,75,494,104,493,110,269,81"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="678,107,719,102,720,107,679,112"/>
+</map>

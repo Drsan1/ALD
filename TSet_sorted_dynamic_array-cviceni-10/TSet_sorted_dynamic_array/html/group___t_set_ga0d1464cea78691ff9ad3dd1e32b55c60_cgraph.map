@@ -1,0 +1,9 @@
+<map id="set_insert" name="set_insert">
+<area shape="rect" id="Node000001" title="Vložení elementu do množiny." alt="" coords="5,5,84,32"/>
+<area shape="rect" id="Node000002" href="$group___t_set_sorted_flex_array.html#gaf760b563964085504a0ae13ea660555f" title="Vložení elementu do flexibilního pole." alt="" coords="132,5,273,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,16,116,16,116,21,84,21"/>
+<area shape="rect" id="Node000003" href="$group___t_set_sorted_flex_array.html#ga4462d6617422f696dd090a9cc3916282" title="Funkce zjišťující, zda flexibilní pole obsahuje element o zadané hodnotě" alt="" coords="321,5,469,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="273,16,306,16,306,21,273,21"/>
+<area shape="rect" id="Node000004" href="$group___t_set_element.html#gad8cfc9a36f36c44c10b660c5b370f67e" title="Porovnání dvou elementů" alt="" coords="517,5,682,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="470,16,502,16,502,21,470,21"/>
+</map>

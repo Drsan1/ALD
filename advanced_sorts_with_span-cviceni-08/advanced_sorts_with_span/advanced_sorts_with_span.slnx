@@ -1,0 +1,20 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Documentation/">
+    <File Path="doc/cv09_reports_quick_sort_data1.lst" />
+    <File Path="doc/cv09_reports_quick_sort_data2.lst" />
+    <File Path="doc/cv09_reports_quick_sort_data3.lst" />
+    <File Path="doc/cv09_reports_quick_sort_data4.lst" />
+    <File Path="doc/cv09_reports_reversed_data.lst" />
+    <File Path="doc/cv09_reports_select_sort_data.lst" />
+    <File Path="doc/cv09_reports_sorted_data.lst" />
+    <File Path="doc/cv09_zadani_advanced_sorts.md" />
+    <File Path="doc/extra_stylesheet.css" />
+    <File Path="doc/project_logo.png" />
+    <File Path="Doxyfile" />
+  </Folder>
+  <Project Path="advanced_sorts_with_span/advanced_sorts_with_span.vcxproj" Id="fa7b061b-a894-4605-a31a-f9a836d190b7" />
+</Solution>

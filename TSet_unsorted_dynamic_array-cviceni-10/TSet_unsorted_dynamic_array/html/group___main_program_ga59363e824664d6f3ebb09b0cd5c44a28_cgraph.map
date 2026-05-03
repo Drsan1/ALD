@@ -1,0 +1,62 @@
+<map id="testset2_hardcoded" name="testset2_hardcoded">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,309,141,336"/>
+<area shape="rect" id="Node000002" href="$main__support_8h.html#a2d31e17cb6a745a38f21a15a8b9f6142" title="Konverzní funkce z hodnoty typu bool na C&#45;řetězec." alt="" coords="197,5,307,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,309,83,259,103,189,136,111,159,75,187,42,190,39,194,43,191,46,164,78,141,114,108,190,88,261,79,310"/>
+<area shape="rect" id="Node000003" href="$testbench_8c.html#a68bb846e665ae25f0855b12907c6f7b0" title="Vytisknutí hodnoty elementu v ADT pomocí iterátoru." alt="" coords="202,56,302,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="76,308,89,269,111,214,144,154,187,99,200,89,203,93,191,103,148,157,116,216,94,271,81,310"/>
+<area shape="rect" id="Node000005" href="$group___t_set_iterator.html#ga3928a980e2759ba130ce333e77f15fab" title="Přečtení hodnoty elementu z množiny pomocí iterátoru." alt="" coords="386,107,508,133"/>
+<area shape="poly" id="edge35_Node000001_Node000005" title=" " alt="" coords="76,308,90,275,113,231,145,186,165,166,187,150,231,129,279,117,327,112,370,111,370,116,327,117,280,122,233,134,190,154,168,170,149,190,117,234,95,277,81,310"/>
+<area shape="rect" id="Node000007" href="$group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8" title="Zjištění platnosti iterátoru." alt="" coords="593,187,728,213"/>
+<area shape="poly" id="edge33_Node000001_Node000007" title=" " alt="" coords="79,308,95,282,119,249,150,218,187,194,240,175,294,163,350,157,405,156,509,165,594,180,593,185,508,170,405,161,350,162,295,168,241,180,190,198,153,222,123,253,100,285,84,310"/>
+<area shape="rect" id="Node000009" href="$group___t_set.html#ga8094d1ab68434b8413cd905895ff37ae" title="Deinicializace množiny." alt="" coords="207,309,297,336"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="141,320,192,320,192,325,141,325"/>
+<area shape="rect" id="Node000011" href="$group___t_set.html#ga2a711b02282ff309c0d6a4fdcfbac738" title="Odstranění elementu z množiny." alt="" coords="213,461,291,488"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="86,335,127,388,157,420,190,447,200,453,197,458,187,451,153,423,123,392,81,338"/>
+<area shape="rect" id="Node000015" href="$group___t_set.html#ga2f7fd9486a5c300158d70dc79c6c6c8f" title="Zjištění, zda je množina prázdná" alt="" coords="398,512,497,539"/>
+<area shape="poly" id="edge29_Node000001_Node000015" title=" " alt="" coords="81,335,94,370,116,415,148,461,168,481,190,498,236,518,287,529,336,533,382,531,382,536,336,538,286,534,235,523,187,502,164,485,144,464,111,418,89,372,76,337"/>
+<area shape="rect" id="Node000017" href="$group___iterator_algorithms.html#gab8ba369b42eda61d010f35df73be73db" title="Zavolání zvolené funkce na každý element množiny od pozice určené iterátorem až do posledního element..." alt="" coords="204,208,300,235"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="95,307,187,251,208,240,210,245,190,256,97,311"/>
+<area shape="rect" id="Node000018" href="$group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6" title="Posunutí iterátoru vpřed." alt="" coords="379,259,515,285"/>
+<area shape="poly" id="edge34_Node000001_Node000018" title=" " alt="" coords="131,306,188,295,278,283,363,275,363,280,279,288,189,300,132,311"/>
+<area shape="rect" id="Node000020" href="$group___t_set.html#ga674fb4a9d4cac982bca65b8b264b04b5" title="Inicializace prázdné množiny." alt="" coords="220,563,284,589"/>
+<area shape="poly" id="edge22_Node000001_Node000020" title=" " alt="" coords="81,336,94,375,116,429,148,489,191,542,208,555,205,560,187,546,144,491,111,432,89,377,76,337"/>
+<area shape="rect" id="Node000021" href="$group___t_set.html#ga0d1464cea78691ff9ad3dd1e32b55c60" title="Vložení elementu do množiny." alt="" coords="213,360,291,387"/>
+<area shape="poly" id="edge23_Node000001_Node000021" title=" " alt="" coords="124,334,198,356,197,361,122,339"/>
+<area shape="rect" id="Node000023" href="$group___t_set.html#ga768d36614713a921e88985484ac63cc1" title="Zjištění, zda množina obsahuje zadanou hodnotu elementu." alt="" coords="189,411,315,437"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="94,334,137,364,190,396,201,402,198,407,187,401,134,369,91,339"/>
+<area shape="rect" id="Node000024" href="$group___t_set_iterator.html#gab11bafbe7585e4bb0bd9ff2353d77765" title="Vytvoření nového iterátoru ukazujícího na první element množiny." alt="" coords="190,637,314,664"/>
+<area shape="poly" id="edge30_Node000001_Node000024" title=" " alt="" coords="80,335,92,382,114,450,147,527,167,565,191,600,218,626,214,630,187,603,163,567,142,529,109,452,87,384,75,337"/>
+<area shape="rect" id="Node000004" href="$group___t_set_element.html#ga3473fca967dede884b1c910838f2d8df" title="Uložení elementu do souboru." alt="" coords="372,56,523,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="302,67,356,67,356,72,302,72"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="302,80,379,100,377,105,301,85"/>
+<area shape="rect" id="Node000006" href="$group___t_set_unsorted_flex_array.html#ga9e462daa460e7e102258837658e80ceb" title="Přečtení hodnoty elementu z flexibilního pole." alt="" coords="591,99,730,141"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="509,117,576,117,576,123,509,123"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="486,131,610,178,608,183,484,136"/>
+<area shape="rect" id="Node000008" href="$group___t_set_unsorted_flex_array.html#gad3346f67be35632c3b0fbd9ea616a0c1" title="Zjištění platnosti pozice ve flexibilním poli." alt="" coords="790,212,969,239"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="729,205,775,211,774,216,728,210"/>
+<area shape="rect" id="Node000010" href="$group___t_set_unsorted_flex_array.html#gad077ee65d964556f86e5dfa4a680bd10" title="Deinicializace flexibilního pole." alt="" coords="371,309,523,336"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="297,320,356,320,356,325,297,325"/>
+<area shape="rect" id="Node000012" href="$group___t_set_unsorted_flex_array.html#ga85a89d1ea648e9219f9c904727c8f7ef" title="Odstranění elementu z flexibilního pole." alt="" coords="377,461,518,488"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="291,472,361,472,361,477,291,477"/>
+<area shape="poly" id="edge14_Node000011_Node000015" title=" " alt="" coords="292,482,383,506,381,511,291,487"/>
+<area shape="rect" id="Node000013" href="$group___t_set_unsorted_flex_array.html#ga5d5631db0bf286d944f4e538a072c2eb" title="Funkce zjišťující, zda flexibilní pole obsahuje element o zadané hodnotě" alt="" coords="586,411,735,437"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="506,458,586,439,587,444,507,463"/>
+<area shape="rect" id="Node000014" href="$group___t_set_element.html#gad8cfc9a36f36c44c10b660c5b370f67e" title="Porovnání dvou elementů" alt="" coords="797,411,962,437"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="735,421,782,421,782,427,735,427"/>
+<area shape="rect" id="Node000016" href="$group___t_set.html#ga213cfb714cece49d955fc452b2aeb186" title="Přečtení počtu elementů množiny." alt="" coords="625,512,696,539"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="497,523,610,523,610,528,497,528"/>
+<area shape="poly" id="edge17_Node000017_Node000007" title=" " alt="" coords="300,216,577,202,578,207,300,222"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="300,231,379,252,377,257,299,236"/>
+<area shape="poly" id="edge21_Node000018_Node000007" title=" " alt="" coords="488,256,603,216,605,221,490,261"/>
+<area shape="poly" id="edge19_Node000018_Node000008" title=" " alt="" coords="515,262,774,234,774,239,516,267"/>
+<area shape="rect" id="Node000019" href="$group___t_set_unsorted_flex_array.html#ga8bc0de187146b066ae844c2278b6e198" title="Výpočet následující platné pozice ve flexibilním poli." alt="" coords="579,288,742,315"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="516,279,564,285,564,291,515,284"/>
+<area shape="rect" id="Node000022" href="$group___t_set_unsorted_flex_array.html#gadd504f9127a4e850da202073bddd6024" title="Vložení elementu do flexibilního pole." alt="" coords="377,360,518,387"/>
+<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="291,371,361,371,361,376,291,376"/>
+<area shape="poly" id="edge25_Node000022_Node000013" title=" " alt="" coords="507,385,587,404,586,409,506,390"/>
+<area shape="poly" id="edge27_Node000023_Node000013" title=" " alt="" coords="315,421,571,421,571,427,315,427"/>
+<area shape="poly" id="edge28_Node000023_Node000015" title=" " alt="" coords="296,436,317,447,332,461,341,474,350,486,364,498,384,507,382,512,362,502,346,489,337,477,328,464,313,452,293,440"/>
+<area shape="poly" id="edge32_Node000024_Node000024" title=" " alt="" coords="221,638,216,629,219,619,232,613,252,611,273,613,285,620,282,624,272,618,252,616,233,618,223,623,221,628,226,636"/>
+<area shape="rect" id="Node000025" href="$group___t_set_unsorted_flex_array.html#ga24753753dacb74f17de6ba082505440c" title="Výpočet první platné pozice ve flexibilním poli." alt="" coords="363,637,531,664"/>
+<area shape="poly" id="edge31_Node000024_Node000025" title=" " alt="" coords="315,648,347,648,347,653,315,653"/>
+</map>

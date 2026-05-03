@@ -1,0 +1,84 @@
+Testbench registered new testplan...
+Testbench checking testplan with 3 test(s)...
+Testbench accepted entire testplan...
+
+Testbench processing Test#0 of 3...
+----- Vlozeni elementu: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9 -----
+
+  Test started...
+  Test finished...
+  All test results was valid. OK :-)
+  Calculation time: 0.000000 seconds.
+
+  Dynamic memory statistics:
+	Allocations:   11, (dif: +11)
+	Reallocations: 0, (dif: +0)
+	Deallocations: 0, (dif: +0)
+
+	Now allocated:       2096 b, (dif: +2096 b)
+	Totally allocated:   2096 b, (dif: +2096 b)
+	Totally deallocated: 0 b, (dif: +0 b)
+
+  TSetElement comparisons: 1, (dif: +1)
+
+
+Testbench processing Test#1 of 3...
+----- Test pritomnosti elementu: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9 -----
+
+  Test started...
+  Test finished...
+  All test results was valid. OK :-)
+  Calculation time: 0.000000 seconds.
+
+  TSetElement comparisons: 12, (dif: +11)
+
+
+Testbench processing Test#2 of 3...
+----- Odebrani elementu: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9 -----
+
+  Test started...
+  Test finished...
+  All test results was valid. OK :-)
+  Calculation time: 0.000000 seconds.
+
+  Dynamic memory statistics:
+	Allocations:   11, (dif: +0)
+	Reallocations: 0, (dif: +0)
+	Deallocations: 11, (dif: +11)
+
+	Now allocated:       0 b, (dif: -2096 b)
+	Totally allocated:   2096 b, (dif: +0 b)
+	Totally deallocated: 2096 b, (dif: +2096 b)
+
+  TSetElement comparisons: 22, (dif: +10)
+
+Testbench successfully finished entire testplan...
+
+set is empty: true
+set is empty: false
+222 
+40 41 42 43 44 45 198 199 200 222 
+42 43 45 
+set erase(42+256): false
+42 43 45 
+set is_element_of(42): true
+set insert(45): false
+42 43 45 
+set erase(64): false
+42 43 45 
+
+TSetElement comparisons: 11
+
+
+CHECKER: KONTROLNI VYPIS 
+===============================================================================
+VYPIS ALOKOVANE PAMETI
+Celkovy pocet alokaci pameti v programu: 	22
+Celkovy pocet uspesnych uvolneni pameti v programu: 	22
+Spickove mnozstvi alokovane pameti pri behu programu:  2096  bytu.
+Alokovano celkem  4192  bytu, uvolneno  4192  bytu.
+
+Vsechna dynamicka pamet programu byla bez chyby uvolnena. :-)
+
+
+Zadne soubory nebyly v programu zpracovavany.

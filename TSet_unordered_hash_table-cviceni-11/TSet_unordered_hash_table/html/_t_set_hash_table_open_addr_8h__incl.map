@@ -1,0 +1,20 @@
+<map id="TSetHashTableOpenAddr.h" name="TSetHashTableOpenAddr.h">
+<area shape="rect" id="Node000001" title="Implementace typu SetHashTable &#45; (hašovací tabulka využívající otevřené adresování)." alt="" coords="24,5,202,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,155,80,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,34,86,55,70,81,58,111,50,140,45,139,53,109,65,79,82,52,100,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="80,80,147,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,33,116,64,111,64,111,33"/>
+<area shape="rect" id="Node000004" href="$_t_set_element_hashable_8h.html" title="Definice typu Hashable Basic SetElement a implementace API." alt="" coords="171,80,333,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="139,30,215,70,213,75,136,35"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="216,110,94,152,93,147,215,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="104,155,165,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="233,109,169,149,166,144,230,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="188,155,252,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="249,108,234,142,229,139,244,106"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="276,155,340,181"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="264,106,291,141,287,144,259,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="364,155,433,181"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="279,105,360,145,358,150,276,110"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="457,155,524,181"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="294,105,443,149,441,155,293,110"/>
+</map>

@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BPC-ALD: ADT+ALG TSet_unordered_hash_table: Zdrojový soubor TSetHashTableOpenAddr.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">BPC-ALD: ADT+ALG TSet_unordered_hash_table<span id="projectnumber">&#160;(2026)</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Vygenerováno programem Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Hledat',false);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Načítám...</div>
+<div class="SRStatus" id="Searching">Vyhledávám...</div>
+<div class="SRStatus" id="NoMatches">Nebylo nic nalezeno</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a href="dir_0a77092ec4dfa9ec44266b69b66217dd.html">TSet_unordered_hash_table</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle"><div class="title">TSetHashTableOpenAddr.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_t_set_hash_table_open_addr_8h.html">Zobrazit dokumentaci tohoto souboru.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef TSET_HASH_TABLE_OPEN_ADDR_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define TSET_HASH_TABLE_OPEN_ADDR_H</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="_t_set_element_hashable_8h.html">TSetElementHashable.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="group___t_set_hash_table.html#ga3aa870ecc3abbef2d5fb3e313f7cf446">   20</a></span><span class="preprocessor">#define HASH_TABLE_INIT_SIZE 256                    </span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">struct </span><a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>[[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set_hash_table.html#gaa2a0e99e7960542538a8d251c488b808">set_hash_table_init</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> **aTablePtr, <span class="keywordtype">size_t</span> aCapacity);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>[[nodiscard]] <span class="keywordtype">int</span> <a class="code hl_function" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0">set_hash_table_search</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <a class="code hl_typedef" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue, <span class="keywordtype">size_t</span> *aPosPtr);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>[[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set_hash_table.html#gaa4327c29b178abf7b79112463e1f9fb0">set_hash_table_insert</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <a class="code hl_typedef" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>[[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set_hash_table.html#gaee3600d3134fc51a78e4142bbdc0ba2b">set_hash_table_erase</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <a class="code hl_typedef" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___t_set_hash_table.html#ga1562a195e21d46896e078ba7e555042b">set_hash_table_destroy</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>[[nodiscard]] <span class="keywordtype">size_t</span> <a class="code hl_function" href="group___t_set_hash_table.html#ga6ae8410d0c50fb9f3104838bafdbc906">set_hash_table_begin_pos</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>[[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set_hash_table.html#ga891b531cc6373331e55101f2dd75ac4a">set_hash_table_is_valid_pos</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <span class="keywordtype">size_t</span> aPos);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>[[nodiscard]] <span class="keywordtype">size_t</span> <a class="code hl_function" href="group___t_set_hash_table.html#ga9218e24d2cc5a61596c4a45ef76f4c75">set_hash_table_next_pos</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <span class="keywordtype">size_t</span> aPos);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>[[nodiscard]] <a class="code hl_typedef" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> <a class="code hl_function" href="group___t_set_hash_table.html#gaf6b548ed4295b1a4789d073b8a43db58">set_hash_table_value_at_pos</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <span class="keywordtype">size_t</span> aPos);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="preprocessor">#endif </span><span class="comment">/* TSET_HASH_TABLE_OPEN_ADDR_H */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="a_t_set_element_hashable_8h_html"><div class="ttname"><a href="_t_set_element_hashable_8h.html">TSetElementHashable.h</a></div><div class="ttdoc">Definice typu Hashable Basic SetElement a implementace API.</div></div>
+<div class="ttc" id="agroup___t_set_element_hashable_html_ga434f133e40212ffe694f4afae9ffd8e8"><div class="ttname"><a href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a></div><div class="ttdeci">int TSetElement</div><div class="ttdoc">Definice typu SetElement.</div><div class="ttdef"><b>Definition</b> TSetElementHashable.h:24</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_ga1562a195e21d46896e078ba7e555042b"><div class="ttname"><a href="group___t_set_hash_table.html#ga1562a195e21d46896e078ba7e555042b">set_hash_table_destroy</a></div><div class="ttdeci">void set_hash_table_destroy(struct TSetHashTable *aTable)</div><div class="ttdoc">Deinicializace hašovací tabulky.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:172</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_ga69c2697abdd49b443ea76077058df6b0"><div class="ttname"><a href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0">set_hash_table_search</a></div><div class="ttdeci">int set_hash_table_search(const struct TSetHashTable *aTable, TSetElement aValue, size_t *aPosPtr)</div><div class="ttdoc">Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:59</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_ga6ae8410d0c50fb9f3104838bafdbc906"><div class="ttname"><a href="group___t_set_hash_table.html#ga6ae8410d0c50fb9f3104838bafdbc906">set_hash_table_begin_pos</a></div><div class="ttdeci">size_t set_hash_table_begin_pos(const struct TSetHashTable *aTable)</div><div class="ttdoc">Výpočet první platné pozice v hašovací tabulce.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:190</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_ga891b531cc6373331e55101f2dd75ac4a"><div class="ttname"><a href="group___t_set_hash_table.html#ga891b531cc6373331e55101f2dd75ac4a">set_hash_table_is_valid_pos</a></div><div class="ttdeci">bool set_hash_table_is_valid_pos(const struct TSetHashTable *aTable, size_t aPos)</div><div class="ttdoc">Zjištění platnosti pozice v hašovací tabulce.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:204</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_ga9218e24d2cc5a61596c4a45ef76f4c75"><div class="ttname"><a href="group___t_set_hash_table.html#ga9218e24d2cc5a61596c4a45ef76f4c75">set_hash_table_next_pos</a></div><div class="ttdeci">size_t set_hash_table_next_pos(const struct TSetHashTable *aTable, size_t aPos)</div><div class="ttdoc">Výpočet následující pozice platné přihrádky v hašovací tabulce.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:216</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_gaa2a0e99e7960542538a8d251c488b808"><div class="ttname"><a href="group___t_set_hash_table.html#gaa2a0e99e7960542538a8d251c488b808">set_hash_table_init</a></div><div class="ttdeci">bool set_hash_table_init(struct TSetHashTable **aTablePtr, size_t aCapacity)</div><div class="ttdoc">Inicializace hašovací tabulky.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:43</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_gaa4327c29b178abf7b79112463e1f9fb0"><div class="ttname"><a href="group___t_set_hash_table.html#gaa4327c29b178abf7b79112463e1f9fb0">set_hash_table_insert</a></div><div class="ttdeci">bool set_hash_table_insert(struct TSetHashTable *aTable, TSetElement aValue)</div><div class="ttdoc">Vložení elementu do hašovací tabulky.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:136</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_gaee3600d3134fc51a78e4142bbdc0ba2b"><div class="ttname"><a href="group___t_set_hash_table.html#gaee3600d3134fc51a78e4142bbdc0ba2b">set_hash_table_erase</a></div><div class="ttdeci">bool set_hash_table_erase(struct TSetHashTable *aTable, TSetElement aValue)</div><div class="ttdoc">Odstranění elementu z hašovací tabulky.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:156</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_gaf6b548ed4295b1a4789d073b8a43db58"><div class="ttname"><a href="group___t_set_hash_table.html#gaf6b548ed4295b1a4789d073b8a43db58">set_hash_table_value_at_pos</a></div><div class="ttdeci">TSetElement set_hash_table_value_at_pos(const struct TSetHashTable *aTable, size_t aPos)</div><div class="ttdoc">Přečtení hodnoty elementu z platné přihrádky v hašovací tabulce.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:229</div></div>
+<div class="ttc" id="astruct_t_set_hash_table_html"><div class="ttname"><a href="struct_t_set_hash_table.html">TSetHashTable</a></div><div class="ttdoc">Úplná definice typu SetHashTable.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:25</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Vygenerováno dne: <span class="timestamp"></span>, pro projekt: BPC-ALD: ADT+ALG TSet_unordered_hash_table, programem&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

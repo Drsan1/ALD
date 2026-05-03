@@ -1,0 +1,9 @@
+<map id="heap_iterator_to_left" name="heap_iterator_to_left">
+<area shape="rect" id="Node000001" title="Posunutí iterátoru na levého následníka." alt="" coords="5,39,144,65"/>
+<area shape="rect" id="Node000002" href="$group___t_heap.html#gae40d23edaede152d035bcf8828ef37d9" title="Zjištění platnosti iterátoru." alt="" coords="192,13,337,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,40,176,36,177,41,144,45"/>
+<area shape="rect" id="Node000004" href="$group___t_heap.html#gaeb9b613cb82e8946a4c37bb1145780f4" title="Vypočte pozici uzlu levého následníka." alt="" coords="205,64,324,91"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="144,59,190,65,189,70,144,64"/>
+<area shape="rect" id="Node000003" href="$group___t_vector_iterator.html#ga3f8a97a63f887539e270f6845bf22b9a" title="Zjištění platnosti iterátoru." alt="" coords="385,5,504,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,24,369,24,369,29,337,29"/>
+</map>

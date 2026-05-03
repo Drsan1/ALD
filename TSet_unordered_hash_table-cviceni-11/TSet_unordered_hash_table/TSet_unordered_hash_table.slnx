@@ -1,0 +1,19 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Documentation/">
+    <File Path="doc/cv12_reports_testplan_set1_linear_probing.lst" />
+    <File Path="doc/cv12_reports_testplan_set1_quadratic_probing.lst" />
+    <File Path="doc/cv12_reports_testplan_set2_linear_probing.lst" />
+    <File Path="doc/cv12_reports_testplan_set2_quadratic_probing.lst" />
+    <File Path="doc/cv12_reports_testplan_set3_linear_probing.lst" />
+    <File Path="doc/cv12_reports_testplan_set3_quadratic_probing.lst" />
+    <File Path="doc/cv12_zadani_TSet_unordered_hash_table.md" />
+    <File Path="doc/extra_stylesheet.css" />
+    <File Path="doc/project_logo.png" />
+    <File Path="Doxyfile" />
+  </Folder>
+  <Project Path="TSet_unordered_hash_table/TSet_unordered_hash_table.vcxproj" Id="4bc52ddf-295c-4b3c-8ea2-11a408a58947" />
+</Solution>

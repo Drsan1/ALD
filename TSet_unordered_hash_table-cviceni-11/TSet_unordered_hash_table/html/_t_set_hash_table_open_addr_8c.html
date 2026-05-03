@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BPC-ALD: ADT+ALG TSet_unordered_hash_table: Dokumentace souboru TSetHashTableOpenAddr.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">BPC-ALD: ADT+ALG TSet_unordered_hash_table<span id="projectnumber">&#160;(2026)</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Vygenerováno programem Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Hledat',false);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Načítám...</div>
+<div class="SRStatus" id="Searching">Vyhledávám...</div>
+<div class="SRStatus" id="NoMatches">Nebylo nic nalezeno</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a href="dir_0a77092ec4dfa9ec44266b69b66217dd.html">TSet_unordered_hash_table</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Datové struktury</a> &#124;
+<a href="#define-members">Definice maker</a> &#124;
+<a href="#func-members">Funkce</a>  </div>
+  <div class="headertitle"><div class="title">Dokumentace souboru TSetHashTableOpenAddr.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implementace API pro typ SetHashTable - (hašovací tabulka využívající otevřené adresování).  
+<a href="#details">...</a></p>
+<div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;assert.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="_t_set_hash_table_open_addr_8h_source.html">TSetHashTableOpenAddr.h</a>&quot;</code><br />
+<code>#include &quot;check.h&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graf závislostí na vkládaných souborech pro TSetHashTableOpenAddr.c:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="_t_set_hash_table_open_addr_8c__incl.svg" width="536" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Datové struktury</h2></td></tr>
+<tr class="memitem:TSetHashTable" id="r_TSetHashTable"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Úplná definice typu SetHashTable.  <a href="struct_t_set_hash_table.html#details">...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
+Definice maker</h2></td></tr>
+<tr class="memitem:ab5da3fc470e5ed488e4d007c4707cd8c" id="r_ab5da3fc470e5ed488e4d007c4707cd8c"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ab5da3fc470e5ed488e4d007c4707cd8c">LINEAR_PROBING</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:ab5da3fc470e5ed488e4d007c4707cd8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volba pro lineární dohledávání následující pozice ve funkci: <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>.  <br /></td></tr>
+<tr class="memitem:a7411013d4781f7a3a73ad6200059ca57" id="r_a7411013d4781f7a3a73ad6200059ca57"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a7411013d4781f7a3a73ad6200059ca57">QUADRATIC_PROBING</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memdesc:a7411013d4781f7a3a73ad6200059ca57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volba pro kvadratické dohledávání následující pozice ve funkci: <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>.  <br /></td></tr>
+<tr class="memitem:a4ac8529a76e1978647655f0e7ae7aa04" id="r_a4ac8529a76e1978647655f0e7ae7aa04"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a4ac8529a76e1978647655f0e7ae7aa04">DOUBLE_HASH_PROBING</a>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:a4ac8529a76e1978647655f0e7ae7aa04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volba pro dvojí hašování při dohledávání následující pozice ve funkci: <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>.  <br /></td></tr>
+<tr class="memitem:a8b89e9ab2e59ac77d5b3ed07f3332cb1" id="r_a8b89e9ab2e59ac77d5b3ed07f3332cb1"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a8b89e9ab2e59ac77d5b3ed07f3332cb1">HASH_TABLE_SEARCH_VARIANT</a>&#160;&#160;&#160;<a class="el" href="#ab5da3fc470e5ed488e4d007c4707cd8c">LINEAR_PROBING</a></td></tr>
+<tr class="memdesc:a8b89e9ab2e59ac77d5b3ed07f3332cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Varianta využívající lineární dohledávání následující pozice ve funkci: <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Funkce</h2></td></tr>
+<tr class="memitem:aa4a90f23bbdbe5bb71a49d7df2ee5fc1" id="r_aa4a90f23bbdbe5bb71a49d7df2ee5fc1"><td class="memItemLeft">static <a class="el" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aa4a90f23bbdbe5bb71a49d7df2ee5fc1">calc_erased_bucket_marker</a> (const struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable)</td></tr>
+<tr class="memdesc:aa4a90f23bbdbe5bb71a49d7df2ee5fc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkce vracející hodnotu reprezentující smazanou přihrádku.  <br /></td></tr>
+<tr class="memitem:gaa2a0e99e7960542538a8d251c488b808" id="r_gaa2a0e99e7960542538a8d251c488b808"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="group___t_set_hash_table.html#gaa2a0e99e7960542538a8d251c488b808">set_hash_table_init</a> (struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> **aTablePtr, size_t aCapacity)</td></tr>
+<tr class="memdesc:gaa2a0e99e7960542538a8d251c488b808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializace hašovací tabulky.  <br /></td></tr>
+<tr class="memitem:ga69c2697abdd49b443ea76077058df6b0" id="r_ga69c2697abdd49b443ea76077058df6b0"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0">set_hash_table_search</a> (const struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <a class="el" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue, size_t *aPosPtr)</td></tr>
+<tr class="memdesc:ga69c2697abdd49b443ea76077058df6b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování  <br /></td></tr>
+<tr class="memitem:gaa4327c29b178abf7b79112463e1f9fb0" id="r_gaa4327c29b178abf7b79112463e1f9fb0"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="group___t_set_hash_table.html#gaa4327c29b178abf7b79112463e1f9fb0">set_hash_table_insert</a> (struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <a class="el" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue)</td></tr>
+<tr class="memdesc:gaa4327c29b178abf7b79112463e1f9fb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vložení elementu do hašovací tabulky.  <br /></td></tr>
+<tr class="memitem:gaee3600d3134fc51a78e4142bbdc0ba2b" id="r_gaee3600d3134fc51a78e4142bbdc0ba2b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="group___t_set_hash_table.html#gaee3600d3134fc51a78e4142bbdc0ba2b">set_hash_table_erase</a> (struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <a class="el" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue)</td></tr>
+<tr class="memdesc:gaee3600d3134fc51a78e4142bbdc0ba2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Odstranění elementu z hašovací tabulky.  <br /></td></tr>
+<tr class="memitem:ga1562a195e21d46896e078ba7e555042b" id="r_ga1562a195e21d46896e078ba7e555042b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="group___t_set_hash_table.html#ga1562a195e21d46896e078ba7e555042b">set_hash_table_destroy</a> (struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable)</td></tr>
+<tr class="memdesc:ga1562a195e21d46896e078ba7e555042b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinicializace hašovací tabulky.  <br /></td></tr>
+<tr class="memitem:ga6ae8410d0c50fb9f3104838bafdbc906" id="r_ga6ae8410d0c50fb9f3104838bafdbc906"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="group___t_set_hash_table.html#ga6ae8410d0c50fb9f3104838bafdbc906">set_hash_table_begin_pos</a> (const struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable)</td></tr>
+<tr class="memdesc:ga6ae8410d0c50fb9f3104838bafdbc906"><td class="mdescLeft">&#160;</td><td class="mdescRight">Výpočet první platné pozice v hašovací tabulce.  <br /></td></tr>
+<tr class="memitem:ga891b531cc6373331e55101f2dd75ac4a" id="r_ga891b531cc6373331e55101f2dd75ac4a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="group___t_set_hash_table.html#ga891b531cc6373331e55101f2dd75ac4a">set_hash_table_is_valid_pos</a> (const struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, size_t aPos)</td></tr>
+<tr class="memdesc:ga891b531cc6373331e55101f2dd75ac4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zjištění platnosti pozice v hašovací tabulce.  <br /></td></tr>
+<tr class="memitem:ga9218e24d2cc5a61596c4a45ef76f4c75" id="r_ga9218e24d2cc5a61596c4a45ef76f4c75"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="group___t_set_hash_table.html#ga9218e24d2cc5a61596c4a45ef76f4c75">set_hash_table_next_pos</a> (const struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, size_t aPos)</td></tr>
+<tr class="memdesc:ga9218e24d2cc5a61596c4a45ef76f4c75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Výpočet následující pozice platné přihrádky v hašovací tabulce.  <br /></td></tr>
+<tr class="memitem:gaf6b548ed4295b1a4789d073b8a43db58" id="r_gaf6b548ed4295b1a4789d073b8a43db58"><td class="memItemLeft"><a class="el" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a>&#160;</td><td class="memItemRight"><a class="el" href="group___t_set_hash_table.html#gaf6b548ed4295b1a4789d073b8a43db58">set_hash_table_value_at_pos</a> (const struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, size_t aPos)</td></tr>
+<tr class="memdesc:gaf6b548ed4295b1a4789d073b8a43db58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Přečtení hodnoty elementu z platné přihrádky v hašovací tabulce.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailní popis</h2>
+<div class="textblock"><p>Implementace API pro typ SetHashTable - (hašovací tabulka využívající otevřené adresování). </p>
+<dl class="section author"><dt>Autor</dt><dd>Petyovský </dd></dl>
+<dl class="section version"><dt>Verze</dt><dd>2026 </dd></dl>
+<dl class="section rcs"><dt>Id</dt><dd><a class="el" href="_t_set_hash_table_open_addr_8c.html" title="Implementace API pro typ SetHashTable - (hašovací tabulka využívající otevřené adresování).">TSetHashTableOpenAddr.c</a> 3360 2026-04-20 14:19:00Z petyovsky </dd></dl>
+</div><a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Dokumentace definic maker</h2>
+<a id="ab5da3fc470e5ed488e4d007c4707cd8c" name="ab5da3fc470e5ed488e4d007c4707cd8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5da3fc470e5ed488e4d007c4707cd8c">&#9670;&#160;</a></span>LINEAR_PROBING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LINEAR_PROBING&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Volba pro lineární dohledávání následující pozice ve funkci: <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>. </p>
+
+</div>
+</div>
+<a id="a7411013d4781f7a3a73ad6200059ca57" name="a7411013d4781f7a3a73ad6200059ca57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7411013d4781f7a3a73ad6200059ca57">&#9670;&#160;</a></span>QUADRATIC_PROBING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define QUADRATIC_PROBING&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Volba pro kvadratické dohledávání následující pozice ve funkci: <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>. </p>
+
+</div>
+</div>
+<a id="a4ac8529a76e1978647655f0e7ae7aa04" name="a4ac8529a76e1978647655f0e7ae7aa04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac8529a76e1978647655f0e7ae7aa04">&#9670;&#160;</a></span>DOUBLE_HASH_PROBING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DOUBLE_HASH_PROBING&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Volba pro dvojí hašování při dohledávání následující pozice ve funkci: <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>. </p>
+
+</div>
+</div>
+<a id="a8b89e9ab2e59ac77d5b3ed07f3332cb1" name="a8b89e9ab2e59ac77d5b3ed07f3332cb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b89e9ab2e59ac77d5b3ed07f3332cb1">&#9670;&#160;</a></span>HASH_TABLE_SEARCH_VARIANT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define HASH_TABLE_SEARCH_VARIANT&#160;&#160;&#160;<a class="el" href="#ab5da3fc470e5ed488e4d007c4707cd8c">LINEAR_PROBING</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Varianta využívající lineární dohledávání následující pozice ve funkci: <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>. </p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Dokumentace funkcí</h2>
+<a id="aa4a90f23bbdbe5bb71a49d7df2ee5fc1" name="aa4a90f23bbdbe5bb71a49d7df2ee5fc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4a90f23bbdbe5bb71a49d7df2ee5fc1">&#9670;&#160;</a></span>calc_erased_bucket_marker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> * calc_erased_bucket_marker </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="struct_t_set_hash_table.html">TSetHashTable</a> *</td>          <td class="paramname"><span class="paramname"><em>aTable</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Funkce vracející hodnotu reprezentující smazanou přihrádku. </p>
+<p>Servisní funkce pro výpočet hodnoty reprezentující značku pro dříve obsazenou, ale nyní již smazanou přihrádku. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aTable</td><td>Ukazatel na existující hašovací tabulku </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Návratová hodnota</dt><dd>Vrací hodnotu reprezentující značku pro smazanou přihrádku </dd></dl>
+<dl class="section attention"><dt>Upozornění</dt><dd>Funkce ověřuje platnost ukazatele <b>pouze</b> při překladu v režimu <span class="tt">Debug</span>, kdy pomocí <span class="tt">assert</span> hlásí běhovou chybu! </dd></dl>
+<div class="dynheader">
+Tuto funkci volají...</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="_t_set_hash_table_open_addr_8c_aa4a90f23bbdbe5bb71a49d7df2ee5fc1_icgraph.svg" width="1404" height="855"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Vygenerováno dne: <span class="timestamp"></span>, pro projekt: BPC-ALD: ADT+ALG TSet_unordered_hash_table, programem&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

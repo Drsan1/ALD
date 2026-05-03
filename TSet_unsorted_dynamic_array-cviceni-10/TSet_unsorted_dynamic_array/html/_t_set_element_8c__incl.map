@@ -1,0 +1,15 @@
+<map id="TSetElement.c" name="TSetElement.c">
+<area shape="rect" id="Node000001" title="Definice globální proměnné realizující počítadlo operací porovnání dvou hodnot typu SetElement." alt="" coords="161,5,268,32"/>
+<area shape="rect" id="Node000002" href="$_t_set_element_8h.html" title="Definice typu Basic SetElement a implementace API." alt="" coords="161,80,268,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,33,217,64,212,64,212,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,66,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="184,110,81,151,79,146,182,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="89,155,153,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="200,109,150,147,147,143,196,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="177,155,251,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="217,107,217,139,212,139,212,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="276,155,344,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="232,105,283,143,280,147,229,109"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="369,155,436,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="248,105,356,146,354,151,246,110"/>
+</map>

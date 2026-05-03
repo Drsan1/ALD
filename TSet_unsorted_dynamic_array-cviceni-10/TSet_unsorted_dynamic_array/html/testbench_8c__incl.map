@@ -1,0 +1,31 @@
+<map id="testbench.c" name="testbench.c">
+<area shape="rect" id="Node000001" title="Implementace testbench API pro testování operací zvoleného ADT." alt="" coords="270,5,359,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,379,66,405"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,27,205,40,169,51,134,65,103,84,78,106,62,134,55,167,55,244,51,309,43,364,38,363,46,308,50,244,50,166,57,132,74,103,100,79,132,61,167,46,203,35,269,22"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="383,80,440,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="333,30,384,69,381,73,330,35"/>
+<area shape="rect" id="Node000004" href="$testbench_8h.html" title="Definice testbench API pro testování operací zvoleného ADT." alt="" coords="270,80,359,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="317,33,317,64,312,64,312,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="380,379,454,405"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="327,106,352,138,383,185,413,242,433,304,434,335,429,364,423,363,429,335,428,304,408,244,378,188,347,141,323,109"/>
+<area shape="rect" id="Node000006" href="$_t_set_8h.html" title="Definice typu Set &#45; (realizace množiny pomocí nesetříděného flexibilního dynamicky alokovaného pole)." alt="" coords="285,155,344,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="317,107,317,139,312,139,312,107"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="330,180,374,228,398,263,413,303,418,334,420,363,415,363,413,334,408,305,393,266,369,231,326,184"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="331,304,399,331"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="326,181,340,202,353,228,361,259,365,288,360,289,356,260,348,230,335,205,321,183"/>
+<area shape="rect" id="Node000008" href="$_t_set_unsorted_flex_array_8h.html" title="Deklarace typu SetUnsortedFlexArray a jeho API pro realizaci množiny pomocí nesetříděného flexibilníh..." alt="" coords="171,229,338,256"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="306,184,276,219,272,216,302,180"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="90,379,157,405"/>
+<area shape="poly" id="edge17_Node000006_Node000012" title=" " alt="" coords="285,175,255,181,221,192,188,208,160,231,141,262,130,298,125,333,124,363,119,363,120,332,124,296,136,260,156,228,185,204,219,187,254,176,284,170"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="264,255,287,290,321,329,350,351,379,369,377,373,347,355,318,333,283,293,259,258"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="275,254,334,293,332,298,272,259"/>
+<area shape="rect" id="Node000009" href="$_t_set_element_8h.html" title="Definice typu Basic SetElement a implementace API." alt="" coords="150,304,257,331"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="248,258,223,293,219,290,243,255"/>
+<area shape="poly" id="edge12_Node000009_Node000002" title=" " alt="" coords="175,334,80,375,78,370,173,329"/>
+<area shape="poly" id="edge14_Node000009_Node000005" title=" " alt="" coords="242,329,366,371,364,376,240,334"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="181,379,245,405"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="208,331,212,363,207,364,202,332"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="268,379,336,405"/>
+<area shape="poly" id="edge15_Node000009_Node000011" title=" " alt="" coords="222,329,275,367,272,372,219,333"/>
+<area shape="poly" id="edge16_Node000009_Node000012" title=" " alt="" coords="191,333,150,370,147,366,188,329"/>
+</map>

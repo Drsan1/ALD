@@ -1,0 +1,28 @@
+<map id="TSet.c" name="TSet.c">
+<area shape="rect" id="Node000001" title="Implementace API pro typ Set (realizace unordered množiny pomocí hašovací tabulky)." alt="" coords="330,5,390,32"/>
+<area shape="rect" id="Node000002" href="$_t_set_8h.html" title="Definice typu Set &#45; (realizace unordered množiny pomocí hašovací tabulky)." alt="" coords="214,80,274,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="341,35,279,74,276,69,338,30"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="457,304,524,331"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="368,31,481,289,476,291,363,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,304,80,331"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="215,107,170,127,124,157,97,187,76,223,52,290,47,288,72,221,93,184,121,153,167,122,213,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="84,229,151,256"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="215,108,178,127,160,140,145,156,130,185,122,215,117,213,125,183,140,153,156,136,175,122,213,103"/>
+<area shape="rect" id="Node000005" href="$_t_set_hash_table_open_addr_8h.html" title="Implementace typu SetHashTable &#45; (hašovací tabulka využívající otevřené adresování)." alt="" coords="155,155,333,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="247,107,247,139,241,139,241,107"/>
+<area shape="poly" id="edge14_Node000002_Node000011" title=" " alt="" coords="271,105,308,126,347,153,385,187,420,224,474,290,470,293,416,228,381,191,344,157,305,130,268,110"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="236,184,206,219,164,258,127,282,90,300,87,295,125,277,161,254,202,216,232,180"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="223,184,154,224,151,219,220,180"/>
+<area shape="rect" id="Node000006" href="$_t_set_element_hashable_8h.html" title="Definice typu Hashable Basic SetElement a implementace API." alt="" coords="226,229,387,256"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="257,180,288,216,284,219,253,184"/>
+<area shape="poly" id="edge10_Node000006_Node000003" title=" " alt="" coords="261,259,95,304,94,299,260,254"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="104,304,165,331"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="278,259,180,300,177,295,276,254"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="188,304,252,331"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="293,259,248,296,245,292,290,254"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="276,304,340,331"/>
+<area shape="poly" id="edge11_Node000006_Node000009" title=" " alt="" coords="309,256,310,288,305,288,304,257"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="364,304,433,331"/>
+<area shape="poly" id="edge12_Node000006_Node000010" title=" " alt="" coords="324,254,373,292,369,297,321,259"/>
+<area shape="poly" id="edge13_Node000006_Node000011" title=" " alt="" coords="340,254,445,295,443,300,338,259"/>
+</map>

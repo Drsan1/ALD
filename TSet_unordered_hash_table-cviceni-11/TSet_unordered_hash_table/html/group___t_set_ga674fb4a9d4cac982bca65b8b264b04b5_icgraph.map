@@ -1,0 +1,8 @@
+<map id="set_init" name="set_init">
+<area shape="rect" id="Node000001" title="Inicializace prázdné množiny." alt="" coords="279,5,342,32"/>
+<area shape="rect" id="Node000002" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,21,55,21,55,16,263,16"/>
+<area shape="rect" id="Node000003" href="$group___main_program.html#ga631b99406019be6085e56ed7d8db4005" title=" " alt="" coords="103,31,231,57"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="264,30,232,35,231,30,263,24"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="87,32,55,26,56,21,88,27"/>
+</map>

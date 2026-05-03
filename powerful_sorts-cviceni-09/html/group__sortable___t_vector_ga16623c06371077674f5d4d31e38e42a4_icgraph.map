@@ -1,0 +1,39 @@
+<map id="vector_move_positions" name="vector_move_positions">
+<area shape="rect" id="Node000001" title="Přesun hodnoty elementu vektoru." alt="" coords="857,232,1008,259"/>
+<area shape="rect" id="Node000002" href="$group___t_heap.html#ga5189745928eb05b31e28d37a79d9017f" title="Přesun hodnot mezi uzly haldy." alt="" coords="664,107,809,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="897,225,808,166,759,136,762,131,810,162,900,221"/>
+<area shape="rect" id="Node000007" href="$group___basic_sorts.html#gac3903c3fd846908cd362e293ed40582e" title="Třídění přímým vkládáním (Insert Sort)." alt="" coords="507,157,590,184"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="850,231,808,223,590,181,591,176,810,217,851,226"/>
+<area shape="rect" id="Node000008" href="$merge__sort_8c.html#ab598840f792dce8f32c5a6c14467612a" title="Vnitřní a lokální funkce realizující algoritmus sloučení dvou již setříděných rozsahů z vektoru aFrom..." alt="" coords="705,232,768,259"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="841,248,768,248,768,243,841,243"/>
+<area shape="rect" id="Node000011" href="$group___advanced_sorts.html#gaee070b00692f425d83eaea28b37bab2b" title="Shellovo třídění vkládáním s ubývajícím krokem (Shell Sort) dle Hibbardovy posloupnosti." alt="" coords="140,283,217,309"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="860,265,809,273,636,289,466,297,217,299,217,294,466,292,636,284,809,268,859,260"/>
+<area shape="rect" id="Node000012" href="$group___t_span.html#ga8efc8ea3e4f239b6c154cdae03258740" title="Přesun hodnoty elementu Spanu." alt="" coords="664,339,809,365"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="896,269,810,317,766,340,764,336,808,312,893,264"/>
+<area shape="rect" id="Node000003" href="$heap__sort_8c.html#a948b3682a8b10b32c1a1a0f2288fa0f8" title="Vnitřní a lokální funkce zajišťující algoritmus vložení hodnoty do zvoleného uzlu haldy,..." alt="" coords="481,56,616,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="669,105,600,86,601,81,670,100"/>
+<area shape="rect" id="Node000005" href="$group___powerful_sorts.html#gaf564949cc194e5feea63d6c2aaa3125a" title="Třídění pomocí haldy (Heap Sort) využívající poziční API pro přístup k elementům vektoru." alt="" coords="139,81,218,108"/>
+<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="648,119,218,99,218,94,648,113"/>
+<area shape="rect" id="Node000004" href="$heap__sort_8c.html#a8f4c495d0a6bdd0fb4bf6e5bb22299dd" title="Vnitřní a lokální funkce realizující algoritmus uspořádání elementů vektoru do haldy." alt="" coords="307,5,428,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="483,54,417,35,419,30,484,49"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="466,78,218,95,218,89,466,72"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="319,41,215,83,213,78,317,36"/>
+<area shape="rect" id="Node000006" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,232,55,259"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="152,121,105,166,45,233,41,230,101,162,148,117"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="492,178,318,196,211,211,103,229,56,241,54,236,102,224,210,206,317,191,491,173"/>
+<area shape="rect" id="Node000009" href="$merge__sort_8c.html#a41bfb4129631a73ffc60c10381af80c2" title="Vnitřní a lokální funkce realizující rekurzivní funkci pro metodu (Merge Sort)." alt="" coords="483,232,614,259"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="689,248,615,248,615,243,689,243"/>
+<area shape="poly" id="edge14_Node000009_Node000009" title=" " alt="" coords="579,219,569,213,548,211,530,213,520,217,517,223,522,230,517,233,512,223,516,214,528,207,549,205,570,208,582,214"/>
+<area shape="rect" id="Node000010" href="$group___powerful_sorts.html#gaca54b9dda831aa79008867770c96413e" title="Třídění pomocí metody slučováním (Merge sort) využívající rekurzivní rozklad." alt="" coords="325,232,411,259"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="467,248,411,248,411,243,467,243"/>
+<area shape="poly" id="edge13_Node000010_Node000006" title=" " alt="" coords="309,248,55,248,55,243,309,243"/>
+<area shape="poly" id="edge16_Node000011_Node000006" title=" " alt="" coords="124,280,54,256,56,251,126,275"/>
+<area shape="rect" id="Node000013" href="$merge__sort__with__span_8c.html#a0c876c8c251dbd52af676e4c0737f262" title="Vnitřní a lokální funkce realizující algoritmus sloučení dvou již setříděných rozsahů (Spanů)." alt="" coords="517,351,580,377"/>
+<area shape="poly" id="edge18_Node000012_Node000013" title=" " alt="" coords="649,360,581,365,580,359,648,355"/>
+<area shape="rect" id="Node000014" href="$merge__sort__with__span_8c.html#acfb719292b2ea89b714190280e0021b0" title="Vnitřní a lokální funkce realizující rekurzivní funkci pro metodu (Merge Sort)." alt="" coords="302,357,433,384"/>
+<area shape="poly" id="edge19_Node000013_Node000014" title=" " alt="" coords="502,368,434,371,434,366,502,363"/>
+<area shape="poly" id="edge22_Node000014_Node000014" title=" " alt="" coords="398,344,388,338,368,336,349,338,339,343,336,348,341,356,337,358,331,349,335,339,347,333,368,331,389,333,401,340"/>
+<area shape="rect" id="Node000015" href="$group___powerful_sorts.html#ga879a216389959b8a25490288ba4e63dc" title="Třídění pomocí metody slučováním (Merge sort) využívající rekurzivní rozklad a datový typ span." alt="" coords="103,345,254,372"/>
+<area shape="poly" id="edge20_Node000014_Node000015" title=" " alt="" coords="286,368,254,366,255,361,287,363"/>
+<area shape="poly" id="edge21_Node000015_Node000006" title=" " alt="" coords="128,340,101,323,66,291,40,261,44,257,70,288,104,319,131,336"/>
+</map>

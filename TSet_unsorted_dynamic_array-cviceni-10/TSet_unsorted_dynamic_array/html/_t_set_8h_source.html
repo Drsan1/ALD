@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BPC-ALD: ADT+ALG TSet Unsorted dynamic array: Zdrojový soubor TSet.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">BPC-ALD: ADT+ALG TSet Unsorted dynamic array<span id="projectnumber">&#160;(2026)</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Vygenerováno programem Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Hledat',false);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Načítám...</div>
+<div class="SRStatus" id="Searching">Vyhledávám...</div>
+<div class="SRStatus" id="NoMatches">Nebylo nic nalezeno</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a href="dir_88baf08ec55b769c399d6f3ab9cdfef7.html">TSet_unsorted_dynamic_array</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle"><div class="title">TSet.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_t_set_8h.html">Zobrazit dokumentaci tohoto souboru.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef TSET_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define TSET_H</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="_t_set_unsorted_flex_array_8h.html">TSetUnsortedFlexArray.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;check.h&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="group___t_set.html">   23</a></span><span class="keyword">struct </span><a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="group___t_set.html#a27ffb91c868c8e4ecd0f87d21dada53f">   25</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="group___t_set.html#a27ffb91c868c8e4ecd0f87d21dada53f">iSize</a>;                               </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="group___t_set.html#a2bfdf42e7e6b5bf0b89def6c9bf72aba">   26</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="struct_t_set_unsorted_flex_array.html">TSetUnsortedFlexArray</a> *<a class="code hl_variable" href="group___t_set.html#a2bfdf42e7e6b5bf0b89def6c9bf72aba">iFlexArray</a>;   </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    };</div>
+</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___t_set.html#ga674fb4a9d4cac982bca65b8b264b04b5">set_init</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a> *aSet);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>[[nodiscard]] <span class="keywordtype">size_t</span> <a class="code hl_function" href="group___t_set.html#ga213cfb714cece49d955fc452b2aeb186">set_size</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a> *aSet);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="group___t_set.html#ga2f7fd9486a5c300158d70dc79c6c6c8f">   47</a></span>[[nodiscard]] <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set.html#ga2f7fd9486a5c300158d70dc79c6c6c8f">set_is_empty</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a> *aSet)</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">return</span> !<a class="code hl_function" href="group___t_set.html#ga213cfb714cece49d955fc452b2aeb186">set_size</a>(aSet);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
+</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>[[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set.html#ga0d1464cea78691ff9ad3dd1e32b55c60">set_insert</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a> *aSet, <a class="code hl_typedef" href="group___t_set_element.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>[[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set.html#ga2a711b02282ff309c0d6a4fdcfbac738">set_erase</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a> *aSet, <a class="code hl_typedef" href="group___t_set_element.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>[[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set.html#ga768d36614713a921e88985484ac63cc1">set_is_element_of</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a> *aSet, <a class="code hl_typedef" href="group___t_set_element.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>[[nodiscard]] <span class="keyword">struct </span><a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> <a class="code hl_function" href="group___t_set.html#ga1dab52afdffe1147063314f7cdc5a7c8">set_find</a>(const struct <a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a> *aSet, <a class="code hl_typedef" href="group___t_set_element.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keywordtype">void</span> <a class="code hl_function" href="group___t_set.html#ga8094d1ab68434b8413cd905895ff37ae">set_destroy</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a> *aSet);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span></div>
+<div class="foldopen" id="foldopen00100" data-start="{" data-end="};">
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="group___t_set_iterator.html">  100</a></span><span class="keyword">struct </span><a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    {</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="group___t_set_iterator.html#a4231f9d54145c5f2d377f32ec323dcc9">  102</a></span>    <span class="keyword">const</span> <span class="keyword">struct </span><a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a> *<a class="code hl_variable" href="group___t_set_iterator.html#a4231f9d54145c5f2d377f32ec323dcc9">iSet</a>;    </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="group___t_set_iterator.html#a653670a6d238caa045872f0682ec52b3">  103</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="group___t_set_iterator.html#a653670a6d238caa045872f0682ec52b3">iPos</a>;                </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    };</div>
+</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>[[nodiscard]] <span class="keyword">struct </span><a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> <a class="code hl_function" href="group___t_set_iterator.html#gab11bafbe7585e4bb0bd9ff2353d77765">set_iterator_begin</a>(const struct <a class="code hl_struct" href="group___t_set.html#struct_t_set">TSet</a> *aSet);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>[[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8">set_iterator_is_valid</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> *aIter);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6">set_iterator_to_next</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> *aIter);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>[[nodiscard]] <a class="code hl_typedef" href="group___t_set_element.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> <a class="code hl_function" href="group___t_set_iterator.html#ga3928a980e2759ba130ce333e77f15fab">set_iterator_value</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> *aIter);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>[[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set_iterator.html#ga9897d99975ad2adadb6ed86c9018560e">set_iterator_is_equal</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> *aLeftIter, <span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> *aRightIter);</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span></div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span></div>
+<div class="foldopen" id="foldopen00154" data-start="{" data-end="}">
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno"><a class="line" href="group___iterator_algorithms.html#gab8ba369b42eda61d010f35df73be73db">  154</a></span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group___iterator_algorithms.html#gab8ba369b42eda61d010f35df73be73db">set_for_each</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> aIter, <span class="keywordtype">void</span>(*aOperation)(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> *aIter))</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    {</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    <span class="keywordflow">for</span>(<span class="keywordtype">bool</span> valid = <a class="code hl_function" href="group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8">set_iterator_is_valid</a>(&amp;aIter); valid; valid = <a class="code hl_function" href="group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6">set_iterator_to_next</a>(&amp;aIter))</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        aOperation(&amp;aIter);</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    }</div>
+</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span></div>
+<div class="foldopen" id="foldopen00166" data-start="{" data-end="}">
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno"><a class="line" href="group___iterator_algorithms.html#ga7dd39e89482104c1886a0c46fd5ec018">  166</a></span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group___iterator_algorithms.html#ga7dd39e89482104c1886a0c46fd5ec018">set_for_range</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> aFirstIter, <span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> aLastIter, <span class="keywordtype">void</span>(*aOperation)(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> *aIter))</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    {</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    <span class="keywordflow">for</span>(<span class="keywordtype">bool</span> valid = <a class="code hl_function" href="group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8">set_iterator_is_valid</a>(&amp;aFirstIter); valid; valid = <a class="code hl_function" href="group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6">set_iterator_to_next</a>(&amp;aFirstIter))</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        {</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>        aOperation(&amp;aFirstIter);</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        <span class="keywordflow">if</span>(<a class="code hl_function" href="group___t_set_iterator.html#ga9897d99975ad2adadb6ed86c9018560e">set_iterator_is_equal</a>(&amp;aFirstIter, &amp;aLastIter))</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        }</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    }</div>
+</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span></div>
+<div class="foldopen" id="foldopen00183" data-start="{" data-end="}">
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="group___iterator_algorithms.html#ga8ac257b3b58d1df45282efff565eb78f">  183</a></span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">struct </span><a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> <a class="code hl_function" href="group___iterator_algorithms.html#ga8ac257b3b58d1df45282efff565eb78f">set_for_each_n</a>(struct <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> aIter, size_t aN, void(*aOperation)(<span class="keyword">const</span> <span class="keyword">struct </span><a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> *aIter))</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    {</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keywordflow">for</span>(<span class="keywordtype">bool</span> valid = <a class="code hl_function" href="group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8">set_iterator_is_valid</a>(&amp;aIter); aN &amp;&amp; valid; --aN, valid = <a class="code hl_function" href="group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6">set_iterator_to_next</a>(&amp;aIter))</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        aOperation(&amp;aIter);</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordflow">return</span> aIter;</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    }</div>
+</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span></div>
+<div class="foldopen" id="foldopen00196" data-start="{" data-end="}">
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno"><a class="line" href="group___iterator_algorithms.html#ga1785c6060679dcab5e6781b66659dbf3">  196</a></span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">struct </span><a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> <a class="code hl_function" href="group___iterator_algorithms.html#ga1785c6060679dcab5e6781b66659dbf3">set_find_if</a>(struct <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> aIter, bool(*aPredicate)(<span class="keyword">const</span> <span class="keyword">struct </span><a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> *aIter))</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    {</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <span class="keywordflow">for</span>(<span class="keywordtype">bool</span> valid = <a class="code hl_function" href="group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8">set_iterator_is_valid</a>(&amp;aIter); valid; valid = <a class="code hl_function" href="group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6">set_iterator_to_next</a>(&amp;aIter))</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        <span class="keywordflow">if</span>(aPredicate(&amp;aIter))</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>            <span class="keywordflow">return</span> aIter;</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    <span class="keywordflow">return</span> aIter;</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    }</div>
+</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span></div>
+<div class="foldopen" id="foldopen00210" data-start="{" data-end="}">
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno"><a class="line" href="group___iterator_algorithms.html#ga8ca52ed8ac7c0be83a19c7ed10f813cd">  210</a></span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">struct </span><a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> <a class="code hl_function" href="group___iterator_algorithms.html#ga8ca52ed8ac7c0be83a19c7ed10f813cd">set_find_if_not</a>(struct <a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> aIter, bool(*aPredicate)(<span class="keyword">const</span> <span class="keyword">struct </span><a class="code hl_struct" href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a> *aIter))</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    {</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    <span class="keywordflow">for</span>(<span class="keywordtype">bool</span> valid = <a class="code hl_function" href="group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8">set_iterator_is_valid</a>(&amp;aIter); valid; valid = <a class="code hl_function" href="group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6">set_iterator_to_next</a>(&amp;aIter))</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>        <span class="keywordflow">if</span>(!aPredicate(&amp;aIter))</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>            <span class="keywordflow">return</span> aIter;</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>    <span class="keywordflow">return</span> aIter;</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    }</div>
+</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span></div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span><span class="preprocessor">#endif </span><span class="comment">/* TSET_H */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="a_t_set_unsorted_flex_array_8h_html"><div class="ttname"><a href="_t_set_unsorted_flex_array_8h.html">TSetUnsortedFlexArray.h</a></div><div class="ttdoc">Deklarace typu SetUnsortedFlexArray a jeho API pro realizaci množiny pomocí nesetříděného flexibilníh...</div></div>
+<div class="ttc" id="agroup___iterator_algorithms_html_ga1785c6060679dcab5e6781b66659dbf3"><div class="ttname"><a href="group___iterator_algorithms.html#ga1785c6060679dcab5e6781b66659dbf3">set_find_if</a></div><div class="ttdeci">static struct TSetIterator set_find_if(struct TSetIterator aIter, bool(*aPredicate)(const struct TSetIterator *aIter))</div><div class="ttdoc">Vyhledání prvního elementu množiny splňujícího zadaný predikát.</div><div class="ttdef"><b>Definition</b> TSet.h:196</div></div>
+<div class="ttc" id="agroup___iterator_algorithms_html_ga7dd39e89482104c1886a0c46fd5ec018"><div class="ttname"><a href="group___iterator_algorithms.html#ga7dd39e89482104c1886a0c46fd5ec018">set_for_range</a></div><div class="ttdeci">static void set_for_range(struct TSetIterator aFirstIter, const struct TSetIterator aLastIter, void(*aOperation)(const struct TSetIterator *aIter))</div><div class="ttdoc">Zavolání zvolené funkce na každý element množiny v zadaném rozsahu pozic určených dvěma iterátory.</div><div class="ttdef"><b>Definition</b> TSet.h:166</div></div>
+<div class="ttc" id="agroup___iterator_algorithms_html_ga8ac257b3b58d1df45282efff565eb78f"><div class="ttname"><a href="group___iterator_algorithms.html#ga8ac257b3b58d1df45282efff565eb78f">set_for_each_n</a></div><div class="ttdeci">static struct TSetIterator set_for_each_n(struct TSetIterator aIter, size_t aN, void(*aOperation)(const struct TSetIterator *aIter))</div><div class="ttdoc">Zavolání zvolené funkce na prvních N elementů množiny od pozice určené iterátorem.</div><div class="ttdef"><b>Definition</b> TSet.h:183</div></div>
+<div class="ttc" id="agroup___iterator_algorithms_html_ga8ca52ed8ac7c0be83a19c7ed10f813cd"><div class="ttname"><a href="group___iterator_algorithms.html#ga8ca52ed8ac7c0be83a19c7ed10f813cd">set_find_if_not</a></div><div class="ttdeci">static struct TSetIterator set_find_if_not(struct TSetIterator aIter, bool(*aPredicate)(const struct TSetIterator *aIter))</div><div class="ttdoc">Vyhledání prvního elementu množiny nesplňujícího zadaný predikát.</div><div class="ttdef"><b>Definition</b> TSet.h:210</div></div>
+<div class="ttc" id="agroup___iterator_algorithms_html_gab8ba369b42eda61d010f35df73be73db"><div class="ttname"><a href="group___iterator_algorithms.html#gab8ba369b42eda61d010f35df73be73db">set_for_each</a></div><div class="ttdeci">static void set_for_each(struct TSetIterator aIter, void(*aOperation)(const struct TSetIterator *aIter))</div><div class="ttdoc">Zavolání zvolené funkce na každý element množiny od pozice určené iterátorem až do posledního element...</div><div class="ttdef"><b>Definition</b> TSet.h:154</div></div>
+<div class="ttc" id="agroup___t_set_element_html_ga434f133e40212ffe694f4afae9ffd8e8"><div class="ttname"><a href="group___t_set_element.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a></div><div class="ttdeci">int TSetElement</div><div class="ttdoc">Definice typu SetElement.</div><div class="ttdef"><b>Definition</b> TSetElement.h:23</div></div>
+<div class="ttc" id="agroup___t_set_html_a27ffb91c868c8e4ecd0f87d21dada53f"><div class="ttname"><a href="group___t_set.html#a27ffb91c868c8e4ecd0f87d21dada53f">TSet::iSize</a></div><div class="ttdeci">size_t iSize</div><div class="ttdoc">Počet elementů množiny.</div><div class="ttdef"><b>Definition</b> TSet.h:25</div></div>
+<div class="ttc" id="agroup___t_set_html_a2bfdf42e7e6b5bf0b89def6c9bf72aba"><div class="ttname"><a href="group___t_set.html#a2bfdf42e7e6b5bf0b89def6c9bf72aba">TSet::iFlexArray</a></div><div class="ttdeci">struct TSetUnsortedFlexArray * iFlexArray</div><div class="ttdoc">PIMPL ukazatel na hodnoty typu SetUnsortedFlexArray (Pointer to private IMPLementation).</div><div class="ttdef"><b>Definition</b> TSet.h:26</div></div>
+<div class="ttc" id="agroup___t_set_html_ga0d1464cea78691ff9ad3dd1e32b55c60"><div class="ttname"><a href="group___t_set.html#ga0d1464cea78691ff9ad3dd1e32b55c60">set_insert</a></div><div class="ttdeci">bool set_insert(struct TSet *aSet, TSetElement aValue)</div><div class="ttdoc">Vložení elementu do množiny.</div><div class="ttdef"><b>Definition</b> TSet.c:24</div></div>
+<div class="ttc" id="agroup___t_set_html_ga1dab52afdffe1147063314f7cdc5a7c8"><div class="ttname"><a href="group___t_set.html#ga1dab52afdffe1147063314f7cdc5a7c8">set_find</a></div><div class="ttdeci">struct TSetIterator set_find(const struct TSet *aSet, TSetElement aValue)</div><div class="ttdoc">Získání nového iterátoru ukazujícího na první element se zadanou hodnotou v množině,...</div><div class="ttdef"><b>Definition</b> TSet.c:57</div></div>
+<div class="ttc" id="agroup___t_set_html_ga213cfb714cece49d955fc452b2aeb186"><div class="ttname"><a href="group___t_set.html#ga213cfb714cece49d955fc452b2aeb186">set_size</a></div><div class="ttdeci">size_t set_size(const struct TSet *aSet)</div><div class="ttdoc">Přečtení počtu elementů množiny.</div><div class="ttdef"><b>Definition</b> TSet.c:17</div></div>
+<div class="ttc" id="agroup___t_set_html_ga2a711b02282ff309c0d6a4fdcfbac738"><div class="ttname"><a href="group___t_set.html#ga2a711b02282ff309c0d6a4fdcfbac738">set_erase</a></div><div class="ttdeci">bool set_erase(struct TSet *aSet, TSetElement aValue)</div><div class="ttdoc">Odstranění elementu z množiny.</div><div class="ttdef"><b>Definition</b> TSet.c:36</div></div>
+<div class="ttc" id="agroup___t_set_html_ga2f7fd9486a5c300158d70dc79c6c6c8f"><div class="ttname"><a href="group___t_set.html#ga2f7fd9486a5c300158d70dc79c6c6c8f">set_is_empty</a></div><div class="ttdeci">static bool set_is_empty(const struct TSet *aSet)</div><div class="ttdoc">Zjištění, zda je množina prázdná</div><div class="ttdef"><b>Definition</b> TSet.h:47</div></div>
+<div class="ttc" id="agroup___t_set_html_ga674fb4a9d4cac982bca65b8b264b04b5"><div class="ttname"><a href="group___t_set.html#ga674fb4a9d4cac982bca65b8b264b04b5">set_init</a></div><div class="ttdeci">void set_init(struct TSet *aSet)</div><div class="ttdoc">Inicializace prázdné množiny.</div><div class="ttdef"><b>Definition</b> TSet.c:11</div></div>
+<div class="ttc" id="agroup___t_set_html_ga768d36614713a921e88985484ac63cc1"><div class="ttname"><a href="group___t_set.html#ga768d36614713a921e88985484ac63cc1">set_is_element_of</a></div><div class="ttdeci">bool set_is_element_of(const struct TSet *aSet, TSetElement aValue)</div><div class="ttdoc">Zjištění, zda množina obsahuje zadanou hodnotu elementu.</div><div class="ttdef"><b>Definition</b> TSet.c:48</div></div>
+<div class="ttc" id="agroup___t_set_html_ga8094d1ab68434b8413cd905895ff37ae"><div class="ttname"><a href="group___t_set.html#ga8094d1ab68434b8413cd905895ff37ae">set_destroy</a></div><div class="ttdeci">void set_destroy(struct TSet *aSet)</div><div class="ttdoc">Deinicializace množiny.</div><div class="ttdef"><b>Definition</b> TSet.c:69</div></div>
+<div class="ttc" id="agroup___t_set_html_struct_t_set"><div class="ttname"><a href="group___t_set.html#struct_t_set">TSet</a></div><div class="ttdoc">Definice typu Set.</div><div class="ttdef"><b>Definition</b> TSet.h:24</div></div>
+<div class="ttc" id="agroup___t_set_iterator_html_a4231f9d54145c5f2d377f32ec323dcc9"><div class="ttname"><a href="group___t_set_iterator.html#a4231f9d54145c5f2d377f32ec323dcc9">TSetIterator::iSet</a></div><div class="ttdeci">const struct TSet * iSet</div><div class="ttdoc">Ukazatel na navázanou množinu (iterátor neumožňuje měnit hodnoty elementů v množině).</div><div class="ttdef"><b>Definition</b> TSet.h:102</div></div>
+<div class="ttc" id="agroup___t_set_iterator_html_a653670a6d238caa045872f0682ec52b3"><div class="ttname"><a href="group___t_set_iterator.html#a653670a6d238caa045872f0682ec52b3">TSetIterator::iPos</a></div><div class="ttdeci">size_t iPos</div><div class="ttdoc">Aktuální pozice pro indexaci elementu v navázané množině</div><div class="ttdef"><b>Definition</b> TSet.h:103</div></div>
+<div class="ttc" id="agroup___t_set_iterator_html_ga089f24c81ac3da7d1ac7ca24cc078dd8"><div class="ttname"><a href="group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8">set_iterator_is_valid</a></div><div class="ttdeci">bool set_iterator_is_valid(const struct TSetIterator *aIter)</div><div class="ttdoc">Zjištění platnosti iterátoru.</div><div class="ttdef"><b>Definition</b> TSet.c:87</div></div>
+<div class="ttc" id="agroup___t_set_iterator_html_ga3928a980e2759ba130ce333e77f15fab"><div class="ttname"><a href="group___t_set_iterator.html#ga3928a980e2759ba130ce333e77f15fab">set_iterator_value</a></div><div class="ttdeci">TSetElement set_iterator_value(const struct TSetIterator *aIter)</div><div class="ttdoc">Přečtení hodnoty elementu z množiny pomocí iterátoru.</div><div class="ttdef"><b>Definition</b> TSet.c:111</div></div>
+<div class="ttc" id="agroup___t_set_iterator_html_ga6723a05c864198597ff49718020bd0d6"><div class="ttname"><a href="group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6">set_iterator_to_next</a></div><div class="ttdeci">bool set_iterator_to_next(struct TSetIterator *aIter)</div><div class="ttdoc">Posunutí iterátoru vpřed.</div><div class="ttdef"><b>Definition</b> TSet.c:96</div></div>
+<div class="ttc" id="agroup___t_set_iterator_html_ga9897d99975ad2adadb6ed86c9018560e"><div class="ttname"><a href="group___t_set_iterator.html#ga9897d99975ad2adadb6ed86c9018560e">set_iterator_is_equal</a></div><div class="ttdeci">bool set_iterator_is_equal(const struct TSetIterator *aLeftIter, const struct TSetIterator *aRightIter)</div><div class="ttdoc">Test shodnosti dvou iterátorů</div><div class="ttdef"><b>Definition</b> TSet.c:119</div></div>
+<div class="ttc" id="agroup___t_set_iterator_html_gab11bafbe7585e4bb0bd9ff2353d77765"><div class="ttname"><a href="group___t_set_iterator.html#gab11bafbe7585e4bb0bd9ff2353d77765">set_iterator_begin</a></div><div class="ttdeci">struct TSetIterator set_iterator_begin(const struct TSet *aSet)</div><div class="ttdoc">Vytvoření nového iterátoru ukazujícího na první element množiny.</div><div class="ttdef"><b>Definition</b> TSet.c:78</div></div>
+<div class="ttc" id="agroup___t_set_iterator_html_struct_t_set_iterator"><div class="ttname"><a href="group___t_set_iterator.html#struct_t_set_iterator">TSetIterator</a></div><div class="ttdoc">Definice typu SetIterator.</div><div class="ttdef"><b>Definition</b> TSet.h:101</div></div>
+<div class="ttc" id="astruct_t_set_unsorted_flex_array_html"><div class="ttname"><a href="struct_t_set_unsorted_flex_array.html">TSetUnsortedFlexArray</a></div><div class="ttdoc">Úplná definice privátního typu SetUnsortedFlexArray.</div><div class="ttdef"><b>Definition</b> TSetUnsortedFlexArray.c:17</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Vygenerováno dne: <span class="timestamp"></span>, pro projekt: BPC-ALD: ADT+ALG TSet Unsorted dynamic array, programem&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

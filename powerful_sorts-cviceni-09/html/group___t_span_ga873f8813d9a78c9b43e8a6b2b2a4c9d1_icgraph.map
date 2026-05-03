@@ -1,0 +1,13 @@
+<map id="span_size" name="span_size">
+<area shape="rect" id="Node000001" title="Přečtení počtu elementů Spanu." alt="" coords="593,29,673,56"/>
+<area shape="rect" id="Node000002" href="$merge__sort__with__span_8c.html#acfb719292b2ea89b714190280e0021b0" title="Vnitřní a lokální funkce realizující rekurzivní funkci pro metodu (Merge Sort)." alt="" coords="302,29,433,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="577,45,434,45,434,40,577,40"/>
+<area shape="rect" id="Node000005" href="$merge__sort__with__span_8c.html#a0c876c8c251dbd52af676e4c0737f262" title="Vnitřní a lokální funkce realizující algoritmus sloučení dvou již setříděných rozsahů (Spanů)." alt="" coords="481,55,545,81"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="578,57,546,64,544,59,577,52"/>
+<area shape="poly" id="edge4_Node000002_Node000002" title=" " alt="" coords="392,16,383,10,368,8,353,10,345,14,343,20,347,28,342,30,338,21,341,11,351,5,368,3,385,5,395,12"/>
+<area shape="rect" id="Node000003" href="$group___powerful_sorts.html#ga879a216389959b8a25490288ba4e63dc" title="Třídění pomocí metody slučováním (Merge sort) využívající rekurzivní rozklad a datový typ span." alt="" coords="103,29,254,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="286,45,255,45,255,40,286,40"/>
+<area shape="rect" id="Node000004" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,29,55,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,45,55,45,55,40,87,40"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="465,63,433,57,434,52,466,57"/>
+</map>

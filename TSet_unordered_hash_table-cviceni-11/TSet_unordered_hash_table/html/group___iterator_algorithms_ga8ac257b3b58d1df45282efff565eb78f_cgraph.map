@@ -1,0 +1,17 @@
+<map id="set_for_each_n" name="set_for_each_n">
+<area shape="rect" id="Node000001" title="Zavolání zvolené funkce na prvních N elementů množiny od pozice určené iterátorem." alt="" coords="5,31,115,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="31,32,25,22,29,12,41,6,60,4,81,7,92,13,89,18,79,12,60,9,42,11,33,16,31,21,35,29"/>
+<area shape="rect" id="Node000002" href="$group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8" title="Zjištění platnosti iterátoru." alt="" coords="347,5,482,32"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="115,37,332,22,332,27,115,43"/>
+<area shape="rect" id="Node000005" href="$group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6" title="Posunutí iterátoru vpřed." alt="" coords="163,56,299,83"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="115,49,148,54,147,60,115,55"/>
+<area shape="rect" id="Node000003" href="$group___t_set_hash_table.html#ga891b531cc6373331e55101f2dd75ac4a" title="Zjištění platnosti pozice v hašovací tabulce." alt="" coords="530,56,717,83"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="474,30,551,49,550,54,472,35"/>
+<area shape="rect" id="Node000004" href="$_t_set_hash_table_open_addr_8c.html#aa4a90f23bbdbe5bb71a49d7df2ee5fc1" title="Funkce vracející hodnotu reprezentující smazanou přihrádku." alt="" coords="765,73,902,116"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="717,78,750,82,749,87,717,83"/>
+<area shape="poly" id="edge9_Node000005_Node000002" title=" " alt="" coords="281,53,348,34,349,39,283,58"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="300,67,515,67,515,72,300,72"/>
+<area shape="rect" id="Node000006" href="$group___t_set_hash_table.html#ga9218e24d2cc5a61596c4a45ef76f4c75" title="Výpočet následující pozice platné přihrádky v hašovací tabulce." alt="" coords="539,107,708,133"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="300,75,524,104,523,110,299,81"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="708,107,749,102,750,107,709,112"/>
+</map>

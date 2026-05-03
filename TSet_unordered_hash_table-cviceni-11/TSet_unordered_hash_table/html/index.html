@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BPC-ALD: ADT+ALG TSet_unordered_hash_table: Zadání cvičení 12</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript" src="darkmode_toggle.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">BPC-ALD: ADT+ALG TSet_unordered_hash_table<span id="projectnumber">&#160;(2026)</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Vygenerováno programem Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Hledat',false);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Načítám...</div>
+<div class="SRStatus" id="Searching">Vyhledávám...</div>
+<div class="SRStatus" id="NoMatches">Nebylo nic nalezeno</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">Zadání cvičení 12 </div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="md_cv12__zadani___t_set__unordered__hash__table"></a></p>
+<p>Cvičení je věnováno návrhu a implementaci ADT množina (viz přednáška č. 5) ukládající prvky do hašovací tabulky využívající otevřené adresování. Zadání obsahuje zdrojové soubory projektu představující <b>nedokončenou implementaci ADT Množina s prvky uloženými v hašovací tabulce</b> - <span class="tt">TSet_unordered_hash_table</span>. Otevřené adresování realizujte pro <b>lineární</b> i <b>kvadratické</b> dohledávání (zkoumání) následující pozice (viz přednáška č. 12) - (<em>Linear probing</em>, <em>Quadratic probing</em>).</p>
+<hr  />
+<h1>Zadání úlohy</h1>
+<p>V dodaném projektu <span class="tt">TSet_unordered_hash_table</span> dokončete ve zdrojovém souboru <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8c.html" title="Implementace API pro typ SetHashTable - (hašovací tabulka využívající otevřené adresování).">TSetHashTableOpenAddr.c</a></span> implementaci funkcí: </p><div class="fragment"><div class="line"><span class="comment">// Vyhledání elementu o zadané hodnotě v hašovací tabulce.</span></div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0">set_hash_table_search</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <a class="code hl_typedef" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue, <span class="keywordtype">size_t</span> *aPosPtr)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// Vložení elementu do hašovací tabulky.</span></div>
+<div class="line"><span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set_hash_table.html#gaa4327c29b178abf7b79112463e1f9fb0">set_hash_table_insert</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <a class="code hl_typedef" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue)</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// Odstranění elementu z hašovací tabulky.</span></div>
+<div class="line"><span class="keywordtype">bool</span> <a class="code hl_function" href="group___t_set_hash_table.html#gaee3600d3134fc51a78e4142bbdc0ba2b">set_hash_table_erase</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="struct_t_set_hash_table.html">TSetHashTable</a> *aTable, <a class="code hl_typedef" href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a> aValue)</div>
+<div class="ttc" id="agroup___t_set_element_hashable_html_ga434f133e40212ffe694f4afae9ffd8e8"><div class="ttname"><a href="group___t_set_element_hashable.html#ga434f133e40212ffe694f4afae9ffd8e8">TSetElement</a></div><div class="ttdeci">int TSetElement</div><div class="ttdoc">Definice typu SetElement.</div><div class="ttdef"><b>Definition</b> TSetElementHashable.h:24</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_ga69c2697abdd49b443ea76077058df6b0"><div class="ttname"><a href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0">set_hash_table_search</a></div><div class="ttdeci">int set_hash_table_search(const struct TSetHashTable *aTable, TSetElement aValue, size_t *aPosPtr)</div><div class="ttdoc">Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:59</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_gaa4327c29b178abf7b79112463e1f9fb0"><div class="ttname"><a href="group___t_set_hash_table.html#gaa4327c29b178abf7b79112463e1f9fb0">set_hash_table_insert</a></div><div class="ttdeci">bool set_hash_table_insert(struct TSetHashTable *aTable, TSetElement aValue)</div><div class="ttdoc">Vložení elementu do hašovací tabulky.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:136</div></div>
+<div class="ttc" id="agroup___t_set_hash_table_html_gaee3600d3134fc51a78e4142bbdc0ba2b"><div class="ttname"><a href="group___t_set_hash_table.html#gaee3600d3134fc51a78e4142bbdc0ba2b">set_hash_table_erase</a></div><div class="ttdeci">bool set_hash_table_erase(struct TSetHashTable *aTable, TSetElement aValue)</div><div class="ttdoc">Odstranění elementu z hašovací tabulky.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:156</div></div>
+<div class="ttc" id="astruct_t_set_hash_table_html"><div class="ttname"><a href="struct_t_set_hash_table.html">TSetHashTable</a></div><div class="ttdoc">Úplná definice typu SetHashTable.</div><div class="ttdef"><b>Definition</b> TSetHashTableOpenAddr.c:25</div></div>
+</div><!-- fragment --><p>Implementaci funkce <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span> realizujte tak, aby podporovala pro hašovací tabulku operace:</p>
+<ol type="1">
+<li><em>lineárního dohledávání</em> následující platné pozice (při definici makra: <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8c.html#a8b89e9ab2e59ac77d5b3ed07f3332cb1" title="Varianta využívající lineární dohledávání následující pozice ve funkci: set_hash_table_search().">HASH_TABLE_SEARCH_VARIANT</a> == <a class="el" href="_t_set_hash_table_open_addr_8c.html#ab5da3fc470e5ed488e4d007c4707cd8c" title="Volba pro lineární dohledávání následující pozice ve funkci: set_hash_table_search().">LINEAR_PROBING</a></span>),</li>
+<li><em>kvadratického dohledávání</em> následující platné pozice (při definici makra: <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8c.html#a8b89e9ab2e59ac77d5b3ed07f3332cb1" title="Varianta využívající lineární dohledávání následující pozice ve funkci: set_hash_table_search().">HASH_TABLE_SEARCH_VARIANT</a> == <a class="el" href="_t_set_hash_table_open_addr_8c.html#a7411013d4781f7a3a73ad6200059ca57" title="Volba pro kvadratické dohledávání následující pozice ve funkci: set_hash_table_search().">QUADRATIC_PROBING</a></span>).</li>
+</ol>
+<p>Jednotlivé operace vkládání a odebírání prvků realizujte tak, aby ke své funkci využívaly k vyhledání prvků funkci <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>.</p>
+<p>Algoritmy vyzkoušejte na testovacích posloupnostech využívaných ve funkci <span class="tt"><a class="el" href="group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97">main()</a></span>, které jsou součástí projektu.</p>
+<p>Srovnejte výsledné počty komparací prvků množiny z vašeho programu s hodnotami v referenčních souborech s výsledky: <a href="examples.html"><span class="tt">doc/cv12_reports_*.lst</span></a>.</p>
+<h2>Soubory projektu</h2>
+<p>Projekt <span class="tt">TSet_unordered_hash_table</span> není dokončen. Ve zdrojovém souboru <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8c.html" title="Implementace API pro typ SetHashTable - (hašovací tabulka využívající otevřené adresování).">TSetHashTableOpenAddr.c</a></span> chybí těla funkcí realizující operace pro práci s hašovací tabulkou. Na začátku tohoto souboru je také pomocí <span class="tt">#define</span> realizováno přepínání jednotlivých variant dohledávání následující platné pozice tabulky.</p>
+<p>Soubor <span class="tt"><a class="el" href="_t_set_element_hashable_8h.html" title="Definice typu Hashable Basic SetElement a implementace API.">TSetElementHashable.h</a></span> - obsahuje funkce pro porovnání prvků množiny a mechanismus určení počtu těchto porovnání. Nově je zde doplněna funkce výpočtu hodnoty hašovací funkce pro zadaný element: <span class="tt"><a class="el" href="group___t_set_element_hashable.html#ga4a88e3b3d94aa8fa572cf07764d843e0" title="Výpočet hash hodnoty elementu.">set_element_hash_value()</a></span>. Pro evidenci počtu porovnání opětovně slouží globální proměnná <em>gSetElementComparisons</em>.</p>
+<p>Soubory <span class="tt">check.c</span> a <span class="tt">check.h</span> - soubory pro kontrolu manipulace s pamětí a soubory.</p>
+<p>Soubor <span class="tt"><a class="el" href="main_8c.html" title="Hlavní program pro testování ADT TSet - (realizace unordered množiny pomocí hašovací tabulky).">main.c</a></span> - obsahuje základní a manuálně naimplementovanou testovací sekvenci ve formě programu uvnitř funkce <span class="tt"><a class="el" href="group___main_program.html#ga631b99406019be6085e56ed7d8db4005">testset_hardcoded()</a></span>. Testovací sekvence začíná voláním funkce <span class="tt"><a class="el" href="group___t_set.html#ga674fb4a9d4cac982bca65b8b264b04b5" title="Inicializace prázdné množiny.">set_init()</a></span> a končí voláním funkce <span class="tt"><a class="el" href="group___t_set.html#ga8094d1ab68434b8413cd905895ff37ae" title="Deinicializace množiny.">set_destroy()</a></span>. Dále je zde realizováno volání funkcí pro vkládání, výběr, tisk a zjišťování přítomnosti prvku v množině. Tisk je prováděn pomocí iterátorů <span class="tt">struct <a class="el" href="group___t_set_iterator.html#struct_t_set_iterator" title="Definice typu SetIterator.">TSetIterator</a></span>. Ve zdrojovém souboru je také implementována podpora pro testování pomocí test plánů.</p>
+<p>Soubory <span class="tt"><a class="el" href="_t_set_8c.html" title="Implementace API pro typ Set (realizace unordered množiny pomocí hašovací tabulky).">TSet.c</a></span> a <span class="tt"><a class="el" href="_t_set_8h.html" title="Definice typu Set - (realizace unordered množiny pomocí hašovací tabulky).">TSet.h</a></span> jsou kompletně naimplementovány a obsahují také všechna volání funkcí ze souboru: <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8h.html" title="Implementace typu SetHashTable - (hašovací tabulka využívající otevřené adresování).">TSetHashTableOpenAddr.h</a></span>.</p>
+<ul>
+<li>Soubor <span class="tt"><a class="el" href="_t_set_8h.html" title="Definice typu Set - (realizace unordered množiny pomocí hašovací tabulky).">TSet.h</a></span> je hlavičkový soubor, který obsahuje definici struktury množiny <span class="tt">struct <a class="el" href="group___t_set.html#struct_t_set" title="Definice typu Set.">TSet</a></span> a struktury iterátoru pro množinu <span class="tt">struct <a class="el" href="group___t_set_iterator.html#struct_t_set_iterator" title="Definice typu SetIterator.">TSetIterator</a></span>. Rozhraní funkcí je podobné jako v minulých projektech a názvy funkcí dostatečně popisují jejich činnost.</li>
+<li>Vlastní množinu reprezentuje struktura <span class="tt">struct <a class="el" href="group___t_set.html#struct_t_set" title="Definice typu Set.">TSet</a></span> využívající hašovací tabulku viz složka <span class="tt">iHashTable</span> a složka <span class="tt">iSize</span> uchovávající aktuálně počet prvků uložených v množině.</li>
+<li><p class="startli">Soubor <span class="tt"><a class="el" href="_t_set_8c.html" title="Implementace API pro typ Set (realizace unordered množiny pomocí hašovací tabulky).">TSet.c</a></span> obsahuje tyto funkce:</p><ul>
+<li><span class="tt"><a class="el" href="group___t_set.html#ga674fb4a9d4cac982bca65b8b264b04b5" title="Inicializace prázdné množiny.">set_init()</a></span> - inicializace struktury množiny,</li>
+<li><span class="tt"><a class="el" href="group___t_set.html#ga213cfb714cece49d955fc452b2aeb186" title="Přečtení počtu elementů množiny.">set_size()</a></span> - zjištění počtu elementů množiny (neboli velikost množiny),</li>
+<li><span class="tt"><a class="el" href="group___t_set.html#ga2f7fd9486a5c300158d70dc79c6c6c8f" title="Zjištění, zda je množina prázdná">set_is_empty()</a></span> - test, zda je množina prázdná,</li>
+<li><span class="tt"><a class="el" href="group___t_set.html#ga0d1464cea78691ff9ad3dd1e32b55c60" title="Vložení elementu do množiny.">set_insert()</a></span> - vložení prvku do množiny realizované hašovací tabulkou. V případě neúspěchu vrací <span class="tt">false</span>, jinak vrací <span class="tt">true</span>,</li>
+<li><span class="tt"><a class="el" href="group___t_set.html#ga2a711b02282ff309c0d6a4fdcfbac738" title="Odstranění elementu z množiny.">set_erase()</a></span> - odebrání prvku z množiny realizované hašovací tabulkou. V případě neúspěchu vrací <span class="tt">false</span>, jinak vrací <span class="tt">true</span>,</li>
+<li><span class="tt"><a class="el" href="group___t_set.html#ga768d36614713a921e88985484ac63cc1" title="Zjištění, zda množina obsahuje zadanou hodnotu elementu.">set_is_element_of()</a></span> - zjištění přítomnosti dané hodnoty v množině,</li>
+<li><span class="tt"><a class="el" href="group___t_set.html#ga1dab52afdffe1147063314f7cdc5a7c8" title="Získání nového iterátoru ukazujícího na první element se zadanou hodnotou v množině,...">set_find()</a></span> - vytvoření iterátoru ukazujícího na danou hodnotu prvku v množině,</li>
+<li><span class="tt"><a class="el" href="group___t_set.html#ga8094d1ab68434b8413cd905895ff37ae" title="Deinicializace množiny.">set_destroy()</a></span> - korektní ukončení života proměnné typu množina.</li>
+</ul>
+<p class="startli">A také základní operace pro práci s iterátory této množiny:</p><ul>
+<li><span class="tt"><a class="el" href="group___t_set_iterator.html#gab11bafbe7585e4bb0bd9ff2353d77765" title="Vytvoření nového iterátoru ukazujícího na první element množiny.">set_iterator_begin()</a></span> - vytvoření iterátoru směřujícího na první element množiny,</li>
+<li><span class="tt"><a class="el" href="group___t_set_iterator.html#ga089f24c81ac3da7d1ac7ca24cc078dd8" title="Zjištění platnosti iterátoru.">set_iterator_is_valid()</a></span> - predikátová funkce vracející <span class="tt">true</span>, pokud iterátor směřuje na platný element množiny,</li>
+<li><span class="tt"><a class="el" href="group___t_set_iterator.html#ga6723a05c864198597ff49718020bd0d6" title="Posunutí iterátoru vpřed.">set_iterator_to_next()</a></span> - posun iterátoru na další element množiny,</li>
+<li><span class="tt"><a class="el" href="group___t_set_iterator.html#ga3928a980e2759ba130ce333e77f15fab" title="Přečtení hodnoty elementu z množiny pomocí iterátoru.">set_iterator_value()</a></span> - získání hodnoty elementu množiny, na který směřuje iterátor.</li>
+</ul>
+</li>
+</ul>
+<p>Soubor <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8h.html" title="Implementace typu SetHashTable - (hašovací tabulka využívající otevřené adresování).">TSetHashTableOpenAddr.h</a></span> je kompletní a soubor <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8c.html" title="Implementace API pro typ SetHashTable - (hašovací tabulka využívající otevřené adresování).">TSetHashTableOpenAddr.c</a></span> je realizován pouze částečně a obsahuje:</p>
+<ul>
+<li>Hotovou implementaci těchto operací nad hašovací tabulkou využívající otevřené adresování:<ul>
+<li><span class="tt"><a class="el" href="group___t_set_hash_table.html#gaa2a0e99e7960542538a8d251c488b808" title="Inicializace hašovací tabulky.">set_hash_table_init()</a></span> - alokace a inicializace hašovací tabulky,</li>
+<li><span class="tt"><a class="el" href="group___t_set_hash_table.html#ga1562a195e21d46896e078ba7e555042b" title="Deinicializace hašovací tabulky.">set_hash_table_destroy()</a></span> - deinicializace a dealokace hašovací tabulky a elementů v ní obsažených,</li>
+<li><span class="tt"><a class="el" href="group___t_set_hash_table.html#ga6ae8410d0c50fb9f3104838bafdbc906" title="Výpočet první platné pozice v hašovací tabulce.">set_hash_table_begin_pos()</a></span> - výpočet první platné pozice přihrádky v hašovací tabulce (<em>Využíváno k realizaci iterátoru nad hašovací tabulkou.</em>),</li>
+<li><span class="tt"><a class="el" href="group___t_set_hash_table.html#ga891b531cc6373331e55101f2dd75ac4a" title="Zjištění platnosti pozice v hašovací tabulce.">set_hash_table_is_valid_pos()</a></span> - zjištění platnosti pozice přihrádky v hašovací tabulce (<em>Využíváno k realizaci iterátoru nad hašovací tabulkou.</em>),</li>
+<li><span class="tt"><a class="el" href="group___t_set_hash_table.html#ga9218e24d2cc5a61596c4a45ef76f4c75" title="Výpočet následující pozice platné přihrádky v hašovací tabulce.">set_hash_table_next_pos()</a></span> - výpočet následující pozice platné přihrádky v hašovací tabulce (<em>Využíváno k realizaci iterátoru nad hašovací tabulkou.</em>),</li>
+<li><span class="tt"><a class="el" href="group___t_set_hash_table.html#gaf6b548ed4295b1a4789d073b8a43db58" title="Přečtení hodnoty elementu z platné přihrádky v hašovací tabulce.">set_hash_table_value_at_pos()</a></span> - získání hodnoty elementu z platné přihrádky v hašovací tabulce. (<em>Využíváno k realizaci iterátoru nad hašovací tabulkou.</em>)</li>
+</ul>
+</li>
+<li><b>Nedokončenou implementaci</b> těchto operací nad hašovací tabulkou. <b>Pro porovnání elementů nezapomeňte v těchto operacích používat předdefinovanou funkci <span class="tt"><a class="el" href="group___t_set_element_hashable.html#gad8cfc9a36f36c44c10b660c5b370f67e" title="Porovnání dvou elementů">set_element_comparator()</a></span> ze souboru <span class="tt"><a class="el" href="_t_set_element_hashable_8h.html" title="Definice typu Hashable Basic SetElement a implementace API.">TSetElementHashable.h</a></span></b>. V rámci realizace je proto nutné implementovat tyto funkce:<ul>
+<li><span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span> - vyhledání elementu o zadané hodnotě v hašovací tabulce. Funkci implementujte tak, aby podporovala otevřené adresování pro obě varianty: <em>lineárního</em> i <em>kvadratického</em> dohledávání následující pozice v hašovací tabulce. Požadovaný význam návratových hodnot naleznete v dokumentaci funkce.</li>
+<li><span class="tt"><a class="el" href="group___t_set_hash_table.html#gaa4327c29b178abf7b79112463e1f9fb0" title="Vložení elementu do hašovací tabulky.">set_hash_table_insert()</a></span> - vložení elementu do hašovací tabulky. (Tato funkce bude využívat: <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>.),</li>
+<li><span class="tt"><a class="el" href="group___t_set_hash_table.html#gaee3600d3134fc51a78e4142bbdc0ba2b" title="Odstranění elementu z hašovací tabulky.">set_hash_table_erase()</a></span> - odstranění elementu z hašovací tabulky. (Tato funkce bude využívat: <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span>.)</li>
+</ul>
+</li>
+<li>Vzorové výsledky testování obsahující počty porovnání jsou pro kontrolu správnosti vašeho řešení dostupné v souborech:<ul>
+<li>pro <em>lineární dohledávání</em> v: <a href="examples.html"><span class="tt">doc/cv12_reports_testplan_set*_linear_probing.lst</span></a>,</li>
+<li>pro <em>kvadratické dohledávání</em> v: <a href="examples.html"><span class="tt">doc/cv12_reports_testplan_set*_quadratic_probing.lst</span></a>.</li>
+</ul>
+</li>
+</ul>
+<h2>Úkoly</h2>
+<ol type="1">
+<li>Prostudujte si hierarchii zdrojových souborů v dodaném projektu.</li>
+<li>Projekt obsahuje automaticky konfigurovatelné testy v souborech <a href="files.html"><span class="tt">testplan_set*.h</span></a>, prostudujte si jejich výhody namísto využívání ručně napsaného textu ve funkci <span class="tt"><a class="el" href="group___main_program.html#ga631b99406019be6085e56ed7d8db4005">testset_hardcoded()</a></span>. Uvědomte si, proč je automatický tester realizovaný ve zdrojových souborech <span class="tt"><a class="el" href="testbench_8c.html" title="Implementace testbench API pro testování operací zvoleného ADT.">testbench.c</a></span> a <span class="tt"><a class="el" href="testbench_8h.html" title="Definice testbench API pro testování operací zvoleného ADT.">testbench.h</a></span> výhodnější a naučte se vytvářet vlastní test plán.</li>
+<li>Zdrojové soubory <span class="tt"><a class="el" href="_t_set_8h.html" title="Definice typu Set - (realizace unordered množiny pomocí hašovací tabulky).">TSet.h</a></span> a <span class="tt"><a class="el" href="_t_set_8c.html" title="Implementace API pro typ Set (realizace unordered množiny pomocí hašovací tabulky).">TSet.c</a></span> realizující neuspořádanou množinu jsou kompletně hotové. Nastudujte si jejich obsah a smysl volání servisních funkcí deklarovaných v souboru <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8c.html" title="Implementace API pro typ SetHashTable - (hašovací tabulka využívající otevřené adresování).">TSetHashTableOpenAddr.c</a></span>.</li>
+<li>Promyslete si jednotlivé implementace operací vkládání, odebrání a vyhledávání prvků v hašovací tabulce ve zdrojovém souboru <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8c.html" title="Implementace API pro typ SetHashTable - (hašovací tabulka využívající otevřené adresování).">TSetHashTableOpenAddr.c</a></span>. Uvědomte si důvod pro existenci speciální hodnoty: <span class="tt">Marked_as_erased</span> získané pomocí funkce <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8c.html#aa4a90f23bbdbe5bb71a49d7df2ee5fc1" title="Funkce vracející hodnotu reprezentující smazanou přihrádku.">calc_erased_bucket_marker()</a></span>, která označuje původně použitou, ale nyní již prázdnou, přihrádku (tzv. <a href="https://en.wikipedia.org/wiki/Bucket_sort">bucket</a>).</li>
+<li>Doplňte chybějící části těl jednotlivých funkcí ve zdrojovém souboru <span class="tt"><a class="el" href="_t_set_hash_table_open_addr_8c.html" title="Implementace API pro typ SetHashTable - (hašovací tabulka využívající otevřené adresování).">TSetHashTableOpenAddr.c</a></span>.</li>
+<li>Ve funkci <span class="tt"><a class="el" href="group___t_set_hash_table.html#ga69c2697abdd49b443ea76077058df6b0" title="Vyhledání elementu o zadané hodnotě v hašovací tabulce využívající otevřené adresování">set_hash_table_search()</a></span> realizujte nejprve variantu vyhledávání elementu pomocí lineárního dohledávání následující platné pozice a otestujte její fungování.</li>
+<li>Následně ve stejné funkci realizujte variantu vyhledávání elementu pomocí kvadratického dohledávání následující platné pozice a opět otestujte její fungování.</li>
+<li>Realizované algoritmy otestujte na připravených souborech <a href="files.html"><span class="tt">testplan_set*.h</span></a> pomocí funkce <span class="tt"><a class="el" href="group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97">main()</a></span>. Srovnejte výsledné hodnoty z vašeho programu s hodnotami v souborech s výsledky, které mají název začínající <a href="examples.html"><span class="tt">doc/cv12_reports_*.lst</span></a>. Zároveň si prohlédněte zobrazené hodnoty z vašich metod a ujasněte si průběh procesu vyhledávání pro lineární a kvadratického dohledávání. <br  />
+ Pokuste se dosáhnout stejných výsledků pro počet komparací i alokované paměti jako je uvedeno v přiložených souborech, aniž byste museli modifikovat obsah souboru: <span class="tt"><a class="el" href="main_8c.html" title="Hlavní program pro testování ADT TSet - (realizace unordered množiny pomocí hašovací tabulky).">main.c</a></span>.</li>
+</ol>
+<h2>Rozbor úlohy</h2>
+<p>Viz přednášky č. 5 (ADT Množina) a č. 12 (Hašovací tabulka). Pro experimentování můžete také využít <a href="https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html">online vizualizační nástroj</a>.</p>
+<hr  />
+<p> <span class="tt">$Id: <a class="el" href="cv12__zadani___t_set__unordered__hash__table_8md.html">cv12_zadani_TSet_unordered_hash_table.md</a> 3368 2026-04-27 13:51:34Z petyovsky $</span> </p>
+</div></div><!-- PageDoc -->
+<a href="doxygen_crawl.html"></a>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Vygenerováno dne: <span class="timestamp"></span>, pro projekt: BPC-ALD: ADT+ALG TSet_unordered_hash_table, programem&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

@@ -1,0 +1,19 @@
+<map id="heap_size" name="heap_size">
+<area shape="rect" id="Node000001" title="Přečtení počtu uzlů haldy." alt="" coords="622,107,702,133"/>
+<area shape="rect" id="Node000002" href="$heap__sort_8c.html#a8f4c495d0a6bdd0fb4bf6e5bb22299dd" title="Vnitřní a lokální funkce realizující algoritmus uspořádání elementů vektoru do haldy." alt="" coords="250,56,371,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="606,110,573,104,371,78,371,72,574,99,607,105"/>
+<area shape="rect" id="Node000003" href="$group___powerful_sorts.html#gaf564949cc194e5feea63d6c2aaa3125a" title="Třídění pomocí haldy (Heap Sort) využívající poziční API pro přístup k elementům vektoru." alt="" coords="103,81,181,108"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="606,120,181,99,181,94,606,115"/>
+<area shape="rect" id="Node000005" href="$heap__sort_8c.html#a948b3682a8b10b32c1a1a0f2288fa0f8" title="Vnitřní a lokální funkce zajišťující algoritmus vložení hodnoty do zvoleného uzlu haldy,..." alt="" coords="439,5,574,32"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="632,98,572,53,539,35,541,30,575,48,635,94"/>
+<area shape="rect" id="Node000006" href="$group___heap_algorithms.html#ga8ad18ede1ed71f0fbd43cb79041c318f" title="Tisk elementů haldy." alt="" coords="462,157,551,184"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="608,140,551,159,549,154,606,135"/>
+<area shape="rect" id="Node000007" href="$group___powerful_sorts.html#ga84762e575f9465881e13d17072186ddd" title="Třídění pomocí haldy (Heap Sort) využívající iterátorové API pro přístup k elementům vektoru." alt="" coords="229,183,391,209"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="642,147,613,176,575,198,528,211,479,216,432,216,388,213,389,207,432,211,479,211,527,206,573,194,609,172,639,144"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,83,182,91,181,86,234,78"/>
+<area shape="rect" id="Node000004" href="$group___main_program.html#ga0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,119,55,145"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="89,115,56,126,54,121,87,110"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="438,39,365,58,364,53,436,34"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="424,19,329,26,279,34,230,47,193,63,163,83,160,79,190,59,228,41,278,29,329,20,423,14"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="233,181,54,140,56,135,234,176"/>
+</map>

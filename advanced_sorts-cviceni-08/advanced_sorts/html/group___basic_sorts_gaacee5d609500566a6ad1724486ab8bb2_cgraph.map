@@ -1,0 +1,11 @@
+<map id="shaker_sort" name="shaker_sort">
+<area shape="rect" id="Node000001" title="Třídění přímou výměnou se změnou postupu třídění (Shaker Sort)." alt="" coords="5,56,95,83"/>
+<area shape="rect" id="Node000002" href="$group__sortable___t_vector.html#gaedaf9c79afa345e5e71e5c66ab25fa26" title="Porovnání hodnot elementů vektorů" alt="" coords="143,5,314,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,54,163,34,165,39,96,59"/>
+<area shape="rect" id="Node000004" href="$group___t_vector.html#ga2502e6ec116dbac5e49f5b62b07dc898" title="Přečtení počtu elementů vektoru." alt="" coords="185,56,272,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="95,67,170,67,170,72,95,72"/>
+<area shape="rect" id="Node000005" href="$group__sortable___t_vector.html#gac1982d8a0e5f66f933dc6a0413f2d23e" title="Výměna hodnot elementů vektorů" alt="" coords="153,107,304,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="96,79,165,99,163,104,94,85"/>
+<area shape="rect" id="Node000003" href="$group___t_vector_element.html#ga82e527836fce12c93af896f65e9f701d" title="Porovnání dvou elementů" alt="" coords="362,5,542,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="315,16,346,16,346,21,315,21"/>
+</map>

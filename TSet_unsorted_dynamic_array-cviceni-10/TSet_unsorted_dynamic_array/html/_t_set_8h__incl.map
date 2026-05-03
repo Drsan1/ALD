@@ -1,0 +1,23 @@
+<map id="TSet.h" name="TSet.h">
+<area shape="rect" id="Node000001" title="Definice typu Set &#45; (realizace množiny pomocí nesetříděného flexibilního dynamicky alokovaného pole)." alt="" coords="106,5,166,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,229,80,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,34,81,84,59,118,44,155,40,185,41,214,35,214,34,185,39,154,55,116,77,81,120,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="53,155,120,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,34,116,55,104,81,96,111,91,140,86,139,90,110,99,79,111,53,125,31"/>
+<area shape="rect" id="Node000004" href="$_t_set_unsorted_flex_array_8h.html" title="Deklarace typu SetUnsortedFlexArray a jeho API pro realizaci množiny pomocí nesetříděného flexibilníh..." alt="" coords="114,80,281,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,31,179,66,175,70,144,34"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="368,229,435,256"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="167,23,229,42,263,57,295,78,328,110,355,147,392,214,388,217,351,150,324,114,292,82,261,62,227,47,165,28"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="192,108,168,144,134,183,80,223,77,219,130,179,164,140,188,105"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="179,109,120,148,117,144,176,105"/>
+<area shape="rect" id="Node000005" href="$_t_set_element_8h.html" title="Definice typu Basic SetElement a implementace API." alt="" coords="194,155,302,181"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="208,106,233,141,228,144,204,109"/>
+<area shape="poly" id="edge9_Node000005_Node000002" title=" " alt="" coords="213,184,93,226,92,221,211,179"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="104,229,165,256"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="230,184,169,223,166,218,227,180"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="188,229,252,256"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="245,183,233,216,228,214,240,181"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="275,229,343,256"/>
+<area shape="poly" id="edge10_Node000005_Node000008" title=" " alt="" coords="261,180,291,216,287,219,256,184"/>
+<area shape="poly" id="edge11_Node000005_Node000009" title=" " alt="" coords="276,179,362,220,359,225,273,184"/>
+</map>

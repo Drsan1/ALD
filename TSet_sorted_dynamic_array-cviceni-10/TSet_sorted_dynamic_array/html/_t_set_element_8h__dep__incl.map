@@ -1,0 +1,20 @@
+<map id="TSetElement.h" name="TSetElement.h">
+<area shape="rect" id="Node000001" title="Definice typu Basic SetElement a implementace API." alt="" coords="83,5,190,32"/>
+<area shape="rect" id="Node000002" href="$_t_set_element_8c.html" title="Definice globální proměnné realizující počítadlo operací porovnání dvou hodnot typu SetElement." alt="" coords="5,80,113,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,45,74,82,70,78,110,41"/>
+<area shape="rect" id="Node000003" href="$_t_set_sorted_flex_array_8h.html" title="Deklarace typu SetSortedFlexArray a jeho API pro realizaci množiny pomocí setříděného flexibilního dy..." alt="" coords="137,80,290,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,41,202,78,199,82,159,45"/>
+<area shape="rect" id="Node000004" href="$_t_set_8h.html" title="Definice typu Set &#45; (realizace množiny pomocí setříděného flexibilního dynamicky alokovaného pole)." alt="" coords="119,155,178,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="194,120,162,156,158,152,190,116"/>
+<area shape="rect" id="Node000009" href="$_t_set_sorted_flex_array_8c.html" title="Implementace API pro typ SetSortedFlexArray (Flexibilní, tzv. otevřené, pole pro realizaci množiny po..." alt="" coords="202,155,356,181"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="237,116,270,152,266,156,233,120"/>
+<area shape="rect" id="Node000005" href="$_t_set_8c.html" title="Implementace API pro typ Set (realizace množiny pomocí setříděného flexibilního dynamicky alokovaného..." alt="" coords="52,229,111,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="128,195,95,231,91,227,125,191"/>
+<area shape="rect" id="Node000006" href="$main_8c.html" title="Hlavní program pro testování ADT TSet &#45; (realizace množiny pomocí setříděného pole)." alt="" coords="118,304,179,331"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="151,197,151,304,146,304,146,197"/>
+<area shape="rect" id="Node000007" href="$testbench_8h.html" title="Definice testbench API pro testování operací zvoleného ADT." alt="" coords="186,229,276,256"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="176,190,219,227,215,231,172,194"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="207,269,164,306,161,302,203,264"/>
+<area shape="rect" id="Node000008" href="$testbench_8c.html" title="Implementace testbench API pro testování operací zvoleného ADT." alt="" coords="202,304,292,331"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="240,271,247,303,242,304,234,272"/>
+</map>

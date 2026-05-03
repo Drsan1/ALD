@@ -1,0 +1,12 @@
+<map id="TSet.h" name="TSet.h">
+<area shape="rect" id="Node000001" title="Definice typu Set &#45; (realizace množiny pomocí nesetříděného flexibilního dynamicky alokovaného pole)." alt="" coords="72,5,131,32"/>
+<area shape="rect" id="Node000002" href="$_t_set_8c.html" title="Implementace API pro typ Set (realizace množiny pomocí nesetříděného flexibilního dynamicky alokované..." alt="" coords="5,80,65,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,45,48,81,45,78,78,42"/>
+<area shape="rect" id="Node000003" href="$main_8c.html" title="Hlavní program pro testování ADT TSet &#45; (realizace množiny pomocí nesetříděného pole)." alt="" coords="72,155,132,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,48,104,154,99,154,99,48"/>
+<area shape="rect" id="Node000004" href="$testbench_8h.html" title="Definice testbench API pro testování operací zvoleného ADT." alt="" coords="140,80,229,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="129,40,172,78,168,82,126,45"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="160,119,118,156,114,152,157,115"/>
+<area shape="rect" id="Node000005" href="$testbench_8c.html" title="Implementace testbench API pro testování operací zvoleného ADT." alt="" coords="156,155,245,181"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="193,122,200,154,195,155,188,123"/>
+</map>

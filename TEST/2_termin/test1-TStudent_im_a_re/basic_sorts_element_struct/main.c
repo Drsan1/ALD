@@ -9,6 +9,8 @@
 
 int main(int argc, char* argv[])
 {
+    srand((unsigned int)time(NULL));
+
     struct TVector vector = { 0 };
 
     FILE* fsrc = fopen("unsorted_data_complex.txt", "r");
